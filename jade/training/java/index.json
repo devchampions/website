@@ -167,7 +167,12 @@
 			"url": "training/java9",
 			"title": "Effective Coding Principles and Patterns in Java 9",
 			"version": "Java 9"			
-		}
+		},
+		{
+			"url": "training/java10",
+			"title": "Effective Coding Principles and Patterns in Java 10",
+			"version": "Java 10"			
+		}		
 	],
 	"location": "Riga, Latvia",
 	"date": "28-29 Sep 2018",
