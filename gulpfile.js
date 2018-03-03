@@ -142,6 +142,34 @@ gulp.task('jade', function () {
                 }
             })
             .flatMap()
+            .map(function(json) {
+                if (!json.date) {
+                    return json;
+                }
+                var allParts = json.date.split(' ')
+                var days = allParts[0].split('-')
+                var month = allParts[1]
+                var year = allParts[2]
+                return _.extend({}, json, {
+                    from_iso: moment(days[0] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD'),
+                    to_iso: moment(days[1] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD')
+                })
+            })
+            .map(function(json) {
+                if (!json.location) {
+                    return json
+                }
+
+                var parts = json.location.split(',')
+                if (parts.length != 2) {
+                    return json                    
+                }
+                return _.extend({}, json, {
+                    city: removeDiacritics(parts[0].trim()),
+                    country: removeDiacritics(parts[1].trim())
+                })                
+
+            })
             .sortBy(function(json) {
                 var date = json.date;
                 if (json.locations) {

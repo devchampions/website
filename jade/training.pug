@@ -34,8 +34,55 @@ html
                 | header#header {
                 |    background-image: url(#{self.customBg})
                 | }
-    body
-        script(src="/js/main.js")
+
+        script(type="application/ld+json")
+          | {
+          |   "@context": "http://schema.org",
+          |   "@type": "Organization",
+          |   "name": "DevChampions",
+          |   "url": "https://devchampions.com",
+          |   "sameAs": [
+          |     "https://twitter.com/devchampions",
+          |     "https://www.facebook.com/devchampions"
+          |   ]
+          | }      
+
+        script(type="application/ld+json")
+          | {
+          |   "@context": "http://schema.org",
+          |   "@type": "EducationEvent",
+          |   "name": "#{self.title}",
+          |   "image": "https://devchampions.com/img/devchampion.svg",
+          |   "description": "#{self.metaDescription}",
+          |   "startDate": "#{self.from_iso}T09:00",
+          |   "endDate": "#{self.to_iso}T20:00",
+          |   "performer": {
+          |     "@type": "Person",
+          |     "name": "#{self.trainer.name}",
+          |     "sameAs": "https://twitter.com/#{self.trainer.twitter}"
+          |   },  
+          |   "offers": [
+          |     {
+          |         "@type": "Offer",
+          |         "url": "#{self.book}",
+          |         "name": "#{self.offers[0].name}",
+          |         "price": "#{self.offers[0].price}",
+          |         "priceCurrency": "EUR",
+          |         "availability": "http://schema.org/InStock"
+          |       }    
+          |   ],
+          |   "location": {
+          |     "@type": "Place",
+          |     "address": {
+          |       "@type": "PostalAddress",
+          |       "addressLocality": "#{self.city}",
+          |       "addressRegion": "#{self.country}"
+          |     },
+          |     "name": "#{self.location}"
+          |   }
+          | }   
+          script(src="/js/main.js")               
+    body        
         include facebook.pug
         header#header
             .container
