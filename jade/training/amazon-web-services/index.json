@@ -1,0 +1,189 @@
+{
+	"title": "Mastering Amazon Web Services",
+	"subtitle": "",
+	"ogImage": "",
+	"customBg": "/img/aws.jpg",	
+	"keywords": "aws training, aws classes, amazon web services training, amazon web services classes, devops training, devops classes",
+	"metaDescription": "Intensive practical classes on building and maintaining production infrastructure on Amazon Web Services",
+	"description": "The goal of this intensive, practical course is to familiarise you with the core AWS services and equip you with enough knowledge so you can choose, create, configure and maintain AWS infrastructure for your own projects.",
+	"audience": "Developers, architects, ops and system administrators willing to get up to speed with Amazon Web Services",
+	"certification": "You earn a certificate of participation by attending the course. No exam required.",
+	"language": "The course is taught in English.",
+	"date": "20-21 Sep 2018",
+	"location": "Riga, Latvia",
+	"badge": "",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"landings": {
+		"dates": [
+			{
+				"date": "22-23 Mar 2018"
+			},
+			{
+				"date": "26-27 Apr 2018"
+			},
+			{
+				"date": "24-25 May 2018"
+			},
+			{
+				"date": "28-29 Jun 2018"
+			},
+			{
+				"date": "26-27 Jul 2018"
+			},
+			{
+				"date": "30-31 Aug 2018"
+			},
+			{
+				"date": "28-29 Sep 2018"
+			},
+			{
+				"date": "25-26 Oct 2018"
+			},
+			{
+				"date": "22-23 Nov 2018"
+			},
+			{
+				"date": "20-21 Dec 2018"
+			}
+		],
+		"locations": [
+			{
+				"location": "Berlin, Germany"
+			},
+			{
+				"location": "Frankfurt, Germany"
+			},			
+			{
+				"location": "Hamburg, Germany"
+			},
+			{
+				"location": "Düsseldorf, Germany"
+			},															
+			{
+				"location": "Munich, Germany"
+			},
+			{
+				"location": "Vienna, Austria"
+			},			
+			{
+				"location": "Dublin, Ireland"
+			},			
+			{
+				"location": "Cork, Ireland"
+			},									
+			{
+				"location": "London, United Kingdom"
+			},						
+			{
+				"location": "Liverpool, United Kingdom"
+			},						
+			{
+				"location": "Manchester, United Kingdom"
+			},							
+			{
+				"location": "Edinburgh, United Kingdom"
+			},									
+			{
+				"location": "Glasgow, United Kingdom"
+			},
+			{
+				"location": "Zürich, Switzerland"
+			},									
+			{
+				"location": "Geneva, Switzerland"
+			},
+			{
+				"location": "Brussels, Belgium"
+			},
+			{
+				"location": "Antwerpen, Belgium"
+			},
+			{
+				"location": "Luxembourg, Luxembourg"
+			},
+			{
+				"location": "Warsaw, Poland"
+			},						
+			{
+				"location": "Kraków, Poland"
+			},						
+			{
+				"location": "Prague, Czech Republic"
+			},						
+			{
+				"location": "Brno, Czech Republic"
+			},					
+			{
+				"location": "Budapest, Hungary"
+			},								
+			{
+				"location": "Bucharest, Romania"
+			},									
+			{
+				"location": "Cluj-Napoca, Romania"
+			},							
+			{
+				"location": "Sofia, Bulgaria"
+			},								
+			{
+				"location": "Istanbul, Turkey"
+			},																							
+			{
+				"location": "Tbilisi, Georgia"
+			},																										
+			{
+				"location": "Tallinn, Estonia"
+			},
+			{
+				"location": "Tartu, Estonia"
+			},					
+			{
+				"location": "Vilnius, Lithuania"
+			},								
+			{
+				"location": "Kaunas, Lithuania"
+			},
+			{
+				"location": "Stockholm, Sweden"
+			},
+			{
+				"location": "Malmö, Sweden"
+			},					
+			{
+				"location": "Helsinki, Finland"
+			},																										
+			{
+				"location": "Oslo, Norway"
+			},							
+			{
+				"location": "København, Denmark"
+			},																								
+			{
+				"location": "Riga, Latvia"
+			}
+		]
+	},
+	"offers": [
+		{
+			"name": "Single",
+			"price": "1299"
+		},
+		{
+			"name": "Double",
+			"info": "2 people from the same company",			
+			"price": "2499"
+		},		
+		{
+			"name": "In-house",
+			"info": "12 people max",
+			"price": "5000"
+		}
+	],
+	"trainer": {
+		"twitter": "jurispv",
+		"name": "Juris Pavlyuchenkov",
+		"title": "AWS Certified Solutions Architect",
+		"pic": "pavl"
+	}
+}

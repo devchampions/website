@@ -1,0 +1,31 @@
+{
+	"title": "Soft Skills Engineering",
+	"subtitle": "",
+	"ogImage": "softskills_og.png",
+	"keywords": "soft skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
+	"metaDescription": "Practical workshop for developers aimed to improve soft and leadership skills.",
+	"description": "Soft skills are paramount to developer's success. Developers that speak customer language, clearly communicate intent, lead and inspire are extremely valuable asset for any customer-centric organisation. This training is designed to make you - developer, better communicator and leader, boost your negotiation and organisational skills.",
+	"audience": "Developers and teams willing to significantly improve their leadership and soft skills.",
+	"certification": "You earn a certificate of participation by attending the course. No exam required.",
+	"language": "The course is taught in English.",
+	"date": "",
+	"location": "2-day in-house training",
+	"badge": "",
+	"book": "https://devchampions.typeform.com/to/dKnKcZ",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "In-house",
+			"info": "Maximum number of participants - 12",
+			"price": "5000"
+		},
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+		"name": "Eduards Sizovs",
+		"title": "Founder @ Latvian Software Craftsmanship Community",
+		"pic": "eduardsi"
+	}
+}
