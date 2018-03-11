@@ -9,7 +9,7 @@ script:
 - gulp build
 deploy:
   provider: pages
-  skip_cleanup: true
+  skip_cleanup: false
   local_dir: www
   email: publish@travis.github
   name: "Travis (DevChampions)"
