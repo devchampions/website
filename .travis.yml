@@ -9,11 +9,10 @@ script:
 - gulp build
 deploy:
   provider: pages
-  skip_cleanup: false
-  local_dir: www
-  email: publish@travis.github
-  name: "Travis (DevChampions)"
-  github_token: "$GITHUB_TOKEN"
+  skip-cleanup: true
+  local-dir: www
+  name: Travis (DevChampions)
+  github-token: $GITHUB_TOKEN
   on:
     branch: master
 notifications:
