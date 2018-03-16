@@ -3,6 +3,11 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+    li {
+      margin: 0 0 $small-spacing;
+      border-left: 1px solid white;
+      padding-left: 20px;
+    }
 }
 
 dl {

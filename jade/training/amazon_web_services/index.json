@@ -170,9 +170,9 @@
 			"price": "1299"
 		},
 		{
-			"name": "Double",
-			"info": "2 people from the same company",			
-			"price": "2499"
+			"name": "Group Price",
+			"info": "2+ people from the same company",			
+			"price": "1199"
 		},		
 		{
 			"name": "In-house",

@@ -245,7 +245,7 @@ gulp.task('default', ['connect', 'build']);
 
 gulp.task('deploy', function () {
     var options = {
-        remoteUrl: "https://github.com/devchampions/website.git",
+        remoteUrl: "git@github.com:devchampions/website.git",
         branch: "gh-pages"
     };
     return gulp.src(['./www/**/*'])
