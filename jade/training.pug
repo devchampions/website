@@ -138,14 +138,7 @@ html
                             h1.title Trainer
                         section
                             .trainer
-                                div(class='pic icon-' + self.trainer.pic)
-                                div
-                                    a(href='https://twitter.com/' + self.trainer.twitter)
-                                        img(src="/img/twitter.png" alt=self.trainer.twitter)
-                                    strong &nbsp;#{self.trainer.name}
-                                    br
-                                    | #{self.trainer.title}
-                            .description
+                                img.face(src='/img/trainers/' + self.trainer.pic + '.png')
                                 block trainer
             if self.address
                 section#location

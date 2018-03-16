@@ -52,35 +52,33 @@ header#header {
 }
 
 .training {
-  .description {
 
-    @include media($tablet) {
-      text-align: center !important;
-    }
-
-    a {
-      color: $light-blue;
-      &:hover {
-        color: $dark-blue;
-      }
-    }
-
-    .quote {
-      hr {
-        border-color: #5E98BA;
-      }
-      font-style: italic;
-      margin-top: 2em;
-      text-align: right;
-    }
-
+  @include media($tablet) {
+    text-align: center !important;
   }
+
+  a {
+    color: $light-blue;
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+
+  .quote {
+    hr {
+      border-color: #5E98BA;
+    }
+    font-style: italic;
+    margin-top: 2em;
+    text-align: right;
+  }
+
 }
 
 .trainer {
   text-align: center;
   margin-bottom: 50px;
-  .pic {
+  img.face {
     @include circle();
     margin-left: auto;
     margin-right: auto;
@@ -188,4 +186,7 @@ img.grayscale:hover {
 
 footer {
   @include footer;
+  a {
+    color: #FFF !important;
+  }
 }
