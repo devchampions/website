@@ -1,7 +1,7 @@
 {
 	"title": "Mastering Amazon Web Services",
 	"subtitle": "",
-	"ogImage": "",
+  	"ogImage": "aws_og.png",
 	"customBg": "/img/aws.jpg",	
 	"keywords": "aws training, aws classes, amazon web services training, amazon web services classes, devops training, devops classes",
 	"metaDescription": "Intensive practical classes on building and maintaining production infrastructure on Amazon Web Services",
