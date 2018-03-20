@@ -23,7 +23,7 @@ input[type="button"],
   white-space: nowrap;
   background-color: transparent;
   border: 1px solid #ffffff;
-  font-weight: 300;    
+  font-weight: 300;
 }
 
   input[type="submit"]:hover,
@@ -62,11 +62,20 @@ input[type="button"],
 }
 
 .action {
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
   background-color: $light-blue;
   padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 120, 0.3);
+
   &:hover {
     background-color: $dark-blue;
     color: white;
+    transform: scale(1.05);
   }
+}
+
+/*Tawk bar*/
+#tawkchat-minified-container:hover {
+    background: #5791b3
 }
