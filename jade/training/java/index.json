@@ -162,17 +162,17 @@
 		{
 			"url": "training/java",
 			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8"
+			"version": "Java 8, 9, 10"
 		},
 		{
 			"url": "training/java9",
 			"title": "Effective Java Software Design for Developers",
-			"version": "Java 9"			
+			"version": "Java 8, 9, 10"			
 		},
 		{
 			"url": "training/java10",
 			"title": "Effective Java Software Design for Developers",
-			"version": "Java 10"			
+			"version": "Java 8, 9, 10"			
 		}		
 	],
 	"location": "Riga, Latvia",
