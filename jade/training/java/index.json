@@ -161,17 +161,17 @@
 	"editions": [
 		{
 			"url": "training/java",
-			"title": "Effective Java 8 for Developers",
+			"title": "Effective Java Software Design for Developers",
 			"version": "Java 8"
 		},
 		{
 			"url": "training/java9",
-			"title": "Effective Java 9 for Developers",
+			"title": "Effective Java Software Design for Developers",
 			"version": "Java 9"			
 		},
 		{
 			"url": "training/java10",
-			"title": "Effective Java 10 for Developers",
+			"title": "Effective Java Software Design for Developers",
 			"version": "Java 10"			
 		}		
 	],
