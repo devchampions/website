@@ -189,7 +189,10 @@ gulp.task('jade', function () {
         .pipe(connect.reload());
 
     var trainingsVisibleOnFrontPage = _.filter(trainings, function(training) {
-        return !training.landing;
+        return !training.landing && !training.noExposure;
+    });
+    var allTrainings = _.filter(trainings, function(training) {
+        return !training.noExposure;
     });
 
     console.log("index.pug");
@@ -197,7 +200,7 @@ gulp.task('jade', function () {
         .pipe(gpug({
             locals: {
                 "trainings": trainingsVisibleOnFrontPage,
-                "all_trainings": trainings
+                "all_trainings": allTrainings
             }
         }))
         .pipe(gulp.dest(publicDir))

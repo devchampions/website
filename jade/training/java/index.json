@@ -52,11 +52,11 @@
 				"location": "Hamburg, Germany"
 			},
 			{
-				"location": "Koln, Germany"
-			},			
+				"location": "Cologne, Germany"
+			},
 			{
 				"location": "Düsseldorf, Germany"
-			},															
+			},
 			{
 				"location": "Munich, Germany"
 			},
@@ -158,6 +158,120 @@
 			},																								
 			{
 				"location": "Riga, Latvia"
+			},
+			{
+				"location": "Palermo, Italy"
+			},
+			{
+				"location": "Naples, Italy"
+			},
+			{
+				"location": "Moscow, Russia"
+			},
+			{
+				"location": "Minsk, Belarus"
+			},
+			{
+				"location": "Milan, Italy"
+			},
+			{
+				"location": "Marseille, France"
+			},
+			{
+				"location": "Madrid, Spain"
+			},
+			{
+				"location": "Lyon, France"
+			},
+			{
+				"location": "Lódz, Poland"
+			},
+			{
+				"location": "Ljubljana, Slovenia"
+			},
+			{
+				"location": "Lisbon, Portugal"
+			},
+			{
+				"location": "Leeds, UKraine"
+			},
+			{
+				"location": "Chisinau, Moldova"
+			},
+			{
+				"location": "Lvov, Ukraine"
+			},
+			{
+				"location": "Kiev, Ukraine"
+			},
+			{
+				"location": "Kharkiv, Ukraine"
+			},
+			{
+				"location": "Göteborg, Sweden"
+			},
+			{
+				"location": "Genoa, Italy"
+			},
+			{
+				"location": "Bratislava, Slovakia"
+			},
+			{
+				"location": "Birmingham, United Kingdom"
+			},
+			{
+				"location": "Belgrade, Sebria"
+			},
+			{
+				"location": "Barcelona, Spain"
+			},
+			{
+				"location": "Athens, Greece"
+			},
+			{
+				"location": "Århus, Denmark"
+			},
+			{
+				"location": "Amsterdam, Netherlands"
+			},
+			{
+				"location": "Zagreb, Croatia"
+			},
+			{
+				"location": "Wroclaw, Poland"
+			},
+			{
+				"location": "Varna, Bulgaria"
+			},
+			{
+				"location": "Valencia, Spain"
+			},
+			{
+				"location": "Turin, Italy"
+			},
+			{
+				"location": "Tampere, Finland"
+			},
+			{
+				"location": "Skopje, Beograd"
+			},
+			{
+				"location": "Seville, Spain"
+			},
+			{
+				"location": "Sarajevo, Bosnia"
+			},
+			{
+				"location": "Roma, Italy"
+			},
+			{
+				"location": "Poznan, Poland"
+			},
+			{
+				"location": "St. Petersburg, Russia"
+			},
+			{
+				"location": "Paris, France"
 			}
 		]
 	},
@@ -170,12 +284,14 @@
 		{
 			"url": "training/java9",
 			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8, 9, 10"			
+			"version": "Java 8, 9, 10",
+			"noExposure": true
 		},
 		{
 			"url": "training/java10",
 			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8, 9, 10"			
+			"version": "Java 8, 9, 10",
+			"noExposure": true
 		}		
 	],
 	"location": "Riga, Latvia",
