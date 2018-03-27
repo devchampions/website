@@ -88,7 +88,7 @@ gulp.task('jade', function () {
     var trainings = function () {
         var files = glob.sync("jade/training/*/index.json");
         return _.chain(files)
-            // removing hidden trainings
+            // removing hidden training
             .filter(function(file) {
                 return !_.includes(path.dirname(file), '__');
             })
