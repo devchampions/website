@@ -126,15 +126,30 @@ gulp.task('jade', function () {
             // generating landing pages for different dates
             .map(function(training) {
                 if (training.landing) {
-                    return _.map(training.landings.dates, function(it) {
+                    return _.flatMap(training.landings.dates, function(it) {
                         var month = it.date.match(/([A-Za-z]+)/)[0].toLowerCase();
+                        var dates = it.date.match(/([0-9]{2})/g);
                         var url = training.url + '/' + month;
-                        // console.log("Generating a training (landing) at " + url);
-                        return _.extend({}, training,
-                            {
-                                date : it.date,
-                                url: url
-                            });
+                        console.log(dates + ": " + dates[0] + "/" + dates[1]);
+                        if (it.main) {
+                            return [                        
+                                _.extend({}, training, {
+                                    date : it.date,
+                                    url: url
+                                }),
+                                _.extend({}, training, {
+                                    date : it.date,
+                                    url: url + "/" + dates[0] + "/" + dates[1]
+                                })                            
+                            ]
+                        } else {
+                            return [                        
+                                _.extend({}, training, {
+                                    date : it.date,
+                                    url: url + "/" + dates[0] + "/" + dates[1]
+                                })                            
+                            ]                            
+                        }
                     })
                 } else {
                     // console.log("Generating a training at " + training.url);
