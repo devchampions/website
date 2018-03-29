@@ -4,10 +4,10 @@
 	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference 2017, clean code rules, writing clean code",
 	"metaDescription": "Practical 2-day training/workshop that will teach you principles, practices and patterns for writing readable, maintainable and effective code in modern Java",
 	"description": "Do you want to feel proud of your work? Write code that your colleagues will admire? Move fast without compromising quality? Build long-living software that is easy and fun to maintain? Get out of technical debt without big upfront time investment? Professionally articulate technical decisions to your team and management? Then this course is for you. During this intensive, practical and entertaining 2-day course you will learn principles, practices and patterns for writing readable, maintainable and effective code in modern Java.",
-	"audience": "Forward-thinking Java developers, architects and team leads willing to significantly improve their Java expertise, productivity and career opportunities.",
+	"audience": "Forward-thinking Java developers, architects and team leaders willing to significantly improve their Java expertise, productivity and career opportunities.",
 	"certification": "After 2 days of intensive work, you earn a certificate of accomplishment.",
 	"exampleCertificate": "http://certs.devchampions.com/0N2C7ZR6XR/",
-	"language": "The course is taught in English.",
+	"language": "The course runs in a diverse international group and is taught in English.",
 	"landings": {
 		"dates": [
 			{
@@ -344,7 +344,7 @@
 		{
 			"name": "Group Price",
 			"info": "2+ people from the same company",			
-			"price": "1199"
+			"price": "899"
 		},		
 		{
 			"name": "In-house",
