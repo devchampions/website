@@ -130,7 +130,6 @@ gulp.task('jade', function () {
                         var month = it.date.match(/([A-Za-z]+)/)[0].toLowerCase();
                         var dates = it.date.match(/([0-9]{2})/g);
                         var url = training.url + '/' + month;
-                        console.log(dates + ": " + dates[0] + "/" + dates[1]);
                         if (it.main) {
                             return [                        
                                 _.extend({}, training, {
