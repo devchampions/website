@@ -15,6 +15,22 @@
       "city": "🇩🇪 Berlin, Germany"
     }
   ],
+  "editions": [
+    {
+      "url": "training/xa",
+      "title": "eXtreme Automation"
+    },
+    {
+      "url": "training/devops",
+      "title": "DevOps Masterclass",
+      "noExposure": true
+    },
+    {
+      "url": "training/sre",
+      "title": "Effective Operations and Site Reliability",
+      "noExposure": true
+    }
+  ],
   "twitter": "codingandrey",
   "badge": "",
   "book": "https://devchampions.typeform.com/to/nHd71h",
@@ -41,7 +57,7 @@
     {
       "name": "In-house",
       "info": "15 people max",
-      "price": "4000",
+      "price": "5000",
       "book": "https://devchampions.typeform.com/to/fNFSNh"
     }
   ],
