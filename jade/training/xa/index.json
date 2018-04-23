@@ -15,6 +15,106 @@
       "city": "🇩🇪 Berlin, Germany"
     }
   ],
+  "landings": {
+    "dates": [
+      {
+        "date": "28-29 Sep 2018",
+        "main": true
+      },
+      {
+        "date": "25-26 Oct 2018",
+        "main": true
+      },
+      {
+        "date": "22-23 Nov 2018",
+        "main": true
+      },
+      {
+        "date": "20-21 Dec 2018",
+        "main": true
+      }
+    ],
+    "locations": [
+      {
+        "location": "Berlin, Germany"
+      },
+      {
+        "location": "Frankfurt, Germany"
+      },
+      {
+        "location": "Hamburg, Germany"
+      },
+      {
+        "location": "Cologne, Germany"
+      },
+      {
+        "location": "Düsseldorf, Germany"
+      },
+      {
+        "location": "Munich, Germany"
+      },
+      {
+        "location": "Vienna, Austria"
+      },
+      {
+        "location": "Zürich, Switzerland"
+      },
+      {
+        "location": "Geneva, Switzerland"
+      },
+      {
+        "location": "Brussels, Belgium"
+      },
+      {
+        "location": "Antwerpen, Belgium"
+      },
+      {
+        "location": "Luxembourg, Luxembourg"
+      },
+      {
+        "location": "Warsaw, Poland"
+      },
+      {
+        "location": "Kraków, Poland"
+      },
+      {
+        "location": "Prague, Czech Republic"
+      },
+      {
+        "location": "Brno, Czech Republic"
+      },
+      {
+        "location": "Budapest, Hungary"
+      },
+      {
+        "location": "Sofia, Bulgaria"
+      },
+      {
+        "location": "Istanbul, Turkey"
+      },
+      {
+        "location": "Stockholm, Sweden"
+      },
+      {
+        "location": "Malmö, Sweden"
+      },
+      {
+        "location": "Helsinki, Finland"
+      },
+      {
+        "location": "Oslo, Norway"
+      },
+      {
+        "location": "Copenhagen, Denmark"
+      },
+      {
+        "location": "Lódz, Poland"
+      },
+      {
+        "location": "Ljubljana, Slovenia"
+      }
+    ]
+  },
   "editions": [
     {
       "url": "training/xa",
