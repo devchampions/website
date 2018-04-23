@@ -9,12 +9,8 @@
   "certification": "You earn eXtreme Automation certificate by attending the course. No exam required.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "locations": [
-    {
-      "date": "11-12 Oct 2018",
-      "city": "🇩🇪 Berlin, Germany"
-    }
-  ],
+  "location": "🇩🇪 Berlin, Germany",
+  "date": "11-12 Oct 2018",
   "landings": {
     "dates": [
       {
