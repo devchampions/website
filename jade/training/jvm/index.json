@@ -8,7 +8,7 @@
 	"audience": "The training is aimed at Java developers with several years of experience who look into deepening their JVM knowledge as well as for system administrators looking into improving their JVM performance tuning skills.",
 	"certification": "You earn a certificate of participation by attending the course. No exam required.",
 	"language": "The course is taught in English.",
-	"location": "2-day in-house training",
+	"location": "2-day on-premises training",
 	"twitter": "codingandrey",
 	"badge": "",
 	"book": "https://devchampions.typeform.com/to/mMEykq",
@@ -16,7 +16,7 @@
 	"offers": [
 		{},
 		{
-			"name": "In-house",
+			"name": "On-premises",
 			"info": "15 people max",
 			"price": "4500"
 		},
