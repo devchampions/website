@@ -18,10 +18,10 @@
 		{
 		},
 		{
-			"name": "In-house",
+			"name": "On-premises",
 			"info": "duration - 2 days",
 			"price": "3200",
-			"book": "mailto:hello@devchampions.com?subject=Specification by example in Action in-house class"
+			"book": "mailto:hello@devchampions.com?subject=Specification by example in Action on-premises class"
 		},
 		{}
 	],

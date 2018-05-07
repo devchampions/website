@@ -9,7 +9,7 @@
    "certification":"You earn a certificate of participation by attending the course. No exam required.",
    "language":"The course is taught in English.",
    "date":"",
-   "location":"2-day in-house training",
+   "location":"2-day on-premises training",
    "badge":"",
    "book":"http://devternity.com",
    "tags":[  
@@ -20,7 +20,7 @@
 
       },
       {  
-         "name":"In-house",
+         "name":"On-premises",
          "info":"duration - 2 days",
          "price":"3200",
          "book":"https://devchampions.typeform.com/to/N5vsqJ"

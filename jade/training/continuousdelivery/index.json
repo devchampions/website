@@ -9,14 +9,14 @@
 	"certification": "You earn a certificate of participation by attending the course. No exam required.",
 	"language": "The course is taught in English.",
 	"date": "",
-	"location": "2-day in-house training",
+	"location": "2-day on-premises training",
 	"badge": "",
 	"book": "https://devchampions.typeform.com/to/gUYeK9",
 	"tags": [ ],
 	"offers": [
 		{},
 		{
-			"name": "In-house",
+			"name": "On-premises",
 			"info": "Maximum number of participants - 12",
 			"price": "5000"
 		},
