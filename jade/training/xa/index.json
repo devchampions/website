@@ -7,7 +7,7 @@
   "metaDescription": "This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives.",
   "description": "This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop.",
   "audience": "Developers, software architects, technical project managers, system administrators.",
-  "certification": "You earn eXtreme Automation certificate by attending the course. No exam required.",
+  "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
   "location": "Berlin, Germany",
