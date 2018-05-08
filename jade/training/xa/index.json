@@ -1,7 +1,7 @@
 {
   "title": "eXtreme Automation (DevOps Masterclass)",
   "subtitle": "DevOps Masterclass",
-  "customBg": "/img/adamovich_bg.jpg",
+  "customBg": "/img/adamovich_bg2.jpg",
   "ogImage": "xa_og.png",
   "keywords": "devops training, devops certification, devops, puppet, ansible, docker, elastic stack, infrastructure provisioning, hashicorp, vagrant, continuous delivery, continuous integration, agile, linux containers",
   "metaDescription": "This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives.",
