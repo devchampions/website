@@ -170,8 +170,10 @@ html
                                     h3 #{offer.info}
                                 else
                                     h3 &nbsp;
-                                .price
-                                    .child #{offer.price}€
+                                .price(style="width: 250px; height: 250px; font-size: 60px")
+                                    .child 
+                                      span(style="text-decoration: line-through") #{offer.price + 200}
+                                      |&nbsp;#{offer.price}€
                                 .actions
                                     a.action(href=offer.book ? offer.book : self.book) Book now
                         else

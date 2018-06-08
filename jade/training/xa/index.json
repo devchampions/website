@@ -144,17 +144,17 @@
   "offers": [
     {
       "name": "Early Bird",
-      "price": "899",
+      "price": 899,
       "info": "60 days before the course"
     },
     {
       "name": "Wise Bird",
-      "price": "1199"
+      "price": 1199
     },
     {
       "name": "On-premises",
       "info": "15 people max",
-      "price": "5000",
+      "price": 5000,
       "book": "https://devchampions.typeform.com/to/fNFSNh"
     }
   ],

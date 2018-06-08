@@ -17,17 +17,17 @@
   "offers": [
     {
       "name": "Single",
-      "price": "1199"
+      "price": 1199
     },
     {
       "name": "Group Price",
       "info": "2+ people from the same company",      
-      "price": "999"
+      "price": 999
     },    
     {
       "name": "On-premises",
       "info": "12 people max",
-      "price": "4800"
+      "price": 4800
     }
   ],
 	"trainer": {
