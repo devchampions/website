@@ -202,7 +202,87 @@ gulp.task('jade', function () {
         .pipe(gulp.dest(publicDir))
         .pipe(connect.reload());
 
-    var trainingsVisibleOnFrontPage = _.filter(trainings, function(training) {
+    var externalTrainings = [
+      {
+        "title": "Crafting Code",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "Sandro Mancuso",
+          "title": "Software Craftsman and Founder @ Codurance, author of The Software Craftsman",
+          "twitter": "sandromancuso"
+        }
+      },
+      {
+        "title": "Programming with Kotlin",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "Kotlin popularity is booming. The strength of Kotlin is that it has drawn from wonderful features that have been teased out and tried successfully in many languages. Kotlin provides sensible syntax and semantics to create highly concise code. It is a language that just feels right in many areas. This hands-on workshop walks you through the fundamentals and advanced concepts of Kotlin language.",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "Venkat Subramaniam",
+          "title": "Founder @ Agile Developer, Author of Practices of an Agile Developer, Programming Concurrency on the JVM, Functional Programming in Java",
+          "twitter": "venkat_s"
+        }
+      },
+      {
+        "title": "Making Your Tests Rock",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "This workshop is designed for developers willing to learn how to write automated tests that are fast, easy to read and fun to maintain. Are you beginning your TDD and BDD journey or already practicing TDD and BDD? Whatever the case, be ready to bring your tests to the next level!",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "Jakub Nabrdalik",
+          "title": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
+          "twitter": "jnabrdalik"
+        }
+      },
+      {
+        "title": "Jedi Techniques of Personal Effectiveness",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view: “one at the expense of another”).",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "Maxim Dorofeev",
+          "title": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of Jedi Techniques",
+          "twitter": "sandromancuso",
+          "avatar": "https://devternity.com/images/dorofeev.png"
+        }
+      },
+      {
+        "title": "Production-ready Serverless: Operational Best Practices",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "This course is designed to get you familiarised with the basics of AWS Lambda and the Serverless framework quickly, and then deep dive into the operational challenges with running a serverless architecture in production and the emerging patterns and practices to tackle them.",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "Yan Cui",
+          "title": "Developer, Software Architect, Trainer, Author of AWS Lambda in Motion",
+          "twitter": "theburningmonk",
+          "avatar": "https://devternity.com/images/cui.png"
+        }
+      }      
+    ]
+
+    var trainingsVisibleOnFrontPage = _.filter(_.concat(trainings, externalTrainings), function(training) {
         return !training.landing && !training.noExposure;
     });
     var allTrainings = _.filter(trainings, function(training) {

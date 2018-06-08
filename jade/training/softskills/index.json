@@ -4,25 +4,32 @@
 	"subtitle": "",
 	"ogImage": "soski.png",
 	"keywords": "soft skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
-	"metaDescription": "Practical workshop for developers aimed to improve soft and leadership skills.",
-	"description": "Do you want to professionally articulate your ideas to your team and management? Build great work relationship with your customer? Organize efficient teamwork? Understand how to motivate and inspire people? Become a pragmatic, well-respected technical lead, architect, engineering manager? During this intensive, practical and entertaining 2-day workshop you will build core leadership, communication and organizational skills that will make you truly valuable asset in any modern technology organisation.",
-	"audience": "Engineers and delivery teams willing to become better at leadership, improve team and organization performance.",
+	"metaDescription": "Practical workshop for developers aimed to improve soft skills and leadership skills.",
+	"description": "Do you want to professionally articulate your ideas to your team and management? Build great work relationship with your customer? Organize efficient teamwork? Understand how to motivate and inspire people? Become a pragmatic, well-respected technical lead, architect, engineering manager? During this intensive, practical and entertaining 2-day workshop you will build core leadership, communication and organizational skills (soft skills) that will make you truly valuable asset in any modern technology organisation.",
+	"audience": "Software developers and technical people willing to become better at leadership, improve team and organization performance.",
 	"certification": "You earn a certificate of participation by attending the course. No exam required.",
 	"language": "The course is taught in English.",
-	"date": "",
-	"location": "2-day on-premises training",
+  "location": "Riga, Latvia",
+  "date": "23-24 May 2019",
 	"badge": "",
-	"book": "https://devchampions.typeform.com/to/dKnKcZ",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
 	"tags": [ ],
-	"offers": [
-		{},
-		{
-			"name": "On-premises",
-			"info": "Maximum number of participants - 12",
-			"price": "5000"
-		},
-		{}
-	],
+  "offers": [
+    {
+      "name": "Single",
+      "price": "1199"
+    },
+    {
+      "name": "Group Price",
+      "info": "2+ people from the same company",      
+      "price": "999"
+    },    
+    {
+      "name": "On-premises",
+      "info": "12 people max",
+      "price": "4800"
+    }
+  ],
 	"trainer": {
 		"twitter": "eduardsi",
 		"name": "Eduards Sizovs",
