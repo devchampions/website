@@ -8,6 +8,7 @@
 	"certification": "After 2 days of intensive work, you earn a certificate of accomplishment.",
 	"exampleCertificate": "http://certs.devchampions.com/0N2C7ZR6XR/",
 	"language": "The course runs in a diverse international group and is taught in English.",
+  "travelPack": true,
 	"landings": {
 		"dates": [
 			{
@@ -348,6 +349,7 @@
 		},		
 		{
 			"name": "On-premises",
+      "onPrem": true,
 			"info": "12 people max",
 			"price": 4800
 		}

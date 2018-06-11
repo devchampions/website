@@ -12,6 +12,7 @@
   "location": "Riga, Latvia",
   "date": "23-24 May 2019",
 	"badge": "",
+  "travelPack": true,
 	"book": "https://devchampions.typeform.com/to/kXOXAK",
 	"tags": [ ],
   "offers": [
@@ -26,6 +27,7 @@
     },    
     {
       "name": "On-premises",
+      "onPrem": true,
       "info": "12 people max",
       "price": 4800
     }

@@ -100,6 +100,9 @@ html
                     h2 #{self.date}, #{self.location}
                     h2
                         a.action2(href="#offers") Book now
+                        if self.travelPack
+                          | &nbsp;
+                          a.action2(href="#offers") Book now with travel
                 else
                     h2 #{self.location}
                 if self.locations
@@ -107,7 +110,7 @@ html
                         h3 #{location.date}, #{location.city}     
                     h3 &nbsp;                            
                     h2
-                        a.action2(href="#offers") Book now                            
+                        a.action2(href="#offers") Book now
         main
             section#description
                 .container
@@ -174,6 +177,15 @@ html
                                     .child 
                                       span(style="text-decoration: line-through") #{offer.price + 200}
                                       |&nbsp;#{offer.price}€
+                                if self.travelPack && !offer.onPrem
+                                  h3 
+                                    i.fa.fa-plane
+                                    |  Flight to #{self.location} within EU
+                                    br
+                                    i.fa.fa-home 
+                                    |  2 night stay in a great hotel 
+                                    br
+                                    b +300€
                                 .actions
                                     a.action(href=offer.book ? offer.book : self.book) Book now
                         else
@@ -181,6 +193,7 @@ html
                 .container
                     .pricing-clarify
                         p * Price does not include VAT (if applicable)
+                        p * Price for the flight and hotel is applicable if booked at least 1 month in advance.
                         p * Price for on-premises training does not include travelling and accommodation costs (if training is hosted outside of Riga)
                         p
                             | * This training is a subject to training cancellation&nbsp;
