@@ -284,7 +284,7 @@ gulp.task('jade', function () {
         "title": "Mastering Amazon Web Services (AWS)",
         "date": "30 Nov – 1 Dec 2018",
         "location": "Riga, Latvia",
-        "description": "Amazon Web Services (AWS) is the world's leading provider of reliable, scalable, and inexpensive cloud computing services. The goal of this intensive, practical 2-day training is to familiarise you with the core AWS services and equip you with enough knowledge so you can choose, create, configure and maintain AWS infrastructure for your own projects. After this course, you'll gain deep understanding of AWS, learn how to operate production-grade AWS infrastructure and discover hidden tips and tricks from a certified AWS expert.",
+        "description": "Amazon Web Services (AWS) is the world's leading provider of reliable, scalable, and inexpensive cloud computing services. The goal of this intensive, practical training is to familiarise you with the core AWS services and equip you with enough knowledge so you can choose, create, configure and maintain AWS infrastructure for your own projects. After this course, you'll gain deep understanding of AWS, learn how to operate production-grade AWS infrastructure and discover hidden tips and tricks from a certified AWS expert.",
         "link": {
           "name": "More info at DevTernity.com",
           "href": "https://devternity.com/"
