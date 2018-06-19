@@ -35,10 +35,16 @@
     "moment": "^2.11.2",
     "node-bourbon": "^4.2.8",
     "node-neat": "^1.7.2",
-    "vinyl-buffer": "^1.0.0"
+    "vinyl-buffer": "^1.0.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "gulp-flatmap": "^1.0.2",
     "pug": "^2.0.0-rc.4"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
