@@ -219,21 +219,6 @@ gulp.task('jade', function () {
         }
       },
       {
-        "title": "Programming with Kotlin",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "Kotlin popularity is booming. The strength of Kotlin is that it has drawn from wonderful features that have been teased out and tried successfully in many languages. Kotlin provides sensible syntax and semantics to create highly concise code. It is a language that just feels right in many areas. This hands-on workshop walks you through the fundamentals and advanced concepts of Kotlin language.",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Venkat Subramaniam",
-          "title": "Founder @ Agile Developer, Author of Practices of an Agile Developer, Programming Concurrency on the JVM, Functional Programming in Java",
-          "twitter": "venkat_s"
-        }
-      },
-      {
         "title": "Making Your Tests Rock",
         "date": "30 Nov – 1 Dec 2018",
         "location": "Riga, Latvia",
