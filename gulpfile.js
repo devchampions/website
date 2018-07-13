@@ -280,7 +280,23 @@ gulp.task('jade', function () {
           "twitter": "jurispv",
           "avatar": "https://devternity.com/images/pavl.png"
         }
-      }            
+      },
+      {
+        "title": " Surviving Legacy Code",
+        "date": "30 Nov – 1 Dec 2018",
+        "location": "Riga, Latvia",
+        "description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. That’s what Surviving Legacy Code is about.",
+        "link": {
+          "name": "More info at DevTernity.com",
+          "href": "https://devternity.com/"
+        },
+        "trainer": {
+          "name": "J.B. Rainsberger",
+          "title": "Software Coach, Mentor and Consultant, TDD Trainer @ tdd.training",
+          "twitter": "jbrains",
+          "avatar": "https://devternity.com/images/jbrains.png"
+        }
+      }
     ]
 
     var trainingsVisibleOnFrontPage = _.filter(_.concat(trainings, externalTrainings), function(training) {
