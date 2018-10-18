@@ -115,7 +115,7 @@ html
             section#description
                 .container
                     header
-                        h2 Course description
+                        h2 Introduction
                     article
                         block description
                         .shorties
@@ -164,7 +164,7 @@ html
             section#offers
                 .container
                     header
-                        h1 Booking
+                        h1 This is limited offer. Grab your ticket today.
                     each offer, no in self.offers
                         if offer.name
                             .offer
@@ -175,7 +175,7 @@ html
                                     h3 &nbsp;
                                 .price(style="width: 220px; height: 220px; font-size: 50px")
                                     .child 
-                                      span(style="text-decoration: line-through") #{offer.price + 200}
+                                      span(style="text-decoration: line-through") #{offer.price + offer.originalPrice ? offer.originalPrice : 200}
                                       |&nbsp;#{offer.price}€
                                 if self.travelPack && !offer.onPrem
                                   h3 

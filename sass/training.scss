@@ -108,6 +108,14 @@ header#header {
   @include outer-container;
 }
 
+.fa-star {
+  color: #FFCD00;
+}
+
+.centered {
+  text-align: center;
+}
+
 .photo {
   text-align: center;
   @include column(4, 12);

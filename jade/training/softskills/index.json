@@ -1,35 +1,37 @@
 {
 	"customBg": "/img/sizovs_bg.jpg",	
-	"title": "Effective Leadership and Soft Skills for Engineers",
+	"title": "Awesome Soft Skills for Developers",
 	"subtitle": "",
 	"ogImage": "soski.png",
 	"keywords": "soft skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
 	"metaDescription": "Practical workshop for developers aimed to improve soft skills and leadership skills.",
 	"description": "Do you want to professionally articulate your ideas to your team and management? Build great work relationship with your customer? Organize efficient teamwork? Understand how to motivate and inspire people? Become a pragmatic, well-respected technical lead, architect, engineering manager? During this intensive, practical and entertaining 2-day workshop you will build core leadership, communication and organizational skills (soft skills) that will make you truly valuable asset in any modern technology organisation.",
-	"audience": "Software developers and technical people willing to become better at leadership, improve team and organization performance.",
-	"certification": "You earn a certificate of participation by attending the course. No exam required.",
-	"language": "The course is taught in English.",
+	"audience": "Experienced software developers willing to boost the core soft skills and achieve career success.",
+	"certification": "You earn a certificate by attending the course. No exam required.",
+	"language": "The course is taught in English. Non-native speakers are welcome!",
   "location": "Riga, Latvia",
   "date": "23-24 May 2019",
 	"badge": "",
-  "travelPack": true,
 	"book": "https://devchampions.typeform.com/to/kXOXAK",
 	"tags": [ ],
   "offers": [
     {
       "name": "Single",
-      "price": 1199
+      "price": 899,
+      "originalPrice": 1199
     },
     {
-      "name": "Group Price",
-      "info": "2+ people from the same company",      
-      "price": 999
+      "name": "Teammates",
+      "info": "2+ people from the same company. Best deal 🚀 ",
+      "price": 799,
+      "originalPrice": 1199
     },    
     {
       "name": "On-premises",
       "onPrem": true,
-      "info": "12 people max",
-      "price": 4800
+      "info": "Exlusively for your company",
+      "price": 4800,
+      "originalPrice": 6800
     }
   ],
 	"trainer": {
