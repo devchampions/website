@@ -1,14 +1,13 @@
 {
 	"customBg": "/img/sizovs_bg.jpg",
   	"ogImage": "java_og.png",
-	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference 2017, clean code rules, writing clean code",
-	"metaDescription": "Practical 2-day training/workshop that will teach you principles, practices and patterns for writing readable, maintainable and effective code in modern Java",
-	"description": "Do you want to feel proud of your work? Write code that your colleagues will admire? Move fast without compromising quality? Build long-living software that is easy and fun to maintain? Get out of technical debt without big upfront time investment? Professionally articulate technical decisions to your team and management? Then this course is for you. During this intensive, practical and entertaining 2-day course you will learn principles, practices and patterns for writing readable, maintainable and effective code in modern Java.",
+	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference, clean code rules, writing clean code",
+	"metaDescription": "Training on building modern, clean and maintainable enterprise applications using up to date Java architecture techniques, frameworks and secret gems. ",
+	"description": "In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. The course is designed for experienced Java professionals who want to expand their knowledge beyond trivial and easy-to-google concepts. You will be equipped with effective practical solutions to real-world architecture and design challenges.",
 	"audience": "Forward-thinking Java developers, architects and team leaders willing to significantly improve their Java expertise, productivity and career opportunities.",
-	"certification": "After 2 days of intensive work, you earn a certificate of accomplishment.",
+	"certification": "After 2 days of intensive work, you earn a certificate of accomplishment for boosting your CV and LinkedIn account.",
 	"exampleCertificate": "http://certs.devchampions.com/0N2C7ZR6XR/",
 	"language": "The course runs in a diverse international group and is taught in English.",
-  "travelPack": true,
 	"landings": {
 		"dates": [
 			{
@@ -105,34 +104,16 @@
 				"location": "Dublin, Ireland"
 			},			
 			{
-				"location": "Cork, Ireland"
-			},									
-			{
 				"location": "London, United Kingdom"
-			},						
-			{
-				"location": "Liverpool, United Kingdom"
-			},						
-			{
-				"location": "Manchester, United Kingdom"
-			},							
+			},										
 			{
 				"location": "Edinburgh, United Kingdom"
-			},									
-			{
-				"location": "Glasgow, United Kingdom"
 			},
 			{
 				"location": "Zürich, Switzerland"
 			},									
 			{
-				"location": "Geneva, Switzerland"
-			},
-			{
 				"location": "Brussels, Belgium"
-			},
-			{
-				"location": "Antwerpen, Belgium"
 			},
 			{
 				"location": "Luxembourg, Luxembourg"
@@ -171,20 +152,11 @@
 				"location": "Tallinn, Estonia"
 			},
 			{
-				"location": "Tartu, Estonia"
-			},					
-			{
 				"location": "Vilnius, Lithuania"
 			},								
 			{
-				"location": "Kaunas, Lithuania"
-			},
-			{
 				"location": "Stockholm, Sweden"
 			},
-			{
-				"location": "Malmö, Sweden"
-			},					
 			{
 				"location": "Helsinki, Finland"
 			},																										
@@ -198,166 +170,57 @@
 				"location": "Riga, Latvia"
 			},
 			{
-				"location": "Palermo, Italy"
-			},
-			{
-				"location": "Naples, Italy"
-			},
-			{
-				"location": "Moscow, Russia"
-			},
-			{
-				"location": "Minsk, Belarus"
-			},
-			{
-				"location": "Milan, Italy"
-			},
-			{
-				"location": "Marseille, France"
-			},
-			{
-				"location": "Madrid, Spain"
-			},
-			{
-				"location": "Lyon, France"
-			},
-			{
-				"location": "Lódz, Poland"
-			},
-			{
 				"location": "Ljubljana, Slovenia"
 			},
 			{
 				"location": "Lisbon, Portugal"
 			},
 			{
-				"location": "Leeds, UKraine"
-			},
-			{
-				"location": "Chisinau, Moldova"
-			},
-			{
-				"location": "Lvov, Ukraine"
-			},
-			{
-				"location": "Kiev, Ukraine"
-			},
-			{
-				"location": "Kharkiv, Ukraine"
-			},
-			{
-				"location": "Göteborg, Sweden"
-			},
-			{
-				"location": "Genoa, Italy"
-			},
-			{
 				"location": "Bratislava, Slovakia"
-			},
-			{
-				"location": "Birmingham, United Kingdom"
 			},
 			{
 				"location": "Belgrade, Sebria"
 			},
 			{
-				"location": "Barcelona, Spain"
-			},
-			{
-				"location": "Athens, Greece"
-			},
-			{
-				"location": "Århus, Denmark"
-			},
-			{
 				"location": "Amsterdam, Netherlands"
-			},
-			{
-				"location": "Zagreb, Croatia"
-			},
-			{
-				"location": "Wroclaw, Poland"
-			},
-			{
-				"location": "Varna, Bulgaria"
-			},
-			{
-				"location": "Valencia, Spain"
-			},
-			{
-				"location": "Turin, Italy"
-			},
-			{
-				"location": "Tampere, Finland"
-			},
-			{
-				"location": "Skopje, Beograd"
-			},
-			{
-				"location": "Seville, Spain"
-			},
-			{
-				"location": "Sarajevo, Bosnia"
-			},
-			{
-				"location": "Roma, Italy"
-			},
-			{
-				"location": "Poznan, Poland"
-			},
-			{
-				"location": "St. Petersburg, Russia"
-			},
-			{
-				"location": "Paris, France"
 			}
 		]
 	},
 	"editions": [
 		{
 			"url": "training/java",
-			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8, 9, 10"
-		},
-		{
-			"url": "training/java9",
-			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8, 9, 10",
-			"noExposure": true
-		},
-		{
-			"url": "training/java10",
-			"title": "Effective Java Software Design for Developers",
-			"version": "Java 8, 9, 10",
-			"noExposure": true
-		}		
+			"title": "Awesome Java Architecture for Developers"
+		}	
 	],
 	"location": "Riga, Latvia",
-	"date": "28-29 Sep 2018",
+	"date": "30-31 May 2019",
 	"badge": "",
 	"book": "https://devchampions.typeform.com/to/ULhC14",
 	"tags": [ ],
 	"offers": [
 		{
 			"name": "Single",
-			"price": 1199
-		},
-		{
-			"name": "Group Price",
-			"info": "2+ people from the same company",			
-			"price": 999
-		},		
-		{
+			"price": 899,
+			"originalPrice": 1199
+		  },
+		  {
+			"name": "Teammates",
+			"info": "2+ people from the same company. Best deal 🚀 ",
+			"price": 799,
+			"originalPrice": 1199
+		  },    
+		  {
 			"name": "On-premises",
-      "onPrem": true,
-			"info": "12 people max",
-			"price": 4800
-		}
+			"onPrem": true,
+			"info": "Exlusively for your company",
+			"price": 4800,
+			"originalPrice": 6800
+		  }
 	],
 	"trainer": {
 		"twitter": "eduardsi",
 		"name": "Eduards Sizovs",
-		"title": "Founder @ Latvian Software Craftsmanship Community",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
 		"pic": "eduardsi"
 	}
 }

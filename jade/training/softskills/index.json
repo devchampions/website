@@ -5,7 +5,7 @@
 	"ogImage": "soski.png",
 	"keywords": "soft skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
 	"metaDescription": "Practical workshop for developers aimed to improve soft skills and leadership skills.",
-	"description": "Do you want to professionally articulate your ideas to your team and management? Build great work relationship with your customer? Organize efficient teamwork? Understand how to motivate and inspire people? Become a pragmatic, well-respected technical lead, architect, engineering manager? During this intensive, practical and entertaining 2-day workshop you will build core leadership, communication and organizational skills (soft skills) that will make you truly valuable asset in any modern technology organisation.",
+	"description": "Do you want to build amazing relationship with your customer and upper management? Understand how to lead and inspire people around you? Become a well-respected architect, engineering leader, CTO? Then this training is for you. During this practical training, you will build exceptional leadership, communication and organizational skills. Skills that will make you strong the key asset in your organisation.",
 	"audience": "Experienced software developers willing to boost the core soft skills and achieve career success.",
 	"certification": "You earn a certificate by attending the course. No exam required.",
 	"language": "The course is taught in English. Non-native speakers are welcome!",
@@ -37,7 +37,7 @@
 	"trainer": {
 		"twitter": "eduardsi",
 		"name": "Eduards Sizovs",
-		"title": "Founder @ Latvian Software Craftsmanship Community",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
 		"pic": "eduardsi"
 	}
 }

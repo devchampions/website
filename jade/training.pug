@@ -143,7 +143,10 @@ html
                             h1.title Trainer
                         section
                             .trainer
-                                img.face(src='/img/trainers/' + self.trainer.pic + '.png')
+                                if self.trainer.avatar
+                                    img.face(src='/img/trainers/' + self.trainer.pic + '.png')
+                                else 
+                                    img.face(src='https://avatars.io/twitter/' + self.trainer.twitter)
                                 block trainer
             if self.address
                 section#location
