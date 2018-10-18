@@ -97,7 +97,15 @@ html
                                 img.badge(src='/img/' + badge + '.png' alt="Certificate")
                             strong  #{self.title}
                 if self.date
-                    h2 #{self.date}, #{self.location}
+                    h2 
+                        i.fa.fa-star(aria-hidden="true")
+                        i.fa.fa-star(aria-hidden="true")
+                        i.fa.fa-star(aria-hidden="true")
+                        i.fa.fa-star(aria-hidden="true")
+                        i.fa.fa-star(aria-hidden="true")
+                        br
+                        br
+                        | #{self.date}, #{self.location}
                     h2
                         a.action2(href="#offers") Book now
                         if self.travelPack
