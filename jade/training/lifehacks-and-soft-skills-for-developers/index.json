@@ -16,7 +16,8 @@
 	"tags": [ ],
   "offers": [
     {
-      "name": "Single",
+      "name": "Superhero",
+      "info": "Single person",
       "price": 899,
       "originalPrice": 1199
     },
