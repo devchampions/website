@@ -34,7 +34,8 @@ html
         if self.customBg
             style
                 | header#header {
-                |    background-image: url(#{self.customBg})
+                |    background-image: url(#{self.customBg});
+                |    background-position: right center;
                 | }
 
         script(type="application/ld+json")
@@ -175,7 +176,7 @@ html
             section#offers
                 .container
                     header
-                        h1 This is limited offer. Grab your ticket today.
+                        h1 This is a limited offer. Grab your ticket today.
                     each offer, no in self.offers
                         if offer.name
                             .offer
