@@ -132,6 +132,12 @@ html
                                 i(class="fa roundy fa-group")
                                 h2 Audience
                                 p #{self.audience}
+                                if self.audienceDemo
+                                    br
+                                    h3: strong Demographics
+                                    each audience in self.audienceDemo
+                                        span #{audience}
+                                        br
                             section.shorty
                                 i(class="fa roundy fa-certificate")
                                 h2 Certification
