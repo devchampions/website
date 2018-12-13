@@ -13,7 +13,8 @@
     "20% test engineers",
     "10% product managers"
   ],
-	"certification": "You earn a Certificate of Accomplishment after completing a homework assignment. Use it to boost your CV and LinkedIn profile.",
+  "certification": "You earn a Certificate of Accomplishment after completing an exam. Use it to boost your CV and LinkedIn profile.",
+  "certificateImage": "lifehacks-certificate.png",
 	"language": "The course is taught in English. Non-native speakers are welcome!",
   "location": "Riga, Latvia",
   "date": "23-24 May 2019",

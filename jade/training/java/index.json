@@ -8,8 +8,13 @@
 	"metaDescription": "Training on building modern, clean and maintainable enterprise applications using up to date Java architecture techniques, frameworks and secret gems. ",
 	"description": "In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. The course is designed for experienced Java professionals who want to expand their knowledge beyond trivial and easy-to-google concepts. You will be equipped with effective practical solutions to real-world architecture and design challenges.",
 	"audience": "Forward-thinking Java developers, architects and team leaders willing to significantly improve their Java expertise, productivity and career opportunities.",
-	"certification": "After 2 days of intensive work, you earn a certificate of accomplishment for boosting your CV and LinkedIn account.",
-	"exampleCertificate": "http://certs.devchampions.com/0N2C7ZR6XR/",
+  "audienceDemo": [
+    "60% software developers",
+		"20% architects",
+		"20% tech leads"
+  ],	
+	"certification": "You earn a Certificate of Accomplishment after completing an exam. Use it to boost your CV and LinkedIn profile.",
+	"certificateImage": "java-certificate.png",
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
 	"book": "https://devchampions.typeform.com/to/ULhC14",

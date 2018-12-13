@@ -96,6 +96,9 @@ header#header {
 }
 
 .shorty {
+  .certificate {
+    box-shadow: 7px 7px 23px 0px rgba(0,0,0,0.3);
+  }  
   text-align: center;
   margin-top: 70px;
   @include column(4, 12);

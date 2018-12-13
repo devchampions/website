@@ -142,6 +142,9 @@ html
                                 i(class="fa roundy fa-certificate")
                                 h2 Certification
                                 p #{self.certification}
+                                if self.certificateImage
+                                    br
+                                    a(href='/img/' + self.certificateImage): img.certificate(src='/img/' + self.certificateImage alt="Example certificate")
                                 p
                                     if self.exampleCertificate
                                         a(target='_blank' href=self.exampleCertificate)
