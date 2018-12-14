@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	$('a[href^="#"]').click(function() {
 		$('html, body').animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
 	$('#champion').click(function() {
 		$('html, body').animate({
 	        scrollTop: $('#trainings').offset().top

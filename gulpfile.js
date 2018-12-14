@@ -1,7 +1,6 @@
 var gulp = require('gulp'),
     connect = require('gulp-connect'),
     sass = require('gulp-sass'),
-    imagemin = require('gulp-imagemin'),
     autoprefix = require('gulp-autoprefixer'),
     neat = require('node-neat'),
     gulpif = require('gulp-if'),
@@ -9,17 +8,11 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     buffer = require('vinyl-buffer'),    
-    flatmap = require('gulp-flatmap'),
     deploy = require('gulp-gh-pages'),
-    combine = require('gulp-jsoncombine'),
     spritesmith = require('gulp.spritesmith'),
-    screenshots = require('gulp-local-screenshots'),
     cityTimezones = require('city-timezones'),
     removeDiacritics = require('diacritics').remove,
     sequence = require('gulp-sequence'),    
-    util = require('gulp-util'),
-    data = require('gulp-data'),
-    jade = require('gulp-jade'),
     gpug = require('gulp-pug'),    
     moment = require('moment'),    
     glob = require('glob'),
@@ -329,7 +322,7 @@ gulp.task('jade', function () {
 });
 
 gulp.task('uglify', function () {
-    gulp.src(['js/jquery.min.js', 'js/main.js'])
+    gulp.src(['js/jquery.min.js', 'js/jquery.inview.min.js', 'js/main.js'])
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(gulp.dest(publicDir + '/js'))

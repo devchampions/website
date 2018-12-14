@@ -1,0 +1,19 @@
+mixin message(twitterHandle)
+    .message-widget(style="display:none")
+        .buttons
+            a.close: i.fa.fa-times
+        a(href="https://twitter.com/" + twitterHandle): img.agent(src="https://avatars.io/twitter/" + twitterHandle alt=twitterHandle +  " avatar")
+        .message
+            .content
+                block
+    script.
+        $(document).ready(function() {
+            $('.message-widget .close').click(function() {
+                $('.message-widget').hide()
+            });
+            $('#offers').one('inview', function(event, isInView) {
+                if (isInView) {
+                    $(".message-widget").delay(3000).fadeIn(100)
+                }
+            });	
+        })

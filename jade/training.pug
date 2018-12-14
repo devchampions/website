@@ -1,4 +1,5 @@
 doctype html
+include message.pug
 html
     block vars
     head
@@ -31,6 +32,7 @@ html
         link(rel="shortcut icon" href="/favicon.ico")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
         link(rel="stylesheet" href="/css/training.css")
+        script(src="/js/main.js")
         if self.customBg
             style
                 | header#header {
@@ -211,17 +213,10 @@ html
                                     a.action(href=offer.book ? offer.book : self.book) Book now
                         else
                             .polyfill &nbsp;
-                .container
-                    .pricing-clarify
-                        p * Price does not include VAT (if applicable)
-                        p * Price for the flight and hotel is applicable if booked at least 1 month in advance.
-                        p * Price for on-premises training does not include travelling and accommodation costs (if training is hosted outside of Riga)
-                        p
-                            | * This training is a subject to training cancellation&nbsp;
-                            a.darken(href="/cancel.html") policy
+                block message
         include footer.pug
         include ga.pug
-        include tawk.pug
-        include twitter.pug
+        //- include tawk.pug
+        //- include twitter.pug
         include yandex.pug
 
