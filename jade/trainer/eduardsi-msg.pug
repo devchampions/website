@@ -1,4 +1,4 @@
 +message('eduardsi')
-    p Don't know how to convince your manager? It's easy!
-    p
-        strong: a(href="mailto:eduards@sizovs.net?body=Hi, Eduards! How do I convince by manager to attend " + self.title + "?&subject=Help wanted") Ask me how
+    p #{self.seatsBooked} developers have already registered.
+    p Only #{self.seatsLeft} seats left at the current price.
+    p: a(href=self.book) Book now

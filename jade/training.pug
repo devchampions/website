@@ -146,7 +146,7 @@ html
                                 p #{self.certification}
                                 if self.certificateImage
                                     br
-                                    a(href='/img/' + self.certificateImage): img.certificate(src='/img/' + self.certificateImage alt="Example certificate")
+                                    .certificate: a(href='/img/' + self.certificateImage): img(src='/img/' + self.certificateImage alt="Example certificate")
                                 p
                                     if self.exampleCertificate
                                         a(target='_blank' href=self.exampleCertificate)

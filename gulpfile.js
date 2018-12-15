@@ -322,7 +322,7 @@ gulp.task('jade', function () {
 });
 
 gulp.task('uglify', function () {
-    gulp.src(['js/jquery.min.js', 'js/jquery.inview.min.js', 'js/main.js'])
+    gulp.src(['js/jquery.min.js', 'js/jquery.inview.min.js', 'js/ofi.min.js', 'js/main.js'])
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(gulp.dest(publicDir + '/js'))

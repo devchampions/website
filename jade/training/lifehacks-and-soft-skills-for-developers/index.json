@@ -13,6 +13,8 @@
     "20% test engineers",
     "10% product managers"
   ],
+  "seatsBooked": 13,
+	"seatsLeft": 2,
   "certification": "You earn a Certificate of Accomplishment after completing an exam. Use it to boost your CV and LinkedIn profile.",
   "certificateImage": "lifehacks-certificate.png",
 	"language": "The course is taught in English. Non-native speakers are welcome!",

@@ -3,10 +3,6 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 .button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -o-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-radius: 4px;
