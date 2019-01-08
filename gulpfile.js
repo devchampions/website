@@ -259,10 +259,10 @@ gulp.task('jade', function () {
         }
       },
       {
-        "title": "Mastering Amazon Web Services (AWS)",
-        "date": "30 Nov – 1 Dec 2018",
+        "title": "Kubernetes for Developers",
+        "date": "6-7 Dec 2019",
         "location": "Riga, Latvia",
-        "description": "Amazon Web Services (AWS) is the world's leading provider of reliable, scalable, and inexpensive cloud computing services. The goal of this intensive, practical training is to familiarise you with the core AWS services and equip you with enough knowledge so you can choose, create, configure and maintain AWS infrastructure for your own projects. After this course, you'll gain deep understanding of AWS, learn how to operate production-grade AWS infrastructure and discover hidden tips and tricks from a certified AWS expert.",
+        "description": "Kubernetes makes automating deployment, scaling and management of application a breeze. The goal of this intensive and practical training is to familiarise you with the core Kubernetes concepts, and equip you with enough knowledge so you can easily run and operate your own applications in Kubernetes.",
         "link": {
           "name": "More info at DevTernity.com",
           "href": "https://devternity.com/"
@@ -271,11 +271,11 @@ gulp.task('jade', function () {
           "name": "Juris Pavlyuchenkov",
           "title": "Trainer, Amazon Certified Solutions Architect",
           "twitter": "jurispv",
-          "avatar": "https://devternity.com/images/pavl.png"
+          "avatar": "https://devternity.com/images/pavl_vec.png"
         }
       },
       {
-        "title": " Surviving Legacy Code",
+        "title": "Surviving Legacy Code",
         "date": "30 Nov – 1 Dec 2018",
         "location": "Riga, Latvia",
         "description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. That’s what Surviving Legacy Code is about.",
