@@ -10,8 +10,8 @@
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "location": "Berlin, Germany",
-  "date": "11-12 Oct 2018",
+  "location": "Riga, Latvia",
+  "date": "27-28 May 2019",
   "landings": {
     "dates": [
       {
@@ -143,18 +143,23 @@
   ],
   "offers": [
     {
-      "name": "Early Bird",
-      "price": 899,
-      "info": "60 days before the course"
+      "name": "Superhero",
+      "info": "Single person",
+      "price": 799,
+      "originalPrice": 1199
     },
     {
-      "name": "Wise Bird",
-      "price": 1199
+      "name": "Teammates",
+      "info": "2+ people from the same company. Best deal 🚀 ",
+      "price": 699,
+      "originalPrice": 1199
     },
     {
       "name": "On-premises",
-      "info": "15 people max",
+      "onPrem": true,
+      "info": "Exclusively for your company",
       "price": 5000,
+      "originalPrice": 6800,
       "book": "https://devchampions.typeform.com/to/fNFSNh"
     }
   ],

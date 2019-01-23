@@ -17,8 +17,10 @@
 		{},
 		{
 			"name": "On-premises",
-			"info": "15 people max",
-			"price": 4500
+            "onPrem": true,
+            "info": "Exclusively for your company",
+			"price": 5000,
+            "originalPrice": 6800
 		},
 		{}
 	],
