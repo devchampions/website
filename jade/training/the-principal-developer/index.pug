@@ -1,16 +1,346 @@
-extends ../../training
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge,chrome=1')
+  title=self.title + " Skills, Training and Certification"
+  meta(name="description" content=self.metaDescription)
+  meta(name="keywords" content=self.keywords)
+  meta(property="og:image" content='https://devchampions.com/img/' + self.image)
+  meta(property="og:url" content="http://devchampions.com/" + self.url)
+  meta(property="og:type" content="website")
+  meta(property="og:title" content=self.title + " Skills, Training and Certification")
+  meta(property="og:description" content=self.metaDescription)  
 
-block trainer
-	include ../../trainer/eduardsi.pug
 
-block message
-	include ../../trainer/eduardsi-msg.pug
+  meta(name="twitter:card" content="summary_large_image")
+  meta(name="twitter:site" content="@devchampions")
+  meta(name="twitter:creator" content="@devchampions")
+  meta(name="twitter:title" content=self.title + " Skills, Training and Certification")
+  meta(name="twitter:description" content=self.metaDescription)
+  meta(name="twitter:image" content='https://devchampions.com/img/' + self.image)
 
-block description
-	include description.pug
+  meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport')
+  meta(name='viewport' content='width=device-width')
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet')
+  link(href='https://demos.creative-tim.com/paper-kit-2-pro/assets/css/paper-kit.min.css?v=2.2.1' rel='stylesheet')
+  link(href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet')
+  link(href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet')
+  link(rel="shortcut icon" href="/favicon.ico")
+  link(rel="stylesheet" href="/css/principal.css")
+nav.navbar.navbar-transparent.fixed-top
+  .container
+    .navbar-translate
+        a.navbar-brand(href='/') #{self.title}
+.wrapper
+  .main
+    .section.section-dark.section-image(style='padding-top: 150px')
+      .moving-clouds
+      .container
+        .row
+          .col-lg-6.col-md-12
+            h2.title Skyrocket your career.
+            br
+            p.description
+              strong The Principal Developer
+              |  is invitation-only, two-day long masterclass for senior developers, team leaders, and software architects. We build traits, habits, and skills that technical people need to succeed at senior-level positions.
+            br
+            a.btn.btn-danger.btn-round(href='#upcoming' target='_blank') Join masterclass
+            |&nbsp;
+            a.btn.btn-outline-danger.btn-round(href='#skills' target='_blank') Learn more
+    .section.section-dark.section-image#skills
+      .container
+        .row
+          .ml-auto.mr-auto
+            h2.title.text-center
+              s Topics
+              |  Superskills
+            h5.description You will develop skills in the following areas:
+        .row
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-user-run(aria-hidden='true')
+              h4.title Process Acceleration
+              p.description
+                | Learn how to deliver software fast, without compromising on quality. Understand the whole development process from idea to cash. Identify bottlenecks using the Theory of Constraints. Increase throughput using lean manufacturing secrets. Make wise architecture decisions that enable fast delivery in the long run.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-money-coins(aria-hidden='true')
+              h4.title Business Innovation
+              p.description
+                | Become a trusted business partner by understanding the non-technical side of things. Understand how IT fits into the organization. Learn how to increase profits and reduce expenses. Understand the economics of technical decisions with cost-benefit analysis.
+        .row
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.fas.fa-users
+              h4.title Teamwork
+              p.description
+                | Organize teamwork for continuous delivery. Do more work in less time by eliminating waiting, buffering and handovers. Make progress visible for everyone. Conduct effective code reviews, daily standups, and retrospectives.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-single-02(aria-hidden='true')
+              h4.title Influence
+              p.description
+                | Deliver a strong message and convince people across the organization. Make winning proposals. Learn to speak your customers' language. Boost your confidence, reduce anxiety and stress of public speaking.
+        .row.bottom-line
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-hat-3(aria-hidden='true')
+              h4.title Mentoring
+              p.description
+                | Become an inspiring mentor and start developing your colleagues. Identify and eliminate lack of necessary skills with opportunistic pair programming. Build continuous learning and innovation culture in your organization.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-spaceship(aria-hidden='true')
+              h4.title Career Growth
+              p.description
+                | Acquire skills that make a difference and ignore the noise. Learn good management techniques without becoming a manager. Maintain a healthy hard-soft skills balance. Grow your authority and influence in and outside the company.
+    .section.section-dark.section-image
+      .container
+        .row
+          .ml-auto.mr-auto
+            h2.title.text-center Frequently asked questions
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title For whom is this course?
+            p.description
+              | The course is for experienced software developers who want to boost on their problem-solving skills, master engineering processes, organize effective teamwork, and become a mentor. It&apos;s for developers who already know how to write clean code and want to build competences required for senior-level positions.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title What are admission requirements for the course?
+            p.description
+                | The course is invitation-only and requires at least three years of commercial software development experience. Request an invitation by sending a brief motivation letter to 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
+                |. We will review your application and send the registration link in 48H.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Why the course is invitation-only?
+            p.description
+              | The content of the course require a certain level of maturity. To create effective learning environment, we invite motivated individuals whose participation is beneficial to other attendees. 
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How is the learning process organised?
+            p.description
+              | You will work with other developers in a small team. Together, you&apos;ll be solving real-world challenges, such as optimizing slow development process, making unhappy customers happy, finding cost-effective solutions to business problems. The course is a mix of practice (60%), critical theory (20%) and discussion (20%). 
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Would I receive a certificate upon completing the course?
+            p.description Yes, of course.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title What is the language of instruction?
+            p.description The course is taught in English. Non-native speakers are welcome.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How can I developer my knowledge after the course?
+            p.description
+              | You will receive a list of books, blogs, videos for self-development. You will also get access to the 
+              strong private community
+              |  for graduates, where you can ask questions. Eduards will be there to help and provide one-on-one mentoring.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How do I convince my manager to send me to this course?
+            p.description
+              | This training is a direct way to up-skill and expand your knowledge to perform better at work. If you dislike the course, you will get money back.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Can I get a group discount?
+            p.description Ask at 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Can you conduct the masterclass exclusively for my company?
+            p.description Ask at 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
+    #testimonials.section.section-testimonials.section-dark.section-image
+      div
+        .container
+          .row
+            .col-md-6.ml-auto.mr-auto.text-center
+              h2.title.text-center Testimonials
+          .row
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/alec.jpg' alt='Alec Z.')
+                      span.text-success Alec Z. Senior Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;10x motivation booster! Now I have much cleaner vision how to grow professionally, how to keep up with trends, how to boost my professional reputation in and outside the company.&quot;
+                  p
+                    .card-stars
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/katya.png' alt='Katya G')
+                      span.text-success Katya G. Delivery Lead
+                  .clearfix
+                  p.card-description
+                    | &quot;Two days after the training I discovered the limiting factor in our process and convinced my teammates to work on it. We fixed the problem and accelerated product delivery by at least 50%.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/lars.jpg' alt='Lars O')
+                      span.text-success Lars O. Tech Lead
+                  .clearfix
+                  p.card-description
+                    | &quot;This is the best technical training I have ever attended. Energy, inspiration, wisdom that I have gotten from that training is extremely valuable.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+          .row
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/andrey.png' alt='Andrey I.')
+                      span.text-success Andrey I. Solutions Architect
+                  .clearfix
+                  p.card-description
+                    | &quot;This course is an eye opener.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#pablo')
+                      img.avatar.img-raised(src='/img/erik.png' alt='Erik N.')
+                      span.text-success Erik N. Senior Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;I am very impressed. I will make sure that every developer in my company has attended this course.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#pablo')
+                      img.avatar.img-raised(src='/img/hakan.png' alt='Hakan R.')
+                      span.text-success Hakan R. Head of Engineering
+                  .clearfix
+                  p.card-description
+                    | &quot;The practical guide for a developer on becoming an effective, top-level company leader.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')      
+  .section.section-dark.section-image#upcoming
+    .container
+      .row
+        .col-md-6.ml-auto.mr-auto.text-center
+          h2.title Upcoming Masterclasses
+          h5.description
+            | For price of a good conference, you will get skills that will
+            strong  turn your career around.
+      .space-top
+      .row
+        each offer in self.offers
+            .col-md-4
+                .card.card-pricing.card-plain
+                    .card-body
+                        h6.card-category.text-success #{offer.city}, #{offer.country}
+                        h5 #{offer.info}
+                        h1.card-title &euro;#{offer.price}
+                        ul.text-white
+                            li
+                            i.fa.fa-check(aria-hidden='true')
+                            |  Certificate
+                            li
+                            i.fa.fa-check(aria-hidden='true')
+                            |  Private Community
+                            li
+                            i.fa.fa-check(aria-hidden='true')
+                            |  One-on-One Mentoring
+                        .progress
+                            .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
 
-block testimonials
-	include testimonials.pug
+      .row
+        .col-md-6.ml-auto.mr-auto.text-center
+            br
+            br
+            h2.title
+                | Request Invitation 
+            p.text-white 
+                | The course is invitation-only and requires at least three years of commercial software development experience. Request an invitation by sending a brief motivation letter to 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
+                |. We will review your application and send the registration link in 48H.
 
-block vars
-	- var path = 'lifehacks-and-soft-skills-for-developers'
+  .section.trainer
+    .container
+      .owner
+        .name.text-center
+          h4.title
+            | Eduards Sizovs
+            br
+          h6.title
+            | Consultant, Speaker, Trainer&nbsp;
+            a(href='https://twitter.com/eduardsi')
+              i.fab.fa-twitter
+            |&nbsp;
+            a(href='https://www.linkedin.com/in/eduardsi/')
+              i.fab.fa-linkedin
+      .row
+        .col-md-6.ml-auto.mr-auto.text-center
+          p
+            | Eduards has been involved in commercial software development for over 15 years. He quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director.
+            | Today, Eduards is consulting C-level technical people and running training for senior developers, architects and engineering leaders.
+          p
+            | Eduards leads DevTernity &ndash; the top tech conference in Europe, and is the founder of a startup DevTube (#1 Hackernews, #3 ProductHunt).
+            | He is a well-known international speaker, who had spoken at the largest conferences Worldwide.
+          hr
+          q
+            | My goal is to pass you the most valuable experience I have learned during my career in a practical, entertaining, and simple way.
+          p.text-right
+            img(src='/img/eduardsi_signature.png' style='width: 70px; filter: invert(100%);')
+// Core JS Files
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' type='text/javascript')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js' type='text/javascript')
+script(src='https://demos.creative-tim.com/paper-kit-2-pro/assets/js/paper-kit.min.js?v=2.2.1')
+script.
+    $(window).scroll(function(e) {
+    // add/remove class to navbar when scrolling to hide/show
+    var scroll = $(window).scrollTop();
+    if (scroll >= 150) {
+    $('.navbar').addClass("navbar-hide");
+    } else {
+    $('.navbar').removeClass("navbar-hide");
+    }
+    });

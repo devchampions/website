@@ -1,50 +1,36 @@
 {
-	"customBg": "/img/sizovs_bg.jpg",	
 	"title": "The Principal Developer",
-	"subtitle": "",
-	"ogImage": "theprincipaldev.png",
-	"keywords": "soft skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
-	"metaDescription": "Practical workshop for developers, where you will build exceptional leadership, communication and problem-solving skills (aka Soft Skills).",
-	"description": "Practical workshop for developers, where you will build exceptional leadership, communication and problem-solving skills. Skills that will make you the key asset in any modern technology organization.",
-  "audience": "The course is for open-minded, technical people who want to achieve career success. Your experience doesn’t matter. What matters is your eagerness to learn new stuff.",
-  "audienceDemo": [
-    "45% software developers",
-    "25% team leaders, architects",
-    "20% test engineers",
-    "10% product managers"
-  ],
-  "seatsBooked": 13,
-	"seatsLeft": 2,
-  "certification": "You earn a Certificate of Accomplishment after completing an exam. Use it to boost your CV and LinkedIn profile.",
-  "certificateImage": "lifehacks-certificate.png",
-	"language": "The course runs in English. Non-native speakers are welcome!",
-  "location": "Riga, Latvia",
-  "date": "23-24 May 2019",
-	"badge": "",
-	"book": "https://devchampions.typeform.com/to/kXOXAK",
-	"tags": [ ],
+	"image": "theprincipaldev.png",
+	"keywords": "soft skills, senior developer skills, principal developer skills, leadership for developers, how to become a software architect, how to become a team lead, becoming a technical leader",
+	"metaDescription": "The Principal Developer is invitation-only, two-day long masterclass for senior developers, team leaders and software architects. We build traits, habits and skills that technical people need to succeed at senior-level positions.",
+	"description": "The Principal Developer is invitation-only, two-day long masterclass for senior developers, team leaders and software architects. We build traits, habits and skills that technical people need to succeed at senior-level positions.",
+  "location": "Multiple locations",
+  "date": "Multiple dates",
   "offers": [
     {
-      "name": "Superhero",
-      "info": "Single person",
-      "price": 799,
-      "originalPrice": 1199
+      "city": "Riga",
+      "country": "Latvia",
+      "info": "23-24 May 2019",
+      "price": 950,
+      "bookedPercent": 80
     },
     {
-      "name": "Teammates",
-      "info": "2+ people from the same company. Best deal 🚀 ",
-      "price": 699,
-      "originalPrice": 1199
+      "city": "Berlin",
+      "country": "Germany",
+      "info": "12-13 September 2019",
+      "price": 999,
+      "bookedPercent": 100
     },    
     {
-      "name": "On-premises",
-      "onPrem": true,
-      "info": "Exclusively for your team",
-      "price": 4800,
-      "originalPrice": 6800
+      "city": "Stockholm",
+      "country": "Sweden",
+      "info": "19-20 September 2019",
+      "price": 1200,
+      "bookedPercent": 50
     }
   ],
 	"trainer": {
+    "email": "eduards@sizovs.net",
 		"twitter": "eduardsi",
 		"name": "Eduards Sizovs",
 		"title": "Head Trainer, Founder @ DevTernity, DevTube",
