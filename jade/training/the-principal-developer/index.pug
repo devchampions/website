@@ -135,7 +135,12 @@ html(lang='en')
             .col-md-6.ml-auto.mr-auto.text-center
               h6.title Why the course is invitation-only?
               p.description
-                | The content of the course requires a certain level of maturity. To create effective learning environment, we invite motivated individuals whose participation is beneficial to other attendees. 
+                | The content of the course requires a certain level of maturity. To create effective learning environment, we invite motivated individuals whose participation is beneficial to other attendees.                 
+          .row
+            .col-md-6.ml-auto.mr-auto.text-center
+              h6.title I have deep technical experience, but I'm not a dev. Can I participate?
+              p.description Let's figure it out together. Ask at 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email                
           .row
             .col-md-6.ml-auto.mr-auto.text-center
               h6.title How is the learning process organised?
