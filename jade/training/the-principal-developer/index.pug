@@ -296,7 +296,9 @@ html(lang='en')
                         .card-body
                             h6.card-category.text-success #{offer.city}, #{offer.country}
                             h5 #{offer.info}
-                            h1.card-title &euro;#{offer.price}
+                            h1.card-title 
+                              | &euro;#{offer.price} 
+                              span(style="text-decoration: line-through") #{offer.price + 600}
                             ul.text-white
                                 li
                                   i.fa.fa-check(aria-hidden='true')
