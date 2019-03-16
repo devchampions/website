@@ -28,9 +28,16 @@ html(lang='en')
     link(rel="stylesheet" href="/css/principal.css")
   nav.navbar.navbar-transparent.fixed-top
     .container
-      .navbar-translate
-          a.navbar-brand(href='/') 
-            | The Principal Developer
+      a.navbar-brand(href='/') 
+        | The Principal Developer
+      span.navbar-right
+        span.text-white.font-italic(style="letter-spacing: 1.5px;") “Excellent!”
+        br
+        i.fa.fa-star(aria-hidden='true')
+        i.fa.fa-star(aria-hidden='true')
+        i.fa.fa-star(aria-hidden='true')
+        i.fa.fa-star(aria-hidden='true')
+        i.fa.fa-star(aria-hidden='true')
   .wrapper
       .section.section-dark.section-image(style='padding-top: 150px')
         .moving-clouds
@@ -160,8 +167,24 @@ html(lang='en')
           .container
             .row
               .col-md-6.ml-auto.mr-auto.text-center
-                h2.title.text-center Testimonials
+                h2.title.text-center What people say?
             .row
+              .col-md-4
+                .card
+                  .card-body
+                    .author
+                      a(href='#')
+                        img.avatar.img-raised(src='https://avatars.io/twitter/mgrzejszczak' alt='Marcin G.')
+                        span.text-success Marcin G. Principal Engineer @ Pivotal
+                    .clearfix
+                    p.card-description
+                      | &quot;I learned so much from Eduards over the course of my career that I can strongly recommend everyone to take part in this course.&quot;
+                    .card-stars
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')
+                      i.fa.fa-star(aria-hidden='true')                        
               .col-md-4
                 .card
                   .card-body
@@ -210,7 +233,6 @@ html(lang='en')
                       i.fa.fa-star(aria-hidden='true')
                       i.fa.fa-star(aria-hidden='true')
                       i.fa.fa-star(aria-hidden='true')
-            .row
               .col-md-4
                 .card
                   .card-body
@@ -258,15 +280,14 @@ html(lang='en')
                       i.fa.fa-star(aria-hidden='true')
                       i.fa.fa-star(aria-hidden='true')
                       i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')      
+                      i.fa.fa-star(aria-hidden='true')                        
       .section.section-dark.section-image#upcoming
         .container
           .row
-            .col-md-6.ml-auto.mr-auto.text-center
+            .col-md-8.ml-auto.mr-auto.text-center
               h2.title Upcoming Masterclasses
               h5.description
-                | For price of a good conference, you will get skills that will
-                strong  turn your career around.
+                | The price will increase as the training approaches. Enroll today.
           .space-top
           .row
             each offer in self.offers
