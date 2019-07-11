@@ -2,7 +2,6 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible' content='IE=edge')
     meta(name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0')
     title=self.title + " – Training and Certification"
     meta(name="description" content=self.metaDescription)
@@ -26,412 +25,411 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet')
     link(rel="shortcut icon" href="/favicon.ico")
     link(rel="stylesheet" href="/css/principal.css")
-  nav.navbar.navbar-transparent.fixed-top
-    .container
-      a.navbar-brand(href='/') 
-        | The Principal Developer
-      span.navbar-right
-        span.text-white.font-italic(style="letter-spacing: 1.5px;") “Excellent!”
-        br
-        i.fa.fa-star(aria-hidden='true')
-        i.fa.fa-star(aria-hidden='true')
-        i.fa.fa-star(aria-hidden='true')
-        i.fa.fa-star(aria-hidden='true')
-        i.fa.fa-star(aria-hidden='true')
-  .wrapper
-      .section.section-dark.section-image(style='padding-top: 150px')
-        .moving-clouds
-        .container
-          .row
-            .col-lg-6.col-md-12
-              h2.title Skyrocket your career.
-              br
+  body
+    nav.navbar.navbar-transparent.fixed-top
+      .container
+        a.navbar-brand(href='/') 
+          | The Principal Developer
+        span.navbar-right
+          span.text-white.font-italic(style="letter-spacing: 1.5px;") “Excellent!”
+          br
+          i.fa.fa-star(aria-hidden='true')
+          i.fa.fa-star(aria-hidden='true')
+          i.fa.fa-star(aria-hidden='true')
+          i.fa.fa-star(aria-hidden='true')
+          i.fa.fa-star(aria-hidden='true')    
+    .section.section-dark.section-image(style='padding-top: 150px')
+      .container
+        .row
+          .col-lg-6.col-md-12
+            h2.title Skyrocket your career.
+            br
+            p.description
+              strong The Principal Developer
+              |  is invitation-only, two-day long masterclass for senior developers, team leaders, and software architects. We build traits, habits, and skills that engineers need to succeed at senior-level positions.
+            br
+            a.btn.btn-danger.btn-round(href='#upcoming') Join masterclass
+            |&nbsp;
+            a.btn.btn-outline-danger.btn-round(href='#skills') Learn more
+    .section.section-dark.section-image#skills
+      .container
+        .row.justify-content-md-center
+          .col-8.ml-auto.mr-auto.text-center
+            h2.title Introduction
+            h5.description It takes more than coding skills to be a great developer. The best software developers know how to make wise technical decisions, organize a good development process, communicate effectively, mentor peers and conduct technical interviews. This course is for software developers, who want to build missing skills and
+              b  make the leap from good to great.
+        .row.justify-content-md-center
+          .col-8.ml-auto.mr-auto.text-center
+            h2.title Skills
+            h5.description In this course you won't find boring theories, "let's be Agile!" mantras or easy-to-Google ideas. You will develop 
+              b skills that every great developer needs:
+        .row
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-user-run(aria-hidden='true')
+              h4.title Process Acceleration
               p.description
-                strong The Principal Developer
-                |  is invitation-only, two-day long masterclass for senior developers, team leaders, and software architects. We build traits, habits, and skills that engineers need to succeed at senior-level positions.
-              br
-              a.btn.btn-danger.btn-round(href='#upcoming') Join masterclass
-              |&nbsp;
-              a.btn.btn-outline-danger.btn-round(href='#skills') Learn more
-      .section.section-dark.section-image#skills
+                | Learn how to deliver software fast, without compromising on quality. Understand the whole development process from idea to cash. Identify bottlenecks using the Theory of Constraints. Increase throughput using lean manufacturing secrets. Make wise architecture decisions that enable fast delivery in the long run.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-money-coins(aria-hidden='true')
+              h4.title Business Innovation
+              p.description
+                | Become a trusted business partner by understanding the non-technical side of things. Understand how IT fits into the organization and how organizations work. Learn how to increase profits and reduce expenses. Understand the economics of technical decisions and how to choose technology wisely.
+        .row
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.fas.fa-users
+              h4.title Teamwork
+              p.description
+                | Understand Little's Law and organize teamwork for fast and continuous delivery. Do more work in less time by increasing throughput. Make the best practices from eXtreme Programming, DevOps and Agile methodologies work for you.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-single-02(aria-hidden='true')
+              h4.title Influence
+              p.description
+                | Understand human behaviour, psychology and principles of influence. Deliver a strong message and convince people across the organization. Make winning proposals. Learn to say "no" without being killed. Boost your confidence, reduce anxiety and stress of public speaking.
+        .row.bottom-line
+          .col-sm-5.ml-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-hat-3(aria-hidden='true')
+              h4.title Mentoring
+              p.description
+                | Become an inspiring role model and start developing your colleagues. Identify and eliminate lack of necessary skills in your team. Build A-Team from a group of people. Build continuous learning and innovation culture in your organization.
+          .col-sm-5.mr-auto
+            .info
+              .icon.text-danger
+                i.nc-icon.nc-spaceship(aria-hidden='true')
+              h4.title Interviewing
+              p.description
+                | Learn how to conduct interviews that developers enjoy. Understand which skills matter more than others and why. Hire smarter and faster than your competitors.
+    .section.section-dark.section-image
+      .container
+        .row
+          .ml-auto.mr-auto
+            h2.title.text-center Frequently asked questions
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title For whom is this course?
+            p.description
+              | The course is for experienced and motivated engineers who already know how to write good code and get things done. It's for those who are eager for the next big career jump. It's for those who want to know what best engineering leaders, technical directors, and company owners know. 
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title What are admission requirements for the course?
+            p.description
+                | The course is invitation-only and requires at least three years of commercial software development experience in Agile environment. Request an invitation by sending a brief motivation letter to 
+                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
+                |. Our team will review your application and send the registration link in 48H.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Why the course is invitation-only?
+            p.description
+              | The content of the course requires a certain level of maturity. To create effective learning environment, we invite motivated individuals whose participation is beneficial to other attendees.                 
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title I have deep technical experience, but I'm not a dev. Can I participate?
+            p.description Let's figure it out together. Ask at 
+              a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email                
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How is the learning process organized?
+            p.description
+              | You will work with other developers in a small team. You&apos;ll be solving real-world challenges, such as optimizing slow development process, making unhappy customers happy, finding cost-effective solutions to problems, refactoring interviewing process. 
+              b We'll also address and resolve your current career, team and company challenges. 
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title Would I receive a certificate upon completing the course?
+            p.description Yes, you will receive a Certificate of Accomplishment.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title What is the language of instruction?
+            p.description The course is taught in English. Non-native speakers are welcome.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How would I develop my knowledge after the course?
+            p.description
+              | You will receive a list of books, blogs, videos for self-development. After intensive 2-day masterclass, alumni join the 
+              strong private community
+              |  where we continue our professional growth. Eduards will be there to help and provide one-on-one mentoring.
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            h6.title How do I convince my manager to send me to this course?
+            p.description
+              | Tell the truth: Coursera is for beginners, conferences are just fun and you want to learn serious stuff. You will get new skills, a certificate and tons of inspiration. If you dislike the course, you'll get your money back. No questions asked.
+    #testimonials.section.section-testimonials.section-dark.section-image
+      div
         .container
-          .row.justify-content-md-center
-            .col-8.ml-auto.mr-auto.text-center
-              h2.title Introduction
-              h5.description It takes more than coding skills to be a great developer. The best software developers know how to make wise technical decisions, organize a good development process, communicate effectively, mentor peers and conduct technical interviews. This course is for software developers, who want to build missing skills and
-                b  make the leap from good to great.
-          .row.justify-content-md-center
-            .col-8.ml-auto.mr-auto.text-center
-              h2.title Skills
-              h5.description In this course you won't find boring theories, "let's be Agile!" mantras or easy-to-Google ideas. You will develop 
-                b skills that every great developer needs:
-          .row
-            .col-sm-5.ml-auto
-              .info
-                .icon.text-danger
-                  i.nc-icon.nc-user-run(aria-hidden='true')
-                h4.title Process Acceleration
-                p.description
-                  | Learn how to deliver software fast, without compromising on quality. Understand the whole development process from idea to cash. Identify bottlenecks using the Theory of Constraints. Increase throughput using lean manufacturing secrets. Make wise architecture decisions that enable fast delivery in the long run.
-            .col-sm-5.mr-auto
-              .info
-                .icon.text-danger
-                  i.nc-icon.nc-money-coins(aria-hidden='true')
-                h4.title Business Innovation
-                p.description
-                  | Become a trusted business partner by understanding the non-technical side of things. Understand how IT fits into the organization and how organizations work. Learn how to increase profits and reduce expenses. Understand the economics of technical decisions and how to choose technology wisely.
-          .row
-            .col-sm-5.ml-auto
-              .info
-                .icon.text-danger
-                  i.fas.fa-users
-                h4.title Teamwork
-                p.description
-                  | Understand Little's Law and organize teamwork for fast and continuous delivery. Do more work in less time by increasing throughput. Make the best practices from eXtreme Programming, DevOps and Agile methodologies work for you.
-            .col-sm-5.mr-auto
-              .info
-                .icon.text-danger
-                  i.nc-icon.nc-single-02(aria-hidden='true')
-                h4.title Influence
-                p.description
-                  | Understand human behaviour, psychology and principles of influence. Deliver a strong message and convince people across the organization. Make winning proposals. Learn to say "no" without being killed. Boost your confidence, reduce anxiety and stress of public speaking.
-          .row.bottom-line
-            .col-sm-5.ml-auto
-              .info
-                .icon.text-danger
-                  i.nc-icon.nc-hat-3(aria-hidden='true')
-                h4.title Mentoring
-                p.description
-                  | Become an inspiring role model and start developing your colleagues. Identify and eliminate lack of necessary skills in your team. Build A-Team from a group of people. Build continuous learning and innovation culture in your organization.
-            .col-sm-5.mr-auto
-              .info
-                .icon.text-danger
-                  i.nc-icon.nc-spaceship(aria-hidden='true')
-                h4.title Interviewing
-                p.description
-                  | Learn how to conduct interviews that developers enjoy. Understand which skills matter more than others and why. Hire smarter and faster than your competitors.
-      .section.section-dark.section-image
-        .container
-          .row
-            .ml-auto.mr-auto
-              h2.title.text-center Frequently asked questions
           .row
             .col-md-6.ml-auto.mr-auto.text-center
-              h6.title For whom is this course?
-              p.description
-                | The course is for experienced and motivated engineers who already know how to write good code and get things done. It's for those who are eager for the next big career jump. It's for those who want to know what best engineering leaders, technical directors, and company owners know. 
+              h2.title.text-center What people say?
           .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title What are admission requirements for the course?
-              p.description
-                  | The course is invitation-only and requires at least three years of commercial software development experience in Agile environment. Request an invitation by sending a brief motivation letter to 
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='https://avatars.io/twitter/mgrzejszczak' alt='Marcin G.')
+                      span.text-success Marcin G. Principal Engineer @ Pivotal
+                  .clearfix
+                  p.card-description
+                    | &quot;I learned so much from Eduards over the course of my career that I can strongly recommend everyone to take part in this course.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')                        
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/alec.jpg' alt='Alec Z.')
+                      span.text-success Alec Z. Senior Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;10x motivation booster! Now I have much cleaner vision how to grow professionally, how to keep up with trends, how to boost my professional reputation in and outside the company.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/katya.png' alt='Katya G')
+                      span.text-success Katya G. Delivery Lead
+                  .clearfix
+                  p.card-description
+                    | &quot;Two days after the training I discovered the limiting factor in our process and convinced my teammates to work on it. We fixed the problem and accelerated product delivery by at least 50%.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/lars.jpg' alt='Lars O')
+                      span.text-success Lars O. Tech Lead
+                  .clearfix
+                  p.card-description
+                    | &quot;This is the best technical training I have ever attended. Energy, inspiration, wisdom that I have gotten from that training is extremely valuable.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/andrey.png' alt='Andrey I.')
+                      span.text-success Andrey I. Solutions Architect
+                  .clearfix
+                  p.card-description
+                    | &quot;This course is an eye opener.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/erik.png' alt='Erik N.')
+                      span.text-success Erik N. Senior Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;I am very impressed. I will make sure that every developer in my company has attended this course.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/artursk.jpg' alt='Arturs K.')
+                      span.text-success Arturs K.
+                  .clearfix
+                  p.card-description
+                    | &quot;I attend DevChampions workshops for insights and practical stuff. This time was no exception. Started applying tips & tricks immediately. The team is happy!&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/hakan.png' alt='Hakan R.')
+                      span.text-success Hakan R. Head of Engineering
+                  .clearfix
+                  p.card-description
+                    | &quot;The practical guide for a developer on becoming an effective, top-level company leader.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true') 
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/yuryc.jpg' alt='Yury. C')
+                      span.text-success Yury C. Head of Development
+                  .clearfix
+                  p.card-description
+                    | &quot;Eduards is an excellent mentor. I had the luck to work with him and he helped me a lot to shape my career. This course is a mind-blowing summary of knowledge what every professional software engineer should have.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')                                              
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/keizik.png' alt='Aleksandr K.')
+                      span.text-success Aleksandr K. Senior Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;A must-have for any software development lead. Perfectly balanced information has an immediate impact on your career. Would recommend it to anyone aspiring to be a great leader.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+            .col-md-4
+              .card
+                .card-body
+                  .author
+                    a(href='#')
+                      img.avatar.img-raised(src='/img/remi.jpg' alt='Remigijus C.')
+                      span.text-success Remigijus C. Full-stack Developer
+                  .clearfix
+                  p.card-description
+                    | &quot;A well tailored course for those who want to grow as technical leaders. I have found valuable material and real-world experience.&quot;
+                  .card-stars
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')
+                    i.fa.fa-star(aria-hidden='true')                                
+
+    .section.section-dark.section-image#upcoming
+      .container
+        .row
+          .col-md-8.ml-auto.mr-auto.text-center
+            h2.title Upcoming Masterclasses
+            h5.description
+              | The price will increase as the training approaches. Enroll today.
+        .space-top
+        .row
+          each offer in self.offers
+              .col-md-4
+                  .card.card-pricing.card-plain
+                      .card-body
+                          h6.card-category.text-success #{offer.city}, #{offer.country}
+                          h5 #{offer.info}
+                          h1.card-title 
+                            | &euro;#{offer.price} 
+                            span(style="text-decoration: line-through") #{offer.price + 600}
+                          ul.text-white
+                              li
+                                i.fa.fa-check(aria-hidden='true')
+                                |  Certificate
+                              li
+                                i.fa.fa-check(aria-hidden='true')
+                                |  Private Community
+                              li
+                                i.fa.fa-check(aria-hidden='true')
+                                |  One-on-One Mentoring
+                          .progress
+                              .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
+
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+              br
+              br
+              h2.title
+                  | Ready for the next level?
+              p.text-white 
+                  | The course is invitation-only and requires at least three years of software development experience in Agile environment. Request an invitation by sending a brief motivation letter to 
                   a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
                   |. Our team will review your application and send the registration link in 48H.
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title Why the course is invitation-only?
-              p.description
-                | The content of the course requires a certain level of maturity. To create effective learning environment, we invite motivated individuals whose participation is beneficial to other attendees.                 
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title I have deep technical experience, but I'm not a dev. Can I participate?
-              p.description Let's figure it out together. Ask at 
-                a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email                
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title How is the learning process organized?
-              p.description
-                | You will work with other developers in a small team. You&apos;ll be solving real-world challenges, such as optimizing slow development process, making unhappy customers happy, finding cost-effective solutions to problems, refactoring interviewing process. 
-                b We'll also address and resolve your current career, team and company challenges. 
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title Would I receive a certificate upon completing the course?
-              p.description Yes, you will receive a Certificate of Accomplishment.
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title What is the language of instruction?
-              p.description The course is taught in English. Non-native speakers are welcome.
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title How would I develop my knowledge after the course?
-              p.description
-                | You will receive a list of books, blogs, videos for self-development. After intensive 2-day masterclass, alumni join the 
-                strong private community
-                |  where we continue our professional growth. Eduards will be there to help and provide one-on-one mentoring.
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              h6.title How do I convince my manager to send me to this course?
-              p.description
-                | Tell the truth: Coursera is for beginners, conferences are just fun and you want to learn serious stuff. You will get new skills, a certificate and tons of inspiration. If you dislike the course, you'll get your money back. No questions asked.
-      #testimonials.section.section-testimonials.section-dark.section-image
-        div
-          .container
-            .row
-              .col-md-6.ml-auto.mr-auto.text-center
-                h2.title.text-center What people say?
-            .row
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='https://avatars.io/twitter/mgrzejszczak' alt='Marcin G.')
-                        span.text-success Marcin G. Principal Engineer @ Pivotal
-                    .clearfix
-                    p.card-description
-                      | &quot;I learned so much from Eduards over the course of my career that I can strongly recommend everyone to take part in this course.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')                        
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/alec.jpg' alt='Alec Z.')
-                        span.text-success Alec Z. Senior Developer
-                    .clearfix
-                    p.card-description
-                      | &quot;10x motivation booster! Now I have much cleaner vision how to grow professionally, how to keep up with trends, how to boost my professional reputation in and outside the company.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/katya.png' alt='Katya G')
-                        span.text-success Katya G. Delivery Lead
-                    .clearfix
-                    p.card-description
-                      | &quot;Two days after the training I discovered the limiting factor in our process and convinced my teammates to work on it. We fixed the problem and accelerated product delivery by at least 50%.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/lars.jpg' alt='Lars O')
-                        span.text-success Lars O. Tech Lead
-                    .clearfix
-                    p.card-description
-                      | &quot;This is the best technical training I have ever attended. Energy, inspiration, wisdom that I have gotten from that training is extremely valuable.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/andrey.png' alt='Andrey I.')
-                        span.text-success Andrey I. Solutions Architect
-                    .clearfix
-                    p.card-description
-                      | &quot;This course is an eye opener.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/erik.png' alt='Erik N.')
-                        span.text-success Erik N. Senior Developer
-                    .clearfix
-                    p.card-description
-                      | &quot;I am very impressed. I will make sure that every developer in my company has attended this course.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/artursk.jpg' alt='Arturs K.')
-                        span.text-success Arturs K.
-                    .clearfix
-                    p.card-description
-                      | &quot;I attend DevChampions workshops for insights and practical stuff. This time was no exception. Started applying tips & tricks immediately. The team is happy!&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/hakan.png' alt='Hakan R.')
-                        span.text-success Hakan R. Head of Engineering
-                    .clearfix
-                    p.card-description
-                      | &quot;The practical guide for a developer on becoming an effective, top-level company leader.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true') 
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/yuryc.jpg' alt='Yury. C')
-                        span.text-success Yury C. Head of Development
-                    .clearfix
-                    p.card-description
-                      | &quot;Eduards is an excellent mentor. I had the luck to work with him and he helped me a lot to shape my career. This course is a mind-blowing summary of knowledge what every professional software engineer should have.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')                                              
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/keizik.png' alt='Aleksandr K.')
-                        span.text-success Aleksandr K. Senior Developer
-                    .clearfix
-                    p.card-description
-                      | &quot;A must-have for any software development lead. Perfectly balanced information has an immediate impact on your career. Would recommend it to anyone aspiring to be a great leader.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-              .col-md-4
-                .card
-                  .card-body
-                    .author
-                      a(href='#')
-                        img.avatar.img-raised(src='/img/remi.jpg' alt='Remigijus C.')
-                        span.text-success Remigijus C. Full-stack Developer
-                    .clearfix
-                    p.card-description
-                      | &quot;A well tailored course for those who want to grow as technical leaders. I have found valuable material and real-world experience.&quot;
-                    .card-stars
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')
-                      i.fa.fa-star(aria-hidden='true')                                
+                  br
+                  br
+                  a.btn.btn-danger.btn-round(href="mailto:" + self.trainer.email) 
+                      i.fas.fa-envelope
+                      |  Request Invitation
 
-      .section.section-dark.section-image#upcoming
-        .container
-          .row
-            .col-md-8.ml-auto.mr-auto.text-center
-              h2.title Upcoming Masterclasses
-              h5.description
-                | The price will increase as the training approaches. Enroll today.
-          .space-top
-          .row
-            each offer in self.offers
-                .col-md-4
-                    .card.card-pricing.card-plain
-                        .card-body
-                            h6.card-category.text-success #{offer.city}, #{offer.country}
-                            h5 #{offer.info}
-                            h1.card-title 
-                              | &euro;#{offer.price} 
-                              span(style="text-decoration: line-through") #{offer.price + 600}
-                            ul.text-white
-                                li
-                                  i.fa.fa-check(aria-hidden='true')
-                                  |  Certificate
-                                li
-                                  i.fa.fa-check(aria-hidden='true')
-                                  |  Private Community
-                                li
-                                  i.fa.fa-check(aria-hidden='true')
-                                  |  One-on-One Mentoring
-                            .progress
-                                .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
-
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-                br
-                br
-                h2.title
-                    | Ready for the next level?
-                p.text-white 
-                    | The course is invitation-only and requires at least three years of software development experience in Agile environment. Request an invitation by sending a brief motivation letter to 
-                    a.text-white(href="mailto:" + self.trainer.email): strong=self.trainer.email
-                    |. Our team will review your application and send the registration link in 48H.
-                    br
-                    br
-                    a.btn.btn-danger.btn-round(href="mailto:" + self.trainer.email) 
-                        i.fas.fa-envelope
-                        |  Request Invitation
-
-      .section.trainer
-        .container
-          .owner
-            .name.text-center
-              h4.title
-                | Eduards Sizovs
-                br
-              h6.title
-                | Consultant, Speaker, Trainer&nbsp;
-                a(href='https://twitter.com/eduardsi')
-                  i.fab.fa-twitter
-                |&nbsp;
-                a(href='https://www.linkedin.com/in/eduardsi/')
-                  i.fab.fa-linkedin
-          .row
-            .col-md-6.ml-auto.mr-auto.text-center
-              p
-                | Eduards has been involved in commercial software development for over 15 years. He quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director.
-                | Today, Eduards is consulting C-level technical people and training senior developers, architects and engineering leaders.
-              p
-                | Eduards leads DevTernity &ndash; the top tech conference in Europe, and is the founder of a startup DevTube (#1 Hackernews, #3 ProductHunt).
-                | He is a well-known international speaker, who had spoken at the largest conferences Worldwide. Eduards is a certified enterprise architect, CSM, CSPO and ICF coach.
-              hr
-              q
-                | There are over 22 million developers worldwide and this figure is expected to rise to 26 million in 2022. My goal is to equip you with skills that will set you apart from competitors. See you at the masterclass!
-              p.text-right
-                img(src='/img/eduardsi_signature.png' style='width: 70px; filter: invert(100%);' alt='Eduards Signature')
-  // Core JS Files
-  script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
-  script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
-  script(src='https://demos.creative-tim.com/paper-kit-2-pro/assets/js/paper-kit.min.js?v=2.2.1')
-  script.
-      $(window).scroll(function(e) {
-      // add/remove class to navbar when scrolling to hide/show
-      var scroll = $(window).scrollTop();
-      if (scroll >= 150) {
-      $('.navbar').addClass("navbar-hide");
-      } else {
-      $('.navbar').removeClass("navbar-hide");
-      }
-      });
+    .section.trainer
+      .container
+        .owner
+          .name.text-center
+            h4.title
+              | Eduards Sizovs
+              br
+            h6.title
+              | Consultant, Speaker, Trainer&nbsp;
+              a(href='https://twitter.com/eduardsi')
+                i.fab.fa-twitter
+              |&nbsp;
+              a(href='https://www.linkedin.com/in/eduardsi/')
+                i.fab.fa-linkedin
+        .row
+          .col-md-6.ml-auto.mr-auto.text-center
+            p
+              | Eduards has been involved in commercial software development for over 15 years. He quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director.
+              | Today, Eduards is consulting C-level technical people and training senior developers, architects and engineering leaders.
+            p
+              | Eduards leads DevTernity &ndash; the top tech conference in Europe, and is the founder of a startup DevTube (#1 Hackernews, #3 ProductHunt).
+              | He is a well-known international speaker, who had spoken at the largest conferences Worldwide. Eduards is a certified enterprise architect, CSM, CSPO and ICF coach.
+            hr
+            q
+              | There are over 22 million developers worldwide and this figure is expected to rise to 26 million in 2022. My goal is to equip you with skills that will set you apart from competitors. See you at the masterclass!
+            p.text-right
+              img(src='/img/eduardsi_signature.png' style='width: 70px; filter: invert(100%);' alt='Eduards Signature')
+// Core JS Files
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+script(src='https://demos.creative-tim.com/paper-kit-2-pro/assets/js/paper-kit.min.js?v=2.2.1')
+script.
+    $(window).scroll(function(e) {
+    // add/remove class to navbar when scrolling to hide/show
+    var scroll = $(window).scrollTop();
+    if (scroll >= 150) {
+    $('.navbar').addClass("navbar-hide");
+    } else {
+    $('.navbar').removeClass("navbar-hide");
+    }
+    });
