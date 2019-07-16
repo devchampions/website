@@ -50,13 +50,13 @@ html(itemscope itemtype="http://schema.org/Organization")
                             img.achivement(src="/img/devchampion.png" alt="achivement")
                             strong dev
                             | champions
-                h2 Learn directly from industry influencers.
+                h2 Training for software developers.
                 input#champion(type="button" value="See courses")
         .about#about
             .container
                 h1 Hi.
                 p Do you believe that face-to-face interaction is the best way to learn? We believe it, too. 
-                p At DevChampions, we offer the highest quality training for software developers. 
+                p At DevChampions, we offer the top quality training for software developers. 
                 p We specialize, but are not limited to engineering practices, software architecture, automation and soft skills. 
                 .why
                     section.practitioners
@@ -82,7 +82,7 @@ html(itemscope itemtype="http://schema.org/Organization")
                 each training in trainings
                     section.training
                         header
-                            h2.title #{training.title}
+                            h2.title !{training.title}
                             if training.badge
                                 img(src='/img/' + training.badge + '.png' alt="Certificate")
                             if training.date
@@ -104,9 +104,9 @@ html(itemscope itemtype="http://schema.org/Organization")
                                         img(src="/img/twitter.png" alt=training.trainer.twitter)
                                     strong &nbsp;#{training.trainer.name}
                                     br
-                                    | #{training.trainer.title}
+                                    | !{training.trainer.title}
                             .description
-                                | #{training.description}
+                                | !{training.description}
                                 .actions
                                     .more
                                         if training.link

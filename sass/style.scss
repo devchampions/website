@@ -102,6 +102,9 @@ header#header {
 
   .trainer {
     text-align: center;
+    a {
+      color: $base-font-color;
+    }
     .pic {
       @include circle();
       margin-left: auto;

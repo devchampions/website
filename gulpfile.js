@@ -1,3 +1,4 @@
+
 var gulp = require('gulp'),
     connect = require('gulp-connect'),
     sass = require('gulp-sass'),
@@ -76,7 +77,7 @@ gulp.task('sass', function () {
         .pipe(connect.reload());
 });
 
-gulp.task('jade', function () {
+gulp.task('jade', async () => {
 
     var trainings = function () {
         var files = glob.sync("jade/training/*/index.json");
@@ -188,109 +189,13 @@ gulp.task('jade', function () {
             .value();
     }();
 
-    console.log("cancel.pug");
-
     gulp.src('./jade/cancel.pug')
         .pipe(gpug())
         .pipe(gulp.dest(publicDir))
         .pipe(connect.reload());
 
-    var externalTrainings = [
-      {
-        "title": "Crafting Code",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Sandro Mancuso",
-          "title": "Software Craftsman and Founder @ Codurance, author of The Software Craftsman",
-          "twitter": "sandromancuso"
-        }
-      },
-      {
-        "title": "Making Your Tests Rock",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "This workshop is designed for developers willing to learn how to write automated tests that are fast, easy to read and fun to maintain. Are you beginning your TDD and BDD journey or already practicing TDD and BDD? Whatever the case, be ready to bring your tests to the next level!",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Jakub Nabrdalik",
-          "title": "Trainer, Team Leader @ Allegro Group, ex-Head of Software Development @ 4Finance",
-          "twitter": "jnabrdalik"
-        }
-      },
-      {
-        "title": "Jedi Techniques of Personal Effectiveness",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view: “one at the expense of another”).",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Maxim Dorofeev",
-          "title": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of Jedi Techniques",
-          "twitter": "sandromancuso",
-          "avatar": "https://devternity.com/images/dorofeev.png"
-        }
-      },
-      {
-        "title": "Production-ready Serverless: Operational Best Practices",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "This course is designed to get you familiarised with the basics of AWS Lambda and the Serverless framework quickly, and then deep dive into the operational challenges with running a serverless architecture in production and the emerging patterns and practices to tackle them.",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Yan Cui",
-          "title": "Developer, Software Architect, Trainer, Author of AWS Lambda in Motion",
-          "twitter": "theburningmonk",
-          "avatar": "https://devternity.com/images/cui.png"
-        }
-      },
-      {
-        "title": "Kubernetes for Developers",
-        "date": "6-7 Dec 2019",
-        "location": "Riga, Latvia",
-        "description": "Kubernetes makes automating deployment, scaling and management of application a breeze. The goal of this intensive and practical training is to familiarise you with the core Kubernetes concepts, and equip you with enough knowledge so you can easily run and operate your own applications in Kubernetes.",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "Juris Pavlyuchenkov",
-          "title": "Trainer, Amazon Certified Solutions Architect",
-          "twitter": "jurispv",
-          "avatar": "https://devternity.com/images/pavl_vec.png"
-        }
-      },
-      {
-        "title": "Surviving Legacy Code",
-        "date": "30 Nov – 1 Dec 2018",
-        "location": "Riga, Latvia",
-        "description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. That’s what Surviving Legacy Code is about.",
-        "link": {
-          "name": "More info at DevTernity.com",
-          "href": "https://devternity.com/"
-        },
-        "trainer": {
-          "name": "J.B. Rainsberger",
-          "title": "Software Coach, Mentor and Consultant, TDD Trainer @ tdd.training",
-          "twitter": "jbrains",
-          "avatar": "https://devternity.com/images/jbrains.png"
-        }
-      }
-    ]
+    const { events } = require("./devternityEvents")    
+    const externalTrainings = await events()
 
     var trainingsVisibleOnFrontPage = _.filter(_.concat(trainings, externalTrainings), function(training) {
         return !training.landing && !training.noExposure;
@@ -299,7 +204,6 @@ gulp.task('jade', function () {
         return !training.noExposure;
     });
 
-    console.log("index.pug");
     gulp.src('./jade/index.pug')
         .pipe(gpug({
             locals: {
@@ -309,8 +213,6 @@ gulp.task('jade', function () {
         }))
         .pipe(gulp.dest(publicDir))
         .pipe(connect.reload());
-
-    console.log("trainings.pug");
 
     trainings.forEach(function(tr) {
         var html = pug.renderFile('./jade/' + tr.templateDir + '/index.pug', _.extend(tr, {

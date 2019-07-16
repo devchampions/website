@@ -34,6 +34,7 @@
     "lodash": "^4.0.0",
     "moment": "^2.11.2",
     "node-bourbon": "^4.2.8",
+    "node-fetch": "^2.6.0",
     "node-neat": "^1.7.2",
     "vinyl-buffer": "^1.0.0"
   },
