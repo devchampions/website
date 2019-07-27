@@ -156,6 +156,23 @@ header#header {
   text-align: center;
 }
 
+#logos {
+  background-color: #0F0F0B;
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    @include outer-container;
+    .jlogo {
+      @include column(2, 12);
+      img {
+        height: 50px;
+      }
+    }      
+  }
+}
+
+
+
 .photo {
   img {
     width: 100%;

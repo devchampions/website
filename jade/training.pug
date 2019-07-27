@@ -110,6 +110,7 @@ html
                         br
                         | #{self.date}, #{self.location}
                     h2
+                        br
                         a.action2(href="#offers") Book now
                         if self.travelPack
                           | &nbsp;
@@ -123,10 +124,15 @@ html
                     h2
                         a.action2(href="#offers") Book now
         main
+            if self.logos
+                #logos
+                    section
+                        each logo in self.logos
+                            .jlogo
+                                img(src='/img/' + logo alt=logo)                   
             section#description
                 .container
-                    header
-                        h2 Introduction
+                    h2 Introduction
                     article
                         block description
                         .shorties

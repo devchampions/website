@@ -6,3 +6,4 @@ tmp
 *.ipr
 *.iws
 *.log
+.DS_Store
