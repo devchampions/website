@@ -1,0 +1,27 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp > liftoff > findup-sync > micromatch > snapdragon > debug:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > extglob > snapdragon > debug:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > braces > snapdragon > debug:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-07-27T15:17:35.808Z'
+  'npm:ms:20170412':
+    - gulp > liftoff > findup-sync > micromatch > snapdragon > debug > ms:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > braces > snapdragon > debug > ms:
+        patched: '2019-07-27T15:17:35.808Z'
+    - gulp > liftoff > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2019-07-27T15:17:35.808Z'
