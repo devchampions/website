@@ -165,8 +165,9 @@
   ],
   "trainer": {
     "twitter": "codingandrey",
+    "avatar": true,
     "name": "Andrey Adamovich",
     "title": "Extreme Automator",
-    "pic": "andreyadamovich"
+    "pic": "andrey"
   }
 }
