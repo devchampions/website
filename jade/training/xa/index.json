@@ -4,32 +4,20 @@
   "customBg": "/img/adamovich_bg2.jpg",
   "ogImage": "xa_og.png",
   "keywords": "devops training, devops certification, devops conference, devops, puppet, ansible, docker, elastic stack, infrastructure provisioning, hashicorp, serverless, chatops, chat bots, slack, vagrant, continuous delivery, continuous integration, agile, linux containers, gitops, sdn, kubernetes, sdx, lean, noops",
-  "metaDescription": "This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives.",
-  "description": "This 2-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop.",
+  "metaDescription": "This 3-day workshop focuses on solving challenges that organizations face when implementing DevOps initiatives.",
+  "description": "This 3-day workshop focuses on solving challenges that organizations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop.",
   "audience": "Developers, software architects, technical project managers, system administrators.",
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "location": "Riga, Latvia",
-  "date": "27-28 May 2019",
+  "location": "online",
+  "date": "28-29-30 October 2019",
   "landings": {
     "dates": [
       {
-        "date": "28-29 Sep 2018",
+        "date": "28-29-30 October 2019",
         "main": true
-      },
-      {
-        "date": "25-26 Oct 2018",
-        "main": true
-      },
-      {
-        "date": "22-23 Nov 2018",
-        "main": true
-      },
-      {
-        "date": "06-07 Dec 2018",
-        "main": true
-      }
+      }      
     ],
     "locations": [
       {
@@ -63,7 +51,7 @@
         "location": "Brussels, Belgium"
       },
       {
-        "location": "Antwerpen, Belgium"
+        "location": "Antwerp, Belgium"
       },
       {
         "location": "Luxembourg, Luxembourg"
@@ -145,22 +133,22 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 799,
-      "originalPrice": 1199
+      "price": 499,
+      "originalPrice": 699
     },
     {
       "name": "Teammates",
       "info": "2+ people from the same company. Best deal 🚀 ",
-      "price": 699,
-      "originalPrice": 1199
+      "price": 399,
+      "originalPrice": 599
     },
     {
       "name": "On-premises",
       "onPrem": true,
       "info": "Exclusively for your company",
-      "price": 5000,
-      "originalPrice": 6800,
-      "book": "https://devchampions.typeform.com/to/fNFSNh"
+      "price": 6000,
+      "originalPrice": 7500,
+      "book": "https://devchampions.typeform.com/to/BPIxyv"
     }
   ],
   "trainer": {
