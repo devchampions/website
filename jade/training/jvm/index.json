@@ -26,7 +26,7 @@
 	],
 	"trainer": {
 		"twitter": "codingandrey",
-		"avatar": true,
+    "avatar": "/img/trainers/andrey.png",
 		"name": "Andrey Adamovich",
 		"title": "Java Expert",
 		"pic": "andrey"

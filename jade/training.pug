@@ -170,7 +170,7 @@ html
                         section
                             .trainer
                                 if self.trainer.avatar
-                                    img.face(src='/img/trainers/' + self.trainer.pic + '.png')
+                                    img.face(src=self.trainer.avatar)
                                 else 
                                     img.face(src='https://avatars.io/twitter/' + self.trainer.twitter)
                                 block trainer
