@@ -3,6 +3,8 @@
     "Adamovich",
     "Automator",
     "Grafana",
+    "Linkerd",
+    "Pulumi",
     "Ternity",
     "andrey",
     "andreyadamovich",
@@ -10,6 +12,7 @@
     "codingandrey",
     "devops",
     "gitops",
+    "idempotence",
     "kubernetes",
     "noops"
   ]
