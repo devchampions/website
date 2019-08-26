@@ -18,7 +18,7 @@ html
         meta(property="dc:date" content=self.date)
         meta(property="dc:title" content=self.title)            
         each offer in self.offers
-          meta(property="dc:price" content=offer.name + (offer.info ? ' (' + offer.info + ')' : '') + ',' + offer.price)
+            meta(property="dc:price" content=offer.name + (offer.info ? ' (' + offer.info + ')' : '') + ',' + offer.price)
 
         meta(property="dc:location" content=self.location)
 
