@@ -123,9 +123,14 @@
     "kubernetes",
     "gitops",
     "devops",
+    "helm",    
+    "terraform",        
+    "grafana",            
+    "prometheus",                
     "puppet",
     "ansible",
     "docker",
+    "packer",    
     "vagrant",
     "elk"
   ],
@@ -133,13 +138,13 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 399,
+      "price": 499,
       "originalPrice": 699
     },
     {
       "name": "Teammates",
       "info": "3+ people from the same company. Best deal 🚀",
-      "price": 299,
+      "price": 399,
       "originalPrice": 599
     },
     {
