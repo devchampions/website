@@ -14,8 +14,11 @@
    viewBox="0 0 571.49998 285.75001"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="xa_og.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="xa_og.svg"
+   inkscape:export-filename="E:\Work\PARTNERS\DEVCHAMPIONS\devchampions_web\img\xa_og.png"
+   inkscape:export-xdpi="95"
+   inkscape:export-ydpi="95">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25555556"
-     inkscape:cx="1123.2141"
+     inkscape:cx="456.0402"
      inkscape:cy="682.61101"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -115,7 +118,7 @@
          x="288.67102"
          y="166.68762"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.4654566"
-         id="tspan860">2-DAY WORKSHOP FOR DEVELOPERS </tspan><tspan
+         id="tspan860">3-DAY WEBINAR FOR DEVELOPERS </tspan><tspan
          sodipodi:role="line"
          x="285.871"
          y="190.59958"
@@ -160,7 +163,7 @@
          id="tspan889"
          x="424.48367"
          y="247.86781"
-         style="stroke-width:0.26458332"></tspan><tspan
+         style="stroke-width:0.26458332" /><tspan
          sodipodi:role="line"
          x="424.48367"
          y="261.09698"
