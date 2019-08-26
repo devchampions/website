@@ -27,6 +27,7 @@ header#header {
 }
 
 #description {
+  
   color: white;
   @include sexy-gradient;
 
@@ -54,6 +55,39 @@ header#header {
   h4 {
     margin-left: 1em;
   }
+
+}
+
+#outline {
+  
+  color: white;
+  @include sexy-gradient-green;
+
+  article {
+    @include media($tablet) {
+      text-align: center;
+    }
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  h2 {
+    margin-top: 1.5em;
+  }
+  h3 strong {
+    font-weight: bold;
+  }
+
+  h4 {
+    margin-left: 1em;
+  }
+
 }
 
 .training {

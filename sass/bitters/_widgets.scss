@@ -57,6 +57,11 @@
   background-image: linear-gradient(60deg, $dark-blue 50%, $light-blue 50%);
 }
 
+@mixin sexy-gradient-green {
+  background-image: linear-gradient(60deg, $dark-green 50%, $light-green 50%);
+}
+
+
 @mixin circle {
     @include border-left-radius(100%);
     @include border-right-radius(100%);
