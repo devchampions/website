@@ -2,13 +2,12 @@
 
 This 3-day ⚡ online workshop focuses on solving challenges that organizations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like AWS/GCP, Ansible, Terraform, Docker, Kubernetes, Helm, Prometheus, Grafana, Linkerd, KNative, Serverless and many others are given during this workshop.
 
-🚀 Real-life use cases, modern infrastructure, CI/CD/GitOps principles shown in practice - join from the convenience of your office or home 💺.
-
 Seats are limited ❗❗
 
 ## Highlights
 
-**Unique content**
+🚀 **Unique content** - *real-life use cases, modern infrastructure, CI/CD/GitOps principles shown in practice.*
+💺 **Join from the convenience of your office or home.**
 🎙️ **Live and interactive** - *you can ask questions in the chat and get live clarifications.*
 ⁉️️  **Q&A session in the end of each day** - *you will to get answers to more complex questions in a 1-hour long Q&A session.*
 📦 **Modular structure** - *you can to skip one or two modules, but still be effective in the rest of the course.*
@@ -28,10 +27,10 @@ Register here: <https://devchampions.com/training/xa/>
 
 09:00 - 10:00 - Module 01: introduction to DevOps, infrastructure as code, immutable infrastructure, idempotence principle, delivery pipelines, GitOps
 10:10 - 11:00 - Module 02: managing virtual/cloud resources with IaC, tooling overview, building first infrastructure configuration pipeline with Terraform
-11:10 - 12:00 - Module 03: managing multi-cloud resources with Terraform and Terraform modules
+11:10 - 12:00 - Module 03: managing multi-cloud/multi-data-center resources with Terraform and Terraform modules
 12:00 - 13:00 - Lunch break
 13:00 - 14:00 - Module 04: integrating with classic server provisioning tools like Ansible
-14:10 - 15:00 - Module 05: dynamic inventories, network management, building complex infrastructure delivery pipelines
+14:10 - 15:00 - Module 05: dynamic inventories, network management, building complex infrastructure delivery pipelines, organizing team work
 15:10 - 16:00 - Module 06: managing base machine images with Packer
 16:10 - 17:00 - Q&A session, feedback collection
 
