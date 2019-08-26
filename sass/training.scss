@@ -60,6 +60,7 @@ header#header {
 
 #details {
   
+  text-align: left;
   color: white;
   @include sexy-gradient-green;
 
@@ -81,9 +82,13 @@ header#header {
     margin-top: 1.5em;
   }
 
+  h3 {
+    font-size: 1.3em;
+  }
+
   h3 strong {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   h4 {
