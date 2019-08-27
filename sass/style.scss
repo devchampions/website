@@ -7,7 +7,7 @@ header#header {
   @include header();
 
   .logo {
-    .achivement {
+    .achievement {
       position: relative;
       top: 30px;
       @include media($mobile) {
@@ -117,7 +117,7 @@ header#header {
     @include media($mobile) {
       text-align: center;
     }
-    img.achivement {
+    img.achievement {
       position: relative;
       top: 20px;
       @include media($mobile) {
@@ -127,7 +127,6 @@ header#header {
     h2 {
       display: inline;
       position: relative;
-      margin-bottom: 10px;
       @include media($mobile) {
         display: block;
         font-size: 1.5em;
