@@ -2,6 +2,10 @@
 @import "trainers.css";
 @import "message.css";
 
+#header {
+  @include header;
+}
+
 header {
   color: $base-dark-font-color;
   text-align: center;
