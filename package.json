@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/devchampions/website"
   },
+  "scripts": {
+    "start": "gulp connect build watch"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "city-timezones": "^1.0.3",

@@ -2,8 +2,24 @@
 @import "trainers.css";
 @import "message.css";
 
-header#header {
-  @include header();
+header {
+  color: $base-dark-font-color;
+  text-align: center;
+  #video {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    width: 100%;
+    z-index: -10;
+    @media (max-width: 1400px) {
+      width: auto;
+      height: 100%;
+    }             
+  }
+
   h1 a {
     padding: 10px;
     background: rgba(1, 1, 1, 0.5);
@@ -14,6 +30,9 @@ header#header {
   @include outer-container;
   padding: 50px;
   h1 {
+    @include media($mobile) {
+      font-size: 40px;
+    }      
     text-align: center;
   }
 }
@@ -26,16 +45,18 @@ header#header {
   }
 }
 
+article, h2, .quote, .trainer, .shorty {
+  p, li, blockquote, .roundy {
+    @include media($mobile) {
+      font-size: 20px;
+    }      
+  }
+}
+
 #description {
   
   color: white;
   @include sexy-gradient;
-
-  article {
-    @include media($tablet) {
-      text-align: center;
-    }
-  }
 
   .strike {
     text-decoration: line-through;
@@ -210,14 +231,13 @@ header#header {
 }
 
 #logos {
-  background-color: #0F0F0B;
   section {
-    padding-top: 30px;
-    padding-bottom: 30px;
     text-align: center;
     @include outer-container;
     .jlogo {
-      @include column(2, 12);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      @include column(2, 12, 2);
       img {
         @include media($tablet) {
           max-height: 30px;
@@ -286,6 +306,7 @@ img.grayscale:hover {
 
     .price {
       @include roundy(#FFF, #5E98BA, #5E98BA);
+      width: 220px; height: 220px; font-size: 50px;
       margin-bottom: 50px;
     }
   }
