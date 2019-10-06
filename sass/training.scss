@@ -33,9 +33,9 @@ header {
 .container {
   @include outer-container;
   padding: 50px;
-  h1 {
+  h1, h2 {
     @include media($mobile) {
-      font-size: 40px;
+      font-size: 20px;
     }      
     text-align: center;
   }
