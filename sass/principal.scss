@@ -738,9 +738,7 @@
     overflow: hidden;
     box-shadow: 0 -3px 8px rgba(0,0,0,0);
 }
-.presentation .section-images .card-image .image{
-/*     border-radius: 6px; */
-}
+
 @media (max-width: 1200px){
     .presentation .section-images .image img{
         width: 100%;
@@ -761,18 +759,6 @@
     content: "";
     right: -7px;
     top: 0;
-}
-.presentation .info li{
-    padding: 5px 0;
-    border-bottom: 1px solid #E5E5E5;
-    color: #666666;
-}
-.presentation .info ul{
-    width: 240px;
-    margin: 10px auto;
-}
-.presentation .info li:last-child{
-    border: 0;
 }
 
 /*      layer animation          */
@@ -854,16 +840,14 @@
     display: none;
   }
 }
-.info li{
-    padding: 5px 0;
-    border-bottom: 1px solid #E5E5E5;
-    color: #666666;
+.info li {
+    list-style: none;
+    // text-align: left;
 }
-.info ul{
-    width: 240px;
-    margin: 10px auto;
+.info ul {
+    padding: 0;
 }
-.info li:last-child{
+.info li:last-child {
     border: 0;
 }
 .payment-methods i {
@@ -875,7 +859,21 @@
     font-size: 18px;
     line-height: 38px;
 }
-.info .description .btn{
+.info li {
+    color: #9a9a9a
+}
+
+.info li:before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    left: -0.5em;
+    position: relative;
+    color: #f5593d;
+    opacity: 0.5;
+  }
+
+.info .description .btn {
     width: 240px;
     font-weight: 500;
 }
