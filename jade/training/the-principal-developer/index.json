@@ -9,11 +9,25 @@
   "date": "Multiple dates",
   "offers": [
     {
+      "city": "Riga",
+      "country": "Latvia",
+      "info": "23-24 Apr 2020",
+      "price": 999,
+      "bookedPercent": 100
+    },    
+    {
+      "city": "London",
+      "country": "UK",
+      "info": "7-8 May 2020",
+      "price": 999,
+      "bookedPercent": 100
+    },
+    {
       "city": "Berlin",
       "country": "Germany",
       "info": "28-29 Sep 2020",
       "price": 999,
-      "bookedPercent": 60
+      "bookedPercent": 100
     }
   ],
 	"trainer": {

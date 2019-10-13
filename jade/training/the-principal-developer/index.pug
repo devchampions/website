@@ -360,9 +360,8 @@ html(lang='en')
               | The price will increase as the training approaches. Enroll today.
         .space-top
         .row
-          .col-md-3
           each offer in self.offers
-              .col-md-6
+              .col-md-4
                   .card.card-pricing.card-plain
                       .card-body
                           h6.card-category.text-success #{offer.city}, #{offer.country}
@@ -384,9 +383,11 @@ html(lang='en')
                               .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
                           br
                           br
-                          a.btn.btn-danger.btn-round(href=self.typeform) Join the group                              
-          .col-md-3
-
+                          a.btn.btn-danger.btn-round.disabled(href=self.typeform) Sold out    
+          .col-md-4
+          .col-md-4
+            h6.description(style="text-align:center") Ask me to organize a private training.
+          .col-md-4
     .section.trainer
       .container
         .owner
