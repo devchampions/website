@@ -118,7 +118,7 @@
   ],
   "twitter": "codingandrey",
   "badge": "",
-  "book": "https://devchampions.typeform.com/to/BPIxyv",
+  "book": "https://extremeautomation.typeform.com/to/ii372t",
   "tags": [
     "kubernetes",
     "gitops",
@@ -138,13 +138,13 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 399,
+      "price": 499,
       "originalPrice": 599
     },
     {
       "name": "Teammates",
       "info": "3+ people from the same company. Best deal 🚀",
-      "price": 299,
+      "price": 399,
       "originalPrice": 499
     },
     {
@@ -152,8 +152,7 @@
       "onPrem": true,
       "info": "Exclusively for your company",
       "price": 6000,
-      "originalPrice": 7500,
-      "book": "https://devchampions.typeform.com/to/fNFSNh"
+      "originalPrice": 7500
     }
   ],
   "trainer": {
