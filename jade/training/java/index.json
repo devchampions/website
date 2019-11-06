@@ -1,8 +1,9 @@
 {
-	"customBg": "/img/sizovs_bg.jpg",
-	"title": "Awesome Java Architecture for Developers",
-	"location": "Riga, Latvia",
-	"date": "26–27 Sep 2019",
+	"customBgVideo": "/coding.mp4",
+	"title": "Effective Java Software Design",
+	"location": "Berlin, Germany",
+	"noAvatar": true,
+	"date": "24–25 Sep 2020",
   	"ogImage": "effective-java-software-design.png",
 	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference, clean code rules, writing clean code",
 	"metaDescription": "Training on building modern, clean and maintainable enterprise applications using up to date Java architecture techniques, frameworks and secret gems. ",
@@ -13,7 +14,7 @@
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
 	"javaVersion": 13,
-	"book": "https://devchampions.typeform.com/to/ULhC14",
+	"book": "https://sizovs.typeform.com/to/b7BYVl",
 	"tags": [ ],
 	"logos": [
 		"java_logo.png",
@@ -26,7 +27,7 @@
 	"editions": [
 		{
 		  "url": "training/java",
-		  "title": "Awesome Java Architecture for Developers"
+		  "title": "Effective Java Software Design"
 		},
 		{
 		  "url": "training/effective-java-software-design",
@@ -38,22 +39,18 @@
 		{
 			"name": "Superhero",
 			"info": "Single person",
-			"price": 799,
-			"originalPrice": 1199
-		  },
-		  {
+			"price": 999,
+			"originalPrice": 1499
+		},
+		{
 			"name": "Teammates",
 			"info": "2+ people from the same company. Best deal 🚀 ",
-			"price": 699,
-			"originalPrice": 1199
-		  },    
-		  {
-			"name": "On-premises",
-			"onPrem": true,
-			"info": "Exclusively for your company",
-			"price": 4800,
-			"originalPrice": 6800
-		  }
+			"price": 799
+		},    
+		{
+			"name": "Private Training",
+			"onPrem": true
+		}
 	],
 	"trainer": {
 		"twitter": "eduardsi",

@@ -33,13 +33,6 @@ html
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
         link(rel="stylesheet" href="/css/training.css")
         script(src="/js/main.js")
-        if self.customBg
-            style
-                | header#header {
-                |    background-image: url(#{self.customBg});
-                |    background-position: right center;
-                | }
-
         script(type="application/ld+json")
           | {
           |   "@context": "http://schema.org",
@@ -89,7 +82,9 @@ html
           script(src="/js/main.js")               
     body        
         include facebook.pug
-        header#header
+        header
+            video#video(autoplay loop playsinline muted)
+                source(src="/coding.mp4" type="video/mp4")        
             .container
                 .menu
                     a(href="/") ← To training course list
@@ -169,10 +164,11 @@ html
                             h1.title Trainer
                         section
                             .trainer
-                                if self.trainer.avatar
-                                    img.face(src=self.trainer.avatar)
-                                else 
-                                    img.face(src='https://avatars.io/twitter/' + self.trainer.twitter)
+                                unless self.noAvatar
+                                    if self.trainer.avatar
+                                        img.face(src='/img/trainers/' + self.trainer.pic + '.png')
+                                    else 
+                                        img.face(src='https://avatars.io/twitter/' + self.trainer.twitter)
                                 block trainer
             if self.address
                 section#location
@@ -202,22 +198,19 @@ html
                                     h3 #{offer.info}
                                 else
                                     h3 &nbsp;
-                                .price(style="width: 220px; height: 220px; font-size: 50px")
-                                    .child
-                                      if offer.originalPrice 
-                                        span(style="text-decoration: line-through") #{offer.price + offer.originalPrice ? offer.originalPrice : 200}
-                                      |&nbsp;#{offer.price}€
-                                if self.travelPack && !offer.onPrem
-                                  h3 
-                                    i.fa.fa-plane
-                                    |  Flight to #{self.location} within EU
-                                    br
-                                    i.fa.fa-home 
-                                    |  2 night stay in a great hotel 
-                                    br
-                                    b +300€
-                                .actions
-                                    a.action(href=offer.book ? offer.book : self.book) Book now
+                                if offer.price
+                                    .price
+                                        .child
+                                            if offer.originalPrice 
+                                                span(style="text-decoration: line-through") #{offer.price + offer.originalPrice ? offer.originalPrice : 200}
+                                            |&nbsp;#{offer.price}€
+                                    .actions
+                                        a.action(href=offer.book ? offer.book : self.book) Book now
+                                else
+                                    .price
+                                        .child ?
+                                    .actions
+                                        a.action(href="mailto:hello@devchampions.com?subject=How much") Ask for the price
                         else
                             .polyfill &nbsp;
                 block message

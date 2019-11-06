@@ -5,28 +5,29 @@
 	"metaDescription": "The Principal Developer is invitation-only, two-day long masterclass for senior developers, team leaders and software architects. We build traits, habits and skills that technical people need to succeed at senior-level positions.",
 	"description": "The Principal Developer is invitation-only, two-day long masterclass for senior developers, team leaders and software architects. We build traits, habits and skills that technical people need to succeed at senior-level positions.",
   "location": "Multiple locations",
+  "typeform": "https://sizovs.typeform.com/to/Wg8xbW",
   "date": "Multiple dates",
   "offers": [
     {
       "city": "Riga",
       "country": "Latvia",
-      "info": "3-4 Oct 2019",
-      "price": 900,
-      "bookedPercent": 20
-    },
-    {
-      "city": "London",
-      "country": "UK",
-      "info": "12-13 September 2019",
-      "price": 1200,
+      "info": "23-24 Apr 2020",
+      "price": 999,
       "bookedPercent": 100
     },    
     {
-      "city": "Stockholm",
-      "country": "Sweden",
-      "info": "19-20 September 2019",
-      "price": 1200,
-      "bookedPercent": 50
+      "city": "London",
+      "country": "UK",
+      "info": "7-8 May 2020",
+      "price": 999,
+      "bookedPercent": 100
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "info": "28-29 Sep 2020",
+      "price": 999,
+      "bookedPercent": 100
     }
   ],
 	"trainer": {
