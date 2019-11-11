@@ -198,7 +198,7 @@ html
                                     h3 #{offer.info}
                                 else
                                     h3 &nbsp;
-                                if offer.price
+                                unless offer.onPrem
                                     .price
                                         .child
                                             if offer.originalPrice 
