@@ -11,12 +11,15 @@
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
   "location": "online",
-  "date": "28-29-30 October 2019",
+  "date": "30-31-1 March-April 2020",
   "landings": {
     "dates": [
       {
-        "date": "28-29-30 October 2019",
+        "date": "30-31-1 March-April 2020",
         "main": true
+      },
+      {
+        "date": "24–25 Sep 2020"
       }      
     ],
     "locations": [
@@ -138,14 +141,14 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 499,
-      "originalPrice": 599
+      "price": 599,
+      "originalPrice": 699
     },
     {
       "name": "Teammates",
       "info": "3+ people from the same company. Best deal 🚀",
-      "price": 399,
-      "originalPrice": 499
+      "price": 499,
+      "originalPrice": 599
     },
     {
       "name": "On-premises",
