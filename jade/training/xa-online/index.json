@@ -1,8 +1,8 @@
 {
-  "title": "eXtreme Automation (DevOps Masterclass)",
+  "title": "eXtreme Automation (online)",
   "subtitle": "DevOps Masterclass",
   "customBg": "/img/adamovich_bg2.jpg",
-  "ogImage": "xa_og_4.png",
+  "ogImage": "xa_og_2.png",
   "keywords": "devops training, devops certification, devops conference, devops, ansible, docker, elastic stack, infrastructure provisioning, hashicorp, serverless, chatops, chat bots, slack, vagrant, continuous delivery, continuous integration, agile, linux containers, gitops, sdn, kubernetes, sdx, lean, noops",
   "metaDescription": "This 3-day online workshop introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like AWS/GCP, Ansible, Terraform, Docker, Kubernetes, Helm, Prometheus, Grafana, Linkerd, KNative, Serverless and many others are given during this workshop.",
   "description": "This 3-day ⚡ online workshop focuses on solving challenges that organizations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like AWS/GCP, Ansible, Terraform, Docker, Kubernetes, Helm, Prometheus, Grafana, Linkerd, KNative, Serverless and many others are given during this workshop.",
@@ -10,20 +10,108 @@
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "location": "Berlin, Germany",
-  "date": "24-25 Sep 2020",
+  "location": "online",
+  "date": "30-31-1 March-April 2020",
+  "landings": {
+    "dates": [
+      {
+        "date": "30-31-1 March-April 2020",
+        "main": true
+      }      
+    ],
+    "locations": [
+      {
+        "location": "Berlin, Germany"
+      },
+      {
+        "location": "Frankfurt, Germany"
+      },
+      {
+        "location": "Hamburg, Germany"
+      },
+      {
+        "location": "Cologne, Germany"
+      },
+      {
+        "location": "Düsseldorf, Germany"
+      },
+      {
+        "location": "Munich, Germany"
+      },
+      {
+        "location": "Vienna, Austria"
+      },
+      {
+        "location": "Zürich, Switzerland"
+      },
+      {
+        "location": "Geneva, Switzerland"
+      },
+      {
+        "location": "Brussels, Belgium"
+      },
+      {
+        "location": "Antwerpen, Belgium"
+      },
+      {
+        "location": "Luxembourg, Luxembourg"
+      },
+      {
+        "location": "Warsaw, Poland"
+      },
+      {
+        "location": "Kraków, Poland"
+      },
+      {
+        "location": "Prague, Czech Republic"
+      },
+      {
+        "location": "Brno, Czech Republic"
+      },
+      {
+        "location": "Budapest, Hungary"
+      },
+      {
+        "location": "Sofia, Bulgaria"
+      },
+      {
+        "location": "Istanbul, Turkey"
+      },
+      {
+        "location": "Stockholm, Sweden"
+      },
+      {
+        "location": "Malmö, Sweden"
+      },
+      {
+        "location": "Helsinki, Finland"
+      },
+      {
+        "location": "Oslo, Norway"
+      },
+      {
+        "location": "Copenhagen, Denmark"
+      },
+      {
+        "location": "Lódz, Poland"
+      },
+      {
+        "location": "Ljubljana, Slovenia"
+      }
+    ]
+  },
   "editions": [
     {
-      "url": "training/xa",
+      "url": "training/xa-online",
       "title": "eXtreme Automation"
     },
     {
-      "url": "training/devops",
+      "url": "training/devops-online",
       "title": "DevOps Masterclass",
       "noExposure": true
     },
     {
-      "url": "training/sre",
+      "url": "training/sre-online",
       "title": "Effective Operations and Site Reliability",
       "noExposure": true
     }
@@ -50,13 +138,14 @@
     {
       "name": "Superhero",
       "info": "Single person",
-			"price": 999,
-			"originalPrice": 1499
+      "price": 599,
+      "originalPrice": 699
     },
     {
-			"name": "Teammates",
-			"info": "2+ people from the same company. Best deal 🚀 ",
-			"price": 799
+      "name": "Teammates",
+      "info": "3+ people from the same company. Best deal 🚀",
+      "price": 499,
+      "originalPrice": 599
     },
     {
       "name": "On-premises",
