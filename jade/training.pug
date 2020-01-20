@@ -205,7 +205,13 @@ html
                                                 span(style="text-decoration: line-through") #{offer.price + offer.originalPrice ? offer.originalPrice : 200}
                                             |&nbsp;#{offer.price}€
                                     .actions
-                                        a.action(href=offer.book ? offer.book : self.book) Book now
+                                        if offer.soldOut
+                                            a.button.disabled Sold out
+                                            br
+                                            br
+                                            | Ask me to organize a private training via #{self.trainer.email}
+                                        else
+                                            a.action(href=offer.book ? offer.book : self.book) Book now
                                 else
                                     .price
                                         .child ?
