@@ -103,7 +103,10 @@ html
                         i.fa.fa-star(aria-hidden="true")
                         br
                         br
-                        | #{self.date}, #{self.location}
+                        if self.subtitle
+                            | #{self.subtitle}
+                        else
+                            | #{self.date}, #{self.location}
                     h2
                         br
                         a.action2(href="#offers") Book now

@@ -1,9 +1,10 @@
 {
 	"customBgVideo": "/coding.mp4",
 	"title": "Effective Java Software Design",
-	"location": "Berlin, Germany",
+	"subtitle": "Boost your Java coding skills.",
+	"location": "Multiple locations",
 	"noAvatar": true,
-	"date": "24–25 Sep 2020",
+	"date": "Multiple dates",
   "ogImage": "effective-java-software-design.png",
 	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference, clean code rules, writing clean code",
 	"metaDescription": "Training on building modern, clean and maintainable enterprise applications using up to date Java architecture techniques, frameworks and secret gems. ",
