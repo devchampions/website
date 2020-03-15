@@ -178,7 +178,7 @@ html
                 .container
                     section.training
                         header
-                            h1.title Trainer
+                            h1.title(style="color: black;") Trainer
                         section
                             .trainer
                                 if self.trainer.avatar
@@ -205,7 +205,7 @@ html
             section#offers
                 .container
                     header
-                        h1 Limited offer. Grab your ticket today.
+                        h1(style="color: black;") Limited offer. Grab your ticket today.
                     each offer, no in self.offers
                         if offer.name
                             .offer
