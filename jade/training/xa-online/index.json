@@ -138,20 +138,20 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 599,
-      "originalPrice": 699
+      "price": 499,
+      "originalPrice": 599
     },
     {
       "name": "Teammates",
       "info": "3+ people from the same company. Best deal 🚀",
-      "price": 499,
-      "originalPrice": 599
+      "price": 399,
+      "originalPrice": 499
     },
     {
       "name": "On-premises",
       "onPrem": true,
       "info": "Exclusively for your company",
-      "price": 6000,
+      "price": 6500,
       "originalPrice": 7500
     }
   ],
