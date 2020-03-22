@@ -8,7 +8,9 @@
     "url": "https://github.com/devchampions/website"
   },
   "scripts": {
-    "start": "gulp connect build watch"
+    "start": "gulp connect build watch",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -39,10 +41,12 @@
     "node-bourbon": "^4.2.8",
     "node-fetch": "^2.6.0",
     "node-neat": "^1.7.2",
-    "vinyl-buffer": "^1.0.0"
+    "vinyl-buffer": "^1.0.0",
+    "snyk": "^1.251.0"
   },
   "devDependencies": {
     "gulp-flatmap": "^1.0.2",
     "pug": "^2.0.0-rc.4"
-  }
+  },
+  "snyk": true
 }
