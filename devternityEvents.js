@@ -2,9 +2,10 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 
 async function fetchLatest() {
-    const response = await fetch('https://devternity.com/js/event.js')
-    const json = await response.json()
-    return json
+    const unique = Math.ceil(Math.random() * 10);
+    const response = await fetch('https://devternity.com/js/event.js?=' + unique);
+    const json = await response.json();
+    return json;
 };
 
 
