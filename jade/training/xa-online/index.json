@@ -11,11 +11,15 @@
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
   "location": "online",
-  "date": "30-31-1 March-April 2020",
+  "date": "20-22 April 2020",
   "landings": {
     "dates": [
       {
         "date": "30-31-1 March-April 2020",
+        "main": false
+      },
+      {
+        "date": "20-22 April 2020",
         "main": true
       }      
     ],
