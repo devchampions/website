@@ -155,8 +155,8 @@
       "name": "On-premises",
       "onPrem": true,
       "info": "Exclusively for your company",
-      "price": 6500,
-      "originalPrice": 7500
+      "price": 7500,
+      "originalPrice": 9000
     }
   ],
   "trainer": {
