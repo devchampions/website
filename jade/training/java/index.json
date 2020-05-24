@@ -1,7 +1,7 @@
 {
 	"customBgVideo": "/coding.mp4",
-	"title": "Effective Java Software Design",
-	"subtitle": "Boost your Java coding skills.",
+	"title": "Effective Coding Principles and Patterns in Java 14",
+	"subtitle": "Level-up your Java coding skills.",
 	"location": "Multiple locations",
 	"noAvatar": true,
 	"date": "Multiple dates",
@@ -14,7 +14,7 @@
 	"certificateImage": "java-certificate.png",
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
-	"javaVersion": 13,
+	"javaVersion": 14,
 	"book": "https://sizovs.typeform.com/to/b7BYVl",
 	"tags": [ ],
 	"logos": [
@@ -25,17 +25,6 @@
 		"junit5.png",
 		"idea.png"
 	],
-	"editions": [
-		{
-		  "url": "training/java",
-		  "title": "Effective Java Software Design"
-		},
-		{
-		  "url": "training/effective-java-software-design",
-		  "title": "Effective Java Software Design",
-		  "noExposure": true
-		}
-	  ],	
 	"offers": [
 		{
 			"name": "Riga, Latvia",
