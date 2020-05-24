@@ -11,17 +11,18 @@
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
   "location": "online",
-  "date": "20-22 April 2020",
+  "date": "1-3 July 2020",
   "landings": {
     "dates": [
       {
-        "date": "30-31-1 March-April 2020",
-        "main": false
+        "date": "1-3 July 2020",
+        "main": true
       },
       {
-        "date": "20-22 April 2020",
+        "date": "28-30 September 2020",
         "main": true
       }      
+
     ],
     "locations": [
       {
@@ -55,7 +56,7 @@
         "location": "Brussels, Belgium"
       },
       {
-        "location": "Antwerpen, Belgium"
+        "location": "Antwerp, Belgium"
       },
       {
         "location": "Luxembourg, Luxembourg"

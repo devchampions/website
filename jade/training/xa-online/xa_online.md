@@ -6,18 +6,18 @@ Seats are limited ❗❗
 
 ## Highlights
 
-🚀 **Unique content** - *real-life use cases, modern infrastructure, CI/CD/GitOps principles shown in practice.*
-💺 **Join from the convenience of your office or home.**
-🎙️ **Live and interactive** - *you can ask questions in the chat and get live clarifications.*
-⁉️️  **Q&A session in the end of each day** - *you will to get answers to more complex questions in a 1-hour long Q&A session.*
-📦 **Modular structure** - *you can to skip one or two modules, but still be effective in the rest of the course.*
-🛠️ **Practical exercises with solutions** - *lots of simple and not-so-simple tasks to practice with during the course; Solutions will be provided afterwards.*
-📹 **Video recordings will be available after the course** - *you can revisit some topics later.*
-🏡 **Additional home work** - *for those who want to practice more after the course; Homework will be reviewed and supplemented by constructive feedback.*
-✉️ **Lifetime e-mail support** - *you can get answers on anything related to the course content as well as advice based on your company specific situation*
-📊 **Quizzes and polls during the course** - *learning should be fun.*
-🏅 **Certificate of attendance** - *you will get a shareable online certificate.*
-🎓 (Optional) **1-hour exam after the course** - *you can pass an exam and get your score printed on the certificate.*
+**Unique content** - *real-life use cases, modern infrastructure, CI/CD/GitOps principles shown in practice.*
+**Join from the convenience of your office or home.**
+**Live and interactive** - *you can ask questions in the chat and get live clarifications.*
+**Q&A session in the end of each day** - *you will to get answers to more complex questions in a 1-hour long Q&A session.*
+**Modular structure** - *you can to skip one or two modules, but still be effective in the rest of the course.*
+**Practical exercises with solutions** - *lots of simple and not-so-simple tasks to practice with during the course; Solutions will be provided afterwards.*
+**Video recordings will be available after the course** - *you can revisit some topics later.*
+**Additional home work** - *for those who want to practice more after the course; Homework will be reviewed and supplemented by constructive feedback.*
+**Lifetime e-mail support** - *you can get answers on anything related to the course content as well as advice based on your company specific situation*
+**Quizzes and polls during the course** - *learning should be fun.*
+**Certificate of attendance** - *you will get a shareable online certificate.*
+(Optional) **1-hour exam after the course** - *you can pass an exam and get your score printed on the certificate.*
 
 Register here: <https://devchampions.com/training/xa/>
 
