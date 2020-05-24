@@ -117,6 +117,9 @@ html
                         br
                         br
                         | #{self.date}, #{self.location}
+                        if self.startingTime
+                            br
+                            | #{self.startingTime}
                     h2
                         br
                         a.action2(href="#offers") Book now
