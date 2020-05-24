@@ -115,12 +115,15 @@ html
                         br
                         br
                         | #{self.date}, #{self.location}
+                        if self.startingTime
+                            br
+                            | #{self.startingTime}
                     h2
                         br
                         a.action2(href="#offers") Book now
                         if self.travelPack
-                          | &nbsp;
-                          a.action2(href="#offers") Book now with travel
+                            | &nbsp;
+                            a.action2(href="#offers") Book now with travel
                 else
                     h2 #{self.location}
                 if self.locations
