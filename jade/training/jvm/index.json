@@ -17,16 +17,16 @@
 		{},
 		{
 			"name": "On-premises",
-      "onPrem": true,
-      "info": "Exclusively for your company",
+            "onPrem": true,
+            "info": "Exclusively for your company",
 			"price": 5000,
-      "originalPrice": 6800
+            "originalPrice": 6800
 		},
 		{}
 	],
 	"trainer": {
 		"twitter": "codingandrey",
-    "avatar": "/img/trainers/andrey.png",
+        "avatar": "/img/trainers/andrey.png",
 		"name": "Andrey Adamovich",
 		"title": "Java Expert",
 		"pic": "andrey"
