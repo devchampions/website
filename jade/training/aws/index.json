@@ -1,0 +1,61 @@
+{
+  "title": "eXtreme Automation (online)",
+  "subtitle": "DevOps Masterclass",
+  "customBg": "/img/adamovich_bg4.jpg",
+  "ogImage": "aws2_og.png",
+  "keywords": "devops training, devops certification, devops conference, devops, ansible, docker, elastic stack, infrastructure provisioning, hashicorp, serverless, chatops, chat bots, slack, vagrant, continuous delivery, continuous integration, agile, linux containers, gitops, sdn, kubernetes, sdx, lean, noops",
+  "metaDescription": "TODO1",
+  "description": "TODO2",
+  "audience": "Developers, software architects, technical project managers, system administrators.",
+  "certification": "You earn eXtreme Automation certificate by attending the course.",
+  "language": "The course is taught in English.",
+  "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
+  "location": "online",
+  "startingTime": "9:00 BST, 10:00 CEST, 11:00 EEST",
+  "twitter": "codingandrey",
+  "badge": "",
+  "book": "https://extremeautomation.typeform.com/to/OuWITSPN",
+  "tags": [
+    "kubernetes",
+    "gitops",
+    "devops",
+    "helm",    
+    "terraform",        
+    "grafana",            
+    "prometheus",                
+    "puppet",
+    "ansible",
+    "docker",
+    "packer",    
+    "vagrant",
+    "elk"
+  ],
+  "offers": [
+    {
+      "name": "Superhero",
+      "info": "Single person",
+      "price": 499,
+      "originalPrice": 599
+    },
+    {
+      "name": "Teammates",
+      "info": "3+ people from the same company. Best deal 🚀",
+      "price": 399,
+      "originalPrice": 499
+    },
+    {
+      "name": "On-premises",
+      "onPrem": true,
+      "info": "Exclusively for your company",
+      "price": 7500,
+      "originalPrice": 9000
+    }
+  ],
+  "trainer": {
+    "twitter": "codingandrey",
+    "avatar": "/img/trainers/andrey.png",
+    "name": "Andrey Adamovich",
+    "title": "Extreme Automator",
+    "pic": "andrey"
+  }
+}
