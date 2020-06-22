@@ -37,7 +37,7 @@ html
             style
                 | header#header {
                 |    background-image: url(#{self.customBg});
-                |    background-position: right center;
+                |    background-position: right top;
                 | }
 
         style
@@ -105,16 +105,15 @@ html
                             if self.badge
                                 img.badge(src='/img/' + badge + '.png' alt="Certificate")
                             strong  #{self.title}
-                if self.date
                     h2 
                         i.fa.fa-star(aria-hidden="true")
                         i.fa.fa-star(aria-hidden="true")
                         i.fa.fa-star(aria-hidden="true")
                         i.fa.fa-star(aria-hidden="true")
                         i.fa.fa-star(aria-hidden="true")
-                        br
-                        br
-                        | #{self.date}, #{self.location}
+                if self.date
+                    h2 
+                        #{self.date}, #{self.location}
                         if self.startingTime
                             br
                             | #{self.startingTime}
