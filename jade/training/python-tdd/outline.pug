@@ -1,8 +1,41 @@
 
 h2 Detailed outline
 
-h3 Day 1
+h3 Day 1:
 
-ul 
-  li 
-    strong Module 01: 
+p (15 mins) Introduction and setup check.
+p (30 mins) Exercise 1:  We start right away with coding exercise. The task is to code a complex firewall policy logic with some hints and skeleton code. No TDD, just code.  30 minutes will be not enough, but from the task description, most engineers will tell that it is doable in 30 minutes. After failure, we go into discussion mode. 
+p (15 mins) TDD cycle: red, green, refactor. 
+p (15 mins) Overview of Python unittest library. 
+p (60 mins) Exercise 2:  Implement the same task with firewall policy, but using a TDD cycle by writing unit tests (with hints).
+p (15 mins) Looking at the test coverage. 
+p (15 mins) Quiz 1: TDD principles.
+p (60 mins) Lunch.
+p (30 mins) Overview of Python mocking libraries.   
+p (60 mins) Exercise 3: Build on top of firewall policy logic and add integration with firewall log storage. Mock the storage and access logic.
+p (15 mins) Commit/push to Git + verify that code builds and tests run in CI. Discussion about the importance of automatic feedback. 
+p (45 mins) Code review session. I take the code of several students and review it live with giving recommendations.
+p (30 mins) Clean code principles for Python. 
+p (15 mins) Integration tests vs unit tests.
+p (15 mins) Introduction to ATDD and double feedback loop.
+p (15 mins) Overview of Docker and Python implementation of testcontainers.  
+p (90 mins) Exercise 4:  Implement integration tests with a real database for firewall log storage and query. Make sure they run in CI.  
+p (15 mins) Quiz 2: Mocking, integration tests.
+
+h3 Day 2:
+
+p (15 mins) Introduction into pair programming.
+p (15 mins) Overview of Python requests library.
+p (60 mins) Exercise 5: Split into pairs. Implement firewall management API with Flask from a template. Add HTTP API acceptance tests. 
+p (15 mins) Introduction into BDD.
+p (15 mins) Overview of Python behave library.
+p (60 mins) Exercise 6: Reimplement acceptance tests with the BDD approach. 
+p (15 mins) Quiz 3: ATDD, BDD. 
+p (60 mins) Lunch
+p (30 mins) Introduction to performance testing.
+p (15 mins) Overview of Python faker library for test data generation.
+p (15 mins) Overview of Python locust library for the performance test suite.
+p (120 mins) Exercise 7:Implement a performance test suite for firewall components.
+p (15 mins) Quiz 4: Performance testing. 
+p (15 mins) Final quiz.
+p (15 mins) Conclusion.

@@ -5,54 +5,62 @@ h3 Day 1
 
 ul
   li
-    strong Part 1:
-    | Architecture overview: master node, worker nodes, etcd, kubelet, controllers
-    | Anatomy of a pod: the main container, init containers, sidecars, labels, probes
-    | Basic commands and debugging tricks
+    p 
+      strong Part 1:
+    p Architecture overview: master node, worker nodes, etcd, kubelet, controllers
+    p Anatomy of a pod: the main container, init containers, sidecars, labels, probes
+    p Basic commands and debugging tricks
   li 
     strong Quiz 1: Kubernetes terminology
   li 
-    strong Task 1: 
-    | Deploy an application as a Pod with the primary process
-    | Implement initialization logic executed in init containers
-    | Add watchdog containers and probes. 
+    p 
+      strong Task 1: 
+    p Deploy an application as a Pod with the primary process
+    p Implement initialization logic executed in init containers
+    p Add watchdog containers and probes. 
   li 
-    strong Part 2:
-    | Anatomy of a deployment: types of deployments, replica set, replica count 
-    | Introduction to Kubernetes networking
-    | Anatomy of a service: traffic routing, labels, port mapping
-    | Service types: node port, cluster IP, load balancer
-    | Anatomy of kubeproxy
-    | Introduction to service meshes
+    p 
+      strong Part 2:
+    p Anatomy of a deployment: types of deployments, replica set, replica count 
+    p Introduction to Kubernetes networking
+    p Anatomy of a service: traffic routing, labels, port mapping
+    p Service types: node port, cluster IP, load balancer
+    p Anatomy of kubeproxy
+    p Introduction to service meshes
   li
-    strong Task2: 
-    | Configure application traffic routing
-    | Implement different service types
-    |Implement canary release procedure
+    p 
+      strong Task2: 
+    p Configure application traffic routing
+    p Implement different service types
+    p Implement canary release procedure
   li
     strong: Quiz 2: Kubernetes networking
   li 
-    strong Part 3:
-    | Persistent volumes: volumes types, volume resizing, volume snapshots 
-    | Working with complex deployments: namespaces, stateful sets
-    | Job and Cron-jobs
+    p 
+      strong Part 3:
+    p Persistent volumes: volumes types, volume resizing, volume snapshots 
+    p Working with complex deployments: namespaces, stateful sets
+    p Job and Cron-jobs
   li
-    strong Task 3: 
-    | Configure stateful deployment for an HA database (PostgreSQL or MariaDB)
-    | Configure an HA caching layer (Redis) for your application
-    | Implement a scheduled backup procedure for an HA database
+    p 
+      strong Task 3: 
+    p Configure stateful deployment for an HA database (PostgreSQL or MariaDB)
+    p Configure an HA caching layer (Redis) for your application
+    p Implement a scheduled backup procedure for an HA database
   li 
     strong Quiz 3: Kubernetes persistence
   li 
-    strong Part 4:
-    | Configuration management: config maps, reloadable configurations
-    | Deployment time configuration injection with Kustomize
-    | Secrets management and integration with service discovery service (Consul and Vault)
-    | Kubernetes admission webhooks and cluster events
+    p 
+      strong Part 4:
+    p Configuration management: config maps, reloadable configurations
+    p Deployment time configuration injection with Kustomize
+    p Secrets management and integration with service discovery service (Consul and Vault)
+    p Kubernetes admission webhooks and cluster events
   li
-    strong Task 4: 
-    | Implement two environments (applications + data storage) running in different namespaces with different settings 
-    | Implement automatic configuration propagation at run time using different mechanisms
+    p 
+      strong Task 4: 
+    p Implement two environments (applications + data storage) running in different namespaces with different settings 
+    p Implement automatic configuration propagation at run time using different mechanisms
   li 
     strong Quiz 4: Kubernetes configuration management
   li  
