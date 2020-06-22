@@ -17,6 +17,7 @@ Seats are limited ❗❗
 **Lifetime e-mail support** - *you can get answers on anything related to the course content as well as advice based on your company specific situation*
 **Quizzes and polls during the course** - *learning should be fun.*
 **Certificate of attendance** - *you will get a shareable online certificate.*
+(Optional) **1-hour exam after the course** - *you can pass an exam and get your score printed on the certificate.*
 
 Register here: <https://devchampions.com/training/xa/>
 

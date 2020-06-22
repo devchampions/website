@@ -99,8 +99,6 @@ html
         include ../../facebook.pug
         header#header
             .container
-                .menu
-                    a(href="/") ← To training course list
                 .logo
                     h1
                         a(href="#")
@@ -124,8 +122,8 @@ html
                         br
                         a.action2(href="#offers") Book now
                         if self.travelPack
-                          | &nbsp;
-                          a.action2(href="#offers") Book now with travel
+                            | &nbsp;
+                            a.action2(href="#offers") Book now with travel
                 else
                     h2 #{self.location}
                 if self.locations
