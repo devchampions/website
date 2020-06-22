@@ -5,12 +5,10 @@ p
 
 p During this intensive and practical 2-day workshop, you will learn how to develop 
 	strong modern, clean, and maintainable 
-	| applications using the latest Java best practices, patterns, and libraries. The course is designed for professional Java developers who want to expand their knowledge beyond basic and easy-to-google concepts. You will be equipped with 
-	strong practical solutions to your daily coding, design, and architecture challenges.
+	| applications using the latest Java best practices. This is not a trivial Java 14 course for beginners. Here you'll learn real-world stuff from class design and unit testing to large-scale architecture, controlling quality, and getting out of technical debt.
 
 ul
-	li ⚡ Warning: in 2-days, you will unlearn old-school patterns that most Java applications suffer from.
-	li ⚡ Warning: You will learn that you might not need Kotlin at all.
+	li ⚡ Warning: After this course, your Java code will never be the same again.
 
 h2 Highlights
 
@@ -26,21 +24,107 @@ ul
 	li You will get a list of books, videos, GitHub projects to learn from, and lifetime support from Eduards.
 
 
-h2 You'll learn how to
+h2 What's under the hood?
 
+h3: strong (1/9) Effective code design
+ul 
+	li Understanding use-reuse paradox
+	li Understanding reification
+	li Avoid Hasty Abstractions (AHA)
+	li Do or Die Principle (DoD)
+	li How to find the right level of abstraction
+	li How to use cognitive load as a driver for refactoring
+	li KISS, SOLID, DRY, ABS, YAGNI
+	li Just-enough design and Lean code
+
+
+h3: strong (2/9) Effective functions
 ul
-	li Write readable, modular, and testable code using advanced clean coding techniques.
-	li Control complexity of your apps using micromodules and clean architecture. 
-	li Mix and apply modern object-oriented, functional, and reactive design patterns.
-	li Turn buzzwords such as SOLID, GRASP, and SLAP into real practice.
-	li Craft expressive domain models using DDD patterns.
-	li Design a flexible service layer with CQRS, Commands, Reactions and Pipelines.	
-	li Decouple classes, packages and services using event bus, scheduling, and eventual consistency.
-	li Define and enforce the consistency of architecture and design with ArchUnit.
-	li Design slim data access layer with Hibernate and jOOQ.
-	li Add fault tolerance to your application using Hystrix and Resilience4j.
-	li Understand what to test and how to test with Spock.
-	li … and much more!
+	li Are lambdas always a good choice?
+	li Nulls vs. optionals
+	li SLAP principle
+	li Step-down rule
+	li Eliminating getters or setters
+	li Command-query separation
+	li Making conditional  easy to read
+	li Comments vs. smart annotations
 
-p Ready to upgrade your coding skills and build Java applications that don't suck? Join in!
+h3: strong (3/9) Effective class design
+ul
+	li Stateful objects or pure functions?
+	li Objects or data classes?
+	li Anemic or rich domain model?
+	li Designing entities
+	li Designing value objects
+	li Designing domain events / event bus
+	li Designing exception class hierarchy
 
+h3: strong (4/9) Effective service layer
+ul
+	li What is a service layer and why we need it?
+	li What's the relation with the domain model?
+	li Two approaches to services: procedures and commands
+	li Implementing services with PipelinR library
+	li Commands / Handlers / Pipelines
+	li Cross-cutting concerns (logging, transactions, resilience)
+	li Offloading and scheduling work 
+
+h3: strong (5/9) Effective packaging
+ul
+	li How to group classes?
+	li How much layering is needed?
+	li Packages vs. modules
+	li First Guess Principle
+	li Minimum Visibility Principle
+	li Common Closure Principle
+	li Modularity patterns
+	li Dependency management
+	li Balancing coupling and cohesion
+
+h3: strong (6/9) Effective persistence
+ul
+	li DAOs
+	li Repositories
+	li Unit of Work pattern
+	li Transaction management
+	li Transactional queue / outbox
+	li Consistency modes
+	li Denormalization (when / why / how)
+	li Aggregate roots
+	li Hibernate / jOOQ combination
+
+h3: strong (7/9) Effective validation
+ul
+	li Secure by design
+	li Simple validation
+	li Business rule validation
+	li Why Bean Validation sucks
+	li Bean Validation vs. Yavi vs. Fluent Validator
+	li Implementing a small validation library
+
+h3: strong (8/9) Effective testing
+ul
+	li What is a unit?
+	li Qualities of a good unit test
+	li How to make (finally) TDD work
+	li How to test integrations, APIs, concurrency, async code
+	li How to test architecture rules and constraints
+	li Libraries that simplify testing (Spock, Testcontainers...)
+
+h3: strong (9/9) Effective resilience
+ul
+	li Fault tolerance patterns
+	li Retries
+	li Timeouts
+	li Bulkheads
+	li Rate limiting
+	li Circuit breakers
+	li Hystrix vs. Resilience4j vs. Failsafe
+
+p Ready to upgrade your coding skills? Join in!
+
+style.
+	h3 {
+		font-size: 1.5em;
+		margin-top: 50px !important;
+	}
