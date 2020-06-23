@@ -33,17 +33,6 @@ html
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
         link(rel="stylesheet" href="/css/training.css?v=1")
         script(src="/js/main.js")
-        if self.customBg
-            style
-                | header#header {
-                |    background-image: url(#{self.customBg});
-                |    background-position: right top;
-                | }
-
-        style
-            | header.h1#header {
-            |    color: black;
-            | }
 
         script(type="application/ld+json")
           | {
@@ -97,7 +86,9 @@ html
 
     body        
         include facebook.pug
-        header#header
+        header
+            if self.customBg
+                .header(style="background-image: url(#{self.customBg}); background-position: right top;")
             if self.customBgVideo
                 video#video(autoplay loop playsinline muted)
                     source(src=self.customBgVideo type="video/mp4")
@@ -116,17 +107,11 @@ html
                         i.fa.fa-star(aria-hidden="true")
                 if self.date
                     h2 
-                        br
                         | #{self.date}, #{self.location}
                         if self.startingTime
-                            br
                             | #{self.startingTime}
                     h2
-                        br
                         a.action2(href="#offers") Book now
-                        if self.travelPack
-                            | &nbsp;
-                            a.action2(href="#offers") Book now with travel
                 else
                     h2 #{self.location}
                 if self.locations
@@ -186,9 +171,9 @@ html
                         section
                             .trainer
                                 if self.trainer.avatar
-                                    img.face(src=self.trainer.avatar height="200px")
+                                    img(src=self.trainer.avatar height="200px")
                                 else 
-                                    img.face(src='https://twitter-avatar.now.sh/' + self.trainer.twitter)
+                                    img(src='https://twitter-avatar.now.sh/' + self.trainer.twitter)
                                 include trainer/andreyadamovich.pug
             if self.address
                 section#location
