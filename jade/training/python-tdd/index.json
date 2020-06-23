@@ -3,11 +3,6 @@
   "customBg": "/img/backgrounds/ops_bg.png",
   "ogImage": "python_og.png",
   "keywords": "python, tdd, testing, mutation testing, integration testing, performance testing",
-  "tags": [
-    "python",
-    "tdd",
-    "testing"
-  ],
   "metaDescription": "Python is a de facto scripting language that is used for many tasks. If you encountered Python on your career path, but never had time to properly dive into testing and TDD with that, then this course is for you.",
   "description": "Python is a de facto scripting language that is used for many tasks. If you encountered Python on your career path, but never had time to properly dive into testing and TDD with that, then this course is for you.",
   "audience": "Developers, software architects, technical project managers, system administrators.",

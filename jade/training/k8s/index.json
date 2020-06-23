@@ -14,15 +14,6 @@
   "twitter": "codingandrey",
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/A5fp92Lm",
-  "tags": [
-    "kubernetes",
-    "gitops",
-    "devops",
-    "helm",    
-    "prometheus",                
-    "puppet",
-    "docker"
-  ],
   "offers": [
     {
       "name": "Superhero",

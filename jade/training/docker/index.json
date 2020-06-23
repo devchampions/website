@@ -14,21 +14,6 @@
   "location": "2-day on-prem or online training",
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/xQNs21s9",
-  "tags": [
-    "kubernetes",
-    "gitops",
-    "devops",
-    "helm",    
-    "terraform",        
-    "grafana",            
-    "prometheus",                
-    "puppet",
-    "ansible",
-    "docker",
-    "packer",    
-    "vagrant",
-    "elk"
-  ],
   "offers": [
     {
       "name": "Superhero",

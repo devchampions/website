@@ -49,21 +49,6 @@
   "twitter": "codingandrey",
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/ii372t",
-  "tags": [
-    "kubernetes",
-    "gitops",
-    "devops",
-    "helm",    
-    "terraform",        
-    "grafana",            
-    "prometheus",                
-    "puppet",
-    "ansible",
-    "docker",
-    "packer",    
-    "vagrant",
-    "elk"
-  ],
   "offers": [
     {
       "name": "Superhero",
