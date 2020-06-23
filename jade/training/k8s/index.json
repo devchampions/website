@@ -1,7 +1,7 @@
 {
   "title": "Kubernetes FTW!",
   "subtitle": "Kubernetes for effective operations!",
-  "customBg": "/img/adamovich_bg4.jpg",
+  "customBg": "/img/trainers/adamovich_bg4.jpg",
   "ogImage": "k8s_og.png",
   "keywords": "devops training, devops certification, devops conference, devops, docker, continuous delivery, linux containers, gitops, sdn, kubernetes",
   "metaDescription": "This course focuses on the most commonly used Kubernetes features as well as provides practical tutorials and real-life examples of deploying distributed applications, managing networking primitives (load balancers, proxies), setting up persistent data storage, dynamic configuration management, and many other exciting features built into the core of Kubernetes.",
