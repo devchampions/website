@@ -1,7 +1,7 @@
 {
   "title": "Testing with Go",
   "subtitle": "DevOps Masterclass",
-  "customBg": "/img/trainers/adamovich_bg4.jpg",
+  "customBg": "/img/backgrounds/adamovich_bg4.jpg",
   "ogImage": "go_og.png",
   "keywords": "go, golang, tdd, testing, mutation testing, integration testing, performance testing",
   "tags": [
