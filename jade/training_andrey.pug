@@ -1,7 +1,7 @@
 doctype html
-include ../../message.pug
+include message.pug
 html
-    - var path = 'xa'
+    block vars
     head
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1")
@@ -96,7 +96,7 @@ html
         script(src="/js/main.js")       
 
     body        
-        include ../../facebook.pug
+        include facebook.pug
         header#header
             .container
                 .logo
@@ -143,7 +143,7 @@ html
                 .container
                     h2 Introduction
                     article
-                        include description.pug
+                        block description
                         .shorties
                             section.shorty
                                 i(class="fa roundy fa-group")
@@ -170,11 +170,11 @@ html
                                 i(class="fa roundy fa-globe")
                                 h2 Language
                                 p #{self.language}
-            include testimonials.pug
+            block testimonials
             section#details
                 .container
                     article
-                        include outline.pug            
+                        block outline
             section#trainer
                 .container
                     section.training
@@ -186,7 +186,7 @@ html
                                     img.face(src=self.trainer.avatar height="200px")
                                 else 
                                     img.face(src='https://twitter-avatar.now.sh/' + self.trainer.twitter)
-                                include ../../trainer/andreyadamovich.pug
+                                include trainer/andreyadamovich.pug
             if self.address
                 section#location
                     .container
@@ -234,9 +234,9 @@ html
                         else
                             .polyfill &nbsp;
                 block message
-        include ../../footer.pug
-        include ../../ga.pug
-        include ../../tawk.pug
-        include ../../twitter.pug
-        include ../../yandex.pug
+        include footer.pug
+        include ga.pug
+        include tawk.pug
+        include twitter.pug
+        include yandex.pug
 
