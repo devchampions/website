@@ -1,6 +1,6 @@
 {
   "title": "Testing with Python",
-  "customBg": "/img/backgrounds/ops_bg.png",
+  "customBgVideo": "/tdd.mp4",
   "ogImage": "python_og.png",
   "keywords": "python, tdd, testing, mutation testing, integration testing, performance testing",
   "metaDescription": "Python is a de facto scripting language that is used for many tasks. If you encountered Python on your career path, but never had time to properly dive into testing and TDD with that, then this course is for you.",
@@ -11,7 +11,6 @@
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
 	"location": "2-day on-prem or online training",  
   "twitter": "codingandrey",
-  "customBgVideo": "tdd.mp4",
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/HN1RQdt7",
   "offers": [

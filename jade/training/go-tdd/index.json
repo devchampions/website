@@ -1,7 +1,7 @@
 {
   "title": "Testing with Go",
   "subtitle": "DevOps Masterclass",
-  "customBg": "/img/backgrounds/ops_bg.png",
+  "customBgVideo": "/tdd.mp4",  
   "ogImage": "go_og.png",
   "keywords": "go, golang, tdd, testing, mutation testing, integration testing, performance testing",
   "metaDescription": "",
@@ -12,7 +12,6 @@
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
 	"location": "3-day on-prem or online training",  
   "twitter": "codingandrey",
-  "customBgVideo": "tdd.mp4",  
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/s0HgiiB5",
   "offers": [
