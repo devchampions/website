@@ -1,7 +1,7 @@
 {
   "title": "eXtreme Automation",
   "subtitle": "DevOps Masterclass",
-  "customBg": "/img/backgrounds/ops_bg.png",
+  "customBgVideo": "/ops.mp4",
   "ogImage": "xa_og_5.png",
   "keywords": "devops training, devops certification, devops conference, devops, ansible, docker, elastic stack, infrastructure provisioning, hashicorp, serverless, chatops, chat bots, slack, vagrant, continuous delivery, continuous integration, agile, linux containers, gitops, sdn, kubernetes, sdx, lean, noops",
   "metaDescription": "This 3-day workshop introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like AWS/GCP, Ansible, Terraform, Docker, Kubernetes, Helm, Prometheus, Grafana, Linkerd, Serverless and many others are given during this workshop.",
