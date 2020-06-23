@@ -88,7 +88,7 @@ html
         include facebook.pug
         header
             if self.customBg
-                .header(style="background-image: url(#{self.customBg}); background-position: right top;")
+                .header(style='background-image: ' + url(#{self.customBg}) + '; background-position: right top;')
             if self.customBgVideo
                 video#video(autoplay loop playsinline muted)
                     source(src=self.customBgVideo type="video/mp4")
@@ -98,7 +98,7 @@ html
                         a(href="#")
                             if self.badge
                                 img.badge(src='/img/' + badge + '.png' alt="Certificate")
-                            strong  #{self.title}
+                            strong #{self.title}
                     h2 
                         i.fa.fa-star(aria-hidden="true")
                         i.fa.fa-star(aria-hidden="true")
