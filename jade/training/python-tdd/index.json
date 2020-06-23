@@ -1,6 +1,6 @@
 {
   "title": "Testing with Python",
-  "customBg": "/img/backgrounds/adamovich_bg4.jpg",
+  "customBg": "/img/backgrounds/ops_bg.png",
   "ogImage": "python_og.png",
   "keywords": "python, tdd, testing, mutation testing, integration testing, performance testing",
   "tags": [
