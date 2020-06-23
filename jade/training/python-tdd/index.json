@@ -11,6 +11,7 @@
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
 	"location": "2-day on-prem or online training",  
   "twitter": "codingandrey",
+  "customBgVideo": "tdd.mp4",
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/HN1RQdt7",
   "offers": [

@@ -237,7 +237,7 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('copy', function () {
-    return gulp.src(['favicon.ico', 'coding.mp4', 'robots.txt', 'CNAME'])
+    return gulp.src(['favicon.ico', 'coding.mp4', 'tdd.mp4', 'robots.txt', 'CNAME'])
         .pipe(gulp.dest(publicDir))
         .pipe(connect.reload());
 });

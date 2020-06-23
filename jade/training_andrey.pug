@@ -98,6 +98,9 @@ html
     body        
         include facebook.pug
         header#header
+            if self.customBgVideo
+                video#video(autoplay loop playsinline muted)
+                    source(src=self.customBgVideo type="video/mp4")
             .container
                 .logo
                     h1
