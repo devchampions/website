@@ -5,6 +5,7 @@
     "CEST",
     "EEST",
     "Grafana",
+    "Kubeless",
     "Linkerd",
     "Pulumi",
     "Ternity",
@@ -22,6 +23,8 @@
     "playsinline",
     "roundy",
     "tawk",
+    "theprincipaldev",
+    "typeform",
     "yandex"
   ]
 }
