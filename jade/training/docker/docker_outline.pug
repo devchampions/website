@@ -1,0 +1,98 @@
+
+h2 Detailed outline
+
+h3 🌞 Day 1
+
+ul
+  li
+    p 
+      strong 📚 Part 1:
+    p Introduction into DevOps, Continuous Delivery, Infrastructure-as-Code, GitOps
+  li
+    p ❓ Quiz 1: principles
+  li
+    p 
+      strong 📚 Part 2:
+    p Why containers? Universal distribution mechanism. 
+    p Anatomy of a container: processes, network, file system, permissions, health checks  
+    p Windows containers vs Linux containers
+  li
+    p 
+      strong 🛠 Exercise 1: 
+      | building container image and running containers
+    p  We take an existing .NET and/or Java web application, package it as a container image and run container locally.
+    p  Students will also try/get hints on how to debug the application running inside a container, start more that one instance of applications, share files between the host and container.  
+    p  For those who are less experienced, we only discuss the very basics. For more experienced folks, trainer will add extra tasks for them to play with.   
+  li
+    p ❓ Quiz 2: containers
+  li
+    p 
+      strong 📚 Part 3:
+    p Container meshes. Overview of Docker Compose.
+  li  
+    p 
+      strong 🛠 Exercise 2: 
+      | container meshes
+    p  Create a container mesh with an application built in previous exercise + HA database server, caching layer server and a software load balancer.
+    p  Students will learn how to set up container network, manage container volumes, configure port openings, setup health checks. 
+    p  Overall, the goal is to show how to replicate complex deployment setup with Docker and Docker Compose.  
+  li  
+    p ❓ Quiz 3: container meshes
+  li 
+    p 
+      strong 📚 Part 4:
+    p Introduction to modern delivery pipelines. Containers everywhere!  
+  li
+    p 
+      strong 🛠 Exercise 3: 
+      | container delivery
+    p  Create a continuous delivery pipeline in GitLab CI and/or Azure DevOps Pipelines that will: build a Docker image, run unit tests, run integration tests, publish image into Docker registry.
+    p  Code for unit and integration tests will be provided. The goal is to focus on implementing the pipeline logic and to show that pipeline stages are, in fact, also running as Docker containers.  
+    p  More experienced people will have a chance to implement extra steps in the pipeline like static code analysis and performance tests.   
+  li  
+    p ❓ Quiz 4: pipelines
+
+
+h3 🌞 Day 2
+
+ul
+  li
+    p 
+      strong 📚 Part 5:
+    p Cloud as a platform. Introduction to the basics of Azure/AWS cloud resources. 
+    p Compute models. 5 ways to deploy containers into the cloud. 
+  li
+    p 
+      strong 🛠 Exercise 4: 
+      | deploy to a container service
+    p  Extend delivery pipeline to deploy to AWS ECS and/or Azure Container Service and verify deployment. 
+    p  Students will receive pipeline skeleton. Trainer will also give a quick introduction to AWS CLI/Azure CLI as well as provide cheat sheets to help with the exercise. 
+    p  Experienced folks will try to codify cloud resource management (policies, buckets, databases, load balancers) with the help of Azure Stack/AWS Cloudformation using my templates.     
+  li
+    p ❓ Quiz 5: cloud
+  li
+    p 
+      strong 📚 Part 6:
+    p Managing complex deployments. Introduction to Kubernetes. Kubernetes primitives: node, pod, service, persistent volume.    
+  li
+    p 
+      strong 🛠 Exercise 5: 
+      | deploy to an orchestrator
+    p Change delivery pipeline to deploy to AWS EKS and/or Azure Kubernetes Service and verify deployment.
+    p Students will receive a template and a cheat sheet to convert their deployment scripts from existing code into Kubernetes YAML descriptor. 
+    p We will discuss when plain cloud resources are better than Kubernetes deployment as well as when Kubernetes could be a good idea.    
+  li
+    p ❓ Quiz 6: Kubernetes
+  li
+    p 
+      strong 📚 Part 7:
+    p Simplifying the stack. Introduction to Serverless. Function-as-a-Service.
+  li
+    p 
+      strong 🛠 Exercise 6: deploy as a function
+    p Package part of the application as a separate container. Change the pipeline to deploy it to AWS Lambda and/or Azure Functions.
+    p We will discuss the benefits and billing model behind this approach. Experienced folks may experiment with converting more application parts into the serverless model.  
+  li
+    p ❓ Quiz 7: serverless
+  li
+    p Q/A + conclusion

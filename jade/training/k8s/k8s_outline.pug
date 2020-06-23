@@ -1,26 +1,26 @@
 
 h2 Detailed outline
 
-h3 Day 1
+h3 🌞 Day 1
 
 ul
   li
     p 
-      strong Part 1:
+      strong 📚 Part 1:
     p Architecture overview: master node, worker nodes, etcd, kubelet, controllers
     p Anatomy of a pod: the main container, init containers, sidecars, labels, probes
     p Basic commands and debugging tricks
   li 
-    strong Quiz 1: Kubernetes terminology
+    strong ❓ Quiz 1: Kubernetes terminology
   li 
     p 
-      strong Task 1: 
+      strong 🛠 Exercise 1: 
     p Deploy an application as a Pod with the primary process
     p Implement initialization logic executed in init containers
     p Add watchdog containers and probes. 
   li 
     p 
-      strong Part 2:
+      strong 📚 Part 2:
     p Anatomy of a deployment: types of deployments, replica set, replica count 
     p Introduction to Kubernetes networking
     p Anatomy of a service: traffic routing, labels, port mapping
@@ -29,80 +29,82 @@ ul
     p Introduction to service meshes
   li
     p 
-      strong Task2: 
+      strong 🛠 Exercise 2: 
     p Configure application traffic routing
     p Implement different service types
     p Implement canary release procedure
   li
-    strong: Quiz 2: Kubernetes networking
+    strong ❓ Quiz 2: Kubernetes networking
   li 
     p 
-      strong Part 3:
+      strong 📚 Part 3:
     p Persistent volumes: volumes types, volume resizing, volume snapshots 
     p Working with complex deployments: namespaces, stateful sets
     p Job and Cron-jobs
   li
     p 
-      strong Task 3: 
+      strong 🛠 Exercise 3: 
     p Configure stateful deployment for an HA database (PostgreSQL or MariaDB)
     p Configure an HA caching layer (Redis) for your application
     p Implement a scheduled backup procedure for an HA database
   li 
-    strong Quiz 3: Kubernetes persistence
+    strong ❓ Quiz 3: Kubernetes persistence
   li 
     p 
-      strong Part 4:
+      strong 📚 Part 4:
     p Configuration management: config maps, reloadable configurations
     p Deployment time configuration injection with Kustomize
     p Secrets management and integration with service discovery service (Consul and Vault)
     p Kubernetes admission webhooks and cluster events
   li
     p 
-      strong Task 4: 
+      strong 🛠 Exercise 4: 
     p Implement two environments (applications + data storage) running in different namespaces with different settings 
     p Implement automatic configuration propagation at run time using different mechanisms
   li 
-    strong Quiz 4: Kubernetes configuration management
+    strong ❓ Quiz 4: Kubernetes configuration management
   li  
-    strong Quiz 5: Day-1 concluding quiz
+    strong ❓ Quiz 5: Day-1 concluding quiz
 
-h3 Day 2
+h3 🌞 Day 2
 
 ul
   li 
-    strong Part 5:
+    strong 📚 Part 5:
     | Resource management: resource requests and limits
     | Anatomy of a node pool
     | Taints and tolerations, scheduling internals
     | Dive into built-in resource monitoring and metrics
     | Auto-scaling policies and range limiters
   li 
-    strong Task 5:  
+    strong 🛠 Exercise 5:  
     | Adjust resource limits for existing deployments 
     | Implement auto-limit and auto-scaling policies 
   li 
-    strong Quiz 6: Kubernetes resource management
+    strong ❓ Quiz 6: Kubernetes resource management
   li 
-    strong Part 6:
+    strong 📚 Part 6:
     | Cluster security with RBAC, service accounts, cluster roles, namespace security
     | Integrating with external security providers
     | Pod security and network policies
   li 
-    strong Task 6: 
+    strong 🛠 Exercise 6: 
     | Implement cross-environment security policies with the help of service accounts and external LDAP integration
     | Limit network traffic between pods
   li 
-    strong Quiz 7: Kubernetes security
+    strong ❓ Quiz 7: Kubernetes security
   li 
-    strong Part 7:
+    strong 📚 Part 7:
     | Day-1 vs. Day-2 operations 
     | Introduction to Helm charts
     | Introduction to Operator pattern
     | Custom resource definitions
   li 
-    strong Task 7: 
+    strong 🛠 Exercise 7: 
     | Implement operator from a given template with Bash or Go
   li 
-    strong Quiz 8: Kubernetes API and operators
+    strong ❓ Quiz 8: Kubernetes API and operators
   li  
-    strong Quiz 9: Closing quiz
+    strong ❓ Quiz 9: Closing quiz
+  li
+    p Q/A + conclusion

@@ -15,29 +15,19 @@
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/A5fp92Lm",
   "offers": [
-    {
-      "name": "Superhero",
-      "info": "Single person",
-      "price": 499,
-      "originalPrice": 599
-    },
-    {
-      "name": "Teammates",
-      "info": "3+ people from the same company. Best deal 🚀",
-      "price": 399,
-      "originalPrice": 499
-    },
+    {},
     {
       "name": "On-premises",
       "onPrem": true,
       "info": "Exclusively for your company",
       "price": 5200,
       "originalPrice": 6000
-    }
+    },
+    {}
   ],
   "trainer": {
     "twitter": "codingandrey",
-    "avatar": "/img/trainers/andrey.png",
+    "avatar": "/img/trainers/andrey.jpg",
     "name": "Andrey Adamovich",
     "title": "Extreme Automator",
     "pic": "andrey"
