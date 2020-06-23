@@ -113,7 +113,8 @@
     },
     {
       "url": "training/xa-online",
-      "title": "eXtreme Automation"
+      "title": "eXtreme Automation",
+      "noExposure": true      
     },
     {
       "url": "training/devops-online",
