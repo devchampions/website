@@ -96,9 +96,9 @@ html(itemscope itemtype="http://schema.org/Organization")
                             .trainer
                                 div(class='pic')
                                     if training.trainer.avatar
-                                        img(style="width: 150px; border-radius: 999px" src=training.trainer.avatar)
+                                        img(style="width: 150px; border-radius: 999px; border: 3px solid #000000" src=training.trainer.avatar)
                                     else
-                                        img(style="width: 150px; border-radius: 999px" src='https://twitter-avatar.now.sh/' + training.trainer.twitter)
+                                        img(style="width: 150px; border-radius: 999px; border: 3px solid #000000" src='https://twitter-avatar.now.sh/' + training.trainer.twitter)
                                 div
                                     a(href='https://twitter.com/' + training.trainer.twitter)
                                         img(src="/img/twitter.png" alt=training.trainer.twitter)
