@@ -86,9 +86,7 @@ html
 
     body        
         include facebook.pug
-        header
-            if self.customBg
-                .header(style='background-image: url(' + self.customBg + '); background-position: right top;')
+        header(style='background-image: url(' + self.customBg + '); background-position: right top;')
             if self.customBgVideo
                 video#video(autoplay loop playsinline muted)
                     source(src=self.customBgVideo type="video/mp4")
