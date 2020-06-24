@@ -3,40 +3,26 @@ h2 Detailed outline
 
 h3 Day 1
 
-p Introduction to GitOps (CI/CD for infrastructure management)
-p Introduction to Terraform: infrastructure-as-code, language basics, project organization
-p Dive into HashiCorp Configuration Language (HCL): variables, expressions, functions, counters, files
-p Command-line operations: init, plan, apply, taint, destroy, import, output, refresh
-p Infrastructure state management: local and remote
 p Introduction to AWS
-p Networking primitives: virtual private clouds, subnets, gateways, security groups, load balancers
+p Introduction to CloudFormation and CDK: infrastructure-as-code, language basics, project organization
+p Networking primitives: virtual private clouds (VPC), subnets, gateways, security groups, load balancers
 p Compute primitives: Lambda vs EC2 vs ECS vs EKS vs Fargate vs Lightsail
-p Notes on Terraform vs CloudFormation
+p Introduction to Docker and Kubernetes
 
 h3 Day 2
 
 p Talking to the outside world: CloudFront, S3, API Gateway, Route53, ALB
-p Integrated monitoring: CloudWatch
+p Integrated monitoring: CloudWatch, alerts, metrics, insights
 p Data storage management: S3, EFS, RDS, DynamoDB
-p Security: KMS, SSM, S3/EBS encryption
-p IAM: users, roles, policies, profiles
-p Events and streams: SQS, SNS, Kineses
-p Terraform vs Serverless.com framework
-p Creating Terraform modules for reusable bits of the infrastructure
+p Events and streams: SQS, SNS, Kineses, SES
 
 h3 Day 3
 
-p Introduction to Kubernetes (and Docker if needed)
-p Running containers on AKS, ECS, Fargate
-p Architecture: master node, worker nodes, etcd, kubelet, controllers
-p Anatomy of a pod: main container, init containers, sidecars, volume mappings, labels, probes
-p Anatomy of a service: traffic routing, labels, service types: node port, cluster ip, load balancer
-p Working with complex deployments: namespaces, pods, deployments, replica sets, stateful sets
-p Persistent volumes: volumes types, volume resizing, volume snapshots
-p Configuration management: config maps, secrets, integration with service discovery, reloadable configurations
-p Lean coffee
+p Security: KMS, SSM, S3/EBS encryption, CloudTrail
+p IAM: users, roles, policies, profiles
+p Deployment services: CodeDeploy, CodeStar, CodeBuild, SSM
 
 h3 Day 4: battle day
 
-p We take a use case that is close to what you plan to do or are doing in Lego at the moment. We split the group into 2-3 teams. 
+p We take a use case (that is close to what attendees do in their workplace) and implement it with the help of AWS. We split the group into 2-3 teams. 
 p Depending on the use case complexity each team can fully implement it or we can split it into several chunks with each team will be working on their own part and integrate in the end of the day.  
