@@ -168,10 +168,6 @@ html
                             h1.title(style="color: black;") Trainer
                         section
                             .trainer
-                                if self.trainer.avatar
-                                    img(src=self.trainer.avatar height="200px")
-                                else 
-                                    img(src='https://twitter-avatar.now.sh/' + self.trainer.twitter)
                                 include trainer/andreyadamovich.pug
             if self.address
                 section#location
