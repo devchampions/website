@@ -1,34 +1,34 @@
 {
-	"title": "JVM Internals and Performance Tuning",
-	"subtitle": "JVM Internals and Performance Tuning",
-	"ogImage": "jvm_og.png",
-	"customBgVideo": "/coding.mp4",	
-	"keywords": "java performance, java certification, java training, jvm training",
-	"metaDescription": "Practical training for developers and teams interested in improving their JVM knowledge.",
-	"description": "This 2-day training dives deep into the JVM internals and tool set offered by JVM's eco-system. It also describes possible scenarios that may arise during production system support. Understanding of JVM internal architecture may help developers to write code that is more efficient; performance analysis and tuning of JVM parameters may help operations team to quicker find and report problems.",
-	"audience": "The training is aimed at Java developers with several years of experience who look into deepening their JVM knowledge as well as for system administrators looking into improving their JVM performance tuning skills.",
-	"certification": "You earn a certificate of participation by attending the course. No exam required.",
-	"language": "The course is taught in English.",
-	"location": "2-day on-prem or online training",  
-	"twitter": "codingandrey",
-	"badge": "",
-	"book": "https://extremeautomation.typeform.com/to/rl4xA6",
-	"offers": [
-		{},
-		{
-			"name": "On-premises",
-            "onPrem": true,
-            "info": "Exclusively for your company",
-			"price": 5000,
-            "originalPrice": 6800
-		},
-		{}
-	],
-	"trainer": {
-		"twitter": "codingandrey",
+  "title": "JVM Internals and Performance Tuning",
+  "subtitle": "JVM Internals and Performance Tuning",
+  "ogImage": "jvm_og.png",
+  "customBgVideo": "/coding.mp4",	
+  "keywords": "java performance, java certification, java training, jvm training",
+  "metaDescription": "Practical training for developers and teams interested in improving their JVM knowledge.",
+  "description": "This 2-day training dives deep into the JVM internals and tool set offered by JVM's eco-system. It also describes possible scenarios that may arise during production system support. Understanding of JVM internal architecture may help developers to write code that is more efficient; performance analysis and tuning of JVM parameters may help operations team to quicker find and report problems.",
+  "audience": "The training is aimed at Java developers with several years of experience who look into deepening their JVM knowledge as well as for system administrators looking into improving their JVM performance tuning skills.",
+  "certification": "You earn a certificate of participation by attending the course. No exam required.",
+  "language": "The course is taught in English.",
+  "location": "2-day on-prem or online training",  
+  "twitter": "codingandrey",
+  "badge": "",
+  "book": "https://extremeautomation.typeform.com/to/rl4xA6",
+  "offers": [
+    {},
+    {
+      "name": "On-premises",
+      "onPrem": true,
+      "info": "Exclusively for your company",
+      "price": 5200,
+      "originalPrice": 6000
+    },
+    {}
+    ],
+    "trainer": {
+    "twitter": "codingandrey",
         "avatar": "/img/trainers/andrey.jpg",
-		"name": "Andrey Adamovich",
-		"title": "Java Expert",
-		"pic": "andrey"
-	}
+    "name": "Andrey Adamovich",
+    "title": "Java Expert",
+    "pic": "andrey"
+  }
 }

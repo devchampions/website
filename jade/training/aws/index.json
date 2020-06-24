@@ -15,25 +15,15 @@
   "badge": "",
   "book": "https://extremeautomation.typeform.com/to/OuWITSPN",
   "offers": [
-    {
-      "name": "Superhero",
-      "info": "Single person",
-      "price": 499,
-      "originalPrice": 599
-    },
-    {
-      "name": "Teammates",
-      "info": "3+ people from the same company. Best deal 🚀",
-      "price": 399,
-      "originalPrice": 499
-    },
+    {},
     {
       "name": "On-premises",
       "onPrem": true,
       "info": "Exclusively for your company",
-      "price": 7500,
-      "originalPrice": 9000
-    }
+      "price": 5200,
+      "originalPrice": 6000
+    },
+    {}
   ],
   "trainer": {
     "twitter": "codingandrey",
