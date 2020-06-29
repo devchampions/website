@@ -10,6 +10,8 @@
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
+  "date": "8-10 September 2020",
+  "startTime": "9:00 BST",
   "landings": {
     "dates": [
       {
@@ -20,7 +22,123 @@
         "date": "8-10 September 2020",
         "main": true
       }      
-    ]
+    ],
+		"locations": [
+			{
+				"location": "Berlin, Germany"
+			},
+			{
+				"location": "Frankfurt, Germany"
+			},			
+			{
+				"location": "Hamburg, Germany"
+			},
+			{
+				"location": "Düsseldorf, Germany"
+			},															
+			{
+				"location": "Munich, Germany"
+			},
+			{
+				"location": "Vienna, Austria"
+			},			
+			{
+				"location": "Dublin, Ireland"
+			},			
+			{
+				"location": "Cork, Ireland"
+			},									
+			{
+				"location": "London, United Kingdom"
+			},						
+			{
+				"location": "Liverpool, United Kingdom"
+			},						
+			{
+				"location": "Manchester, United Kingdom"
+			},							
+			{
+				"location": "Edinburgh, United Kingdom"
+			},									
+			{
+				"location": "Glasgow, United Kingdom"
+			},
+			{
+				"location": "Zürich, Switzerland"
+			},									
+			{
+				"location": "Geneva, Switzerland"
+			},
+			{
+				"location": "Brussels, Belgium"
+			},
+			{
+				"location": "Antwerp, Belgium"
+			},
+			{
+				"location": "Luxembourg, Luxembourg"
+			},
+			{
+				"location": "Warsaw, Poland"
+			},						
+			{
+				"location": "Kraków, Poland"
+			},						
+			{
+				"location": "Prague, Czech Republic"
+			},						
+			{
+				"location": "Brno, Czech Republic"
+			},					
+			{
+				"location": "Budapest, Hungary"
+			},								
+			{
+				"location": "Bucharest, Romania"
+			},									
+			{
+				"location": "Cluj-Napoca, Romania"
+			},							
+			{
+				"location": "Sofia, Bulgaria"
+			},								
+			{
+				"location": "Istanbul, Turkey"
+			},																							
+			{
+				"location": "Tbilisi, Georgia"
+			},																										
+			{
+				"location": "Tallinn, Estonia"
+			},
+			{
+				"location": "Tartu, Estonia"
+			},					
+			{
+				"location": "Vilnius, Lithuania"
+			},								
+			{
+				"location": "Kaunas, Lithuania"
+			},
+			{
+				"location": "Stockholm, Sweden"
+			},
+			{
+				"location": "Malmö, Sweden"
+			},					
+			{
+				"location": "Helsinki, Finland"
+			},																										
+			{
+				"location": "Oslo, Norway"
+			},							
+			{
+				"location": "København, Denmark"
+			},																								
+			{
+				"location": "Riga, Latvia"
+			}
+		]
   },
   "editions": [
     {
