@@ -65,15 +65,18 @@ html
           |     "sameAs": "https://twitter.com/#{self.trainer.twitter}"
           |   },  
           |   "offers": [
-          |     {
-          |         "@type": "Offer",
-          |         "url": "#{self.book}",
-          |         "name": "#{self.offers[0].name}",
-          |         "price": "#{self.offers[0].price}",
-          |         "priceCurrency": "EUR",
-          |         "validFrom": "2019-08-25T09:00",      
-          |         "availability": "http://schema.org/InStock"
-          |       }    
+          each offer, no in self.offers
+            if offer.name
+                |      {
+                |         "@type": "Offer",
+                |         "url": "#{self.book}",
+                |         "name": "#{offer.name}",
+                |         "price": "#{offer.price}",
+                |         "priceCurrency": "EUR",
+                |         "validFrom": "2020-01-25T09:00",      
+                |         "availability": "http://schema.org/InStock"
+                |       },
+          |    {}
           |   ],
           |   "organizer": {
           |      "@type": "Organization",
