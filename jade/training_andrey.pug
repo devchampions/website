@@ -9,7 +9,7 @@ html
         meta(name="description" content=self.metaDescription)
         meta(name="keywords" content=self.keywords)
 
-        meta(property="og:image" content=self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com//img/og/devchampions_og.png')
+        meta(property="og:image" content=self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com/img/og/devchampions_og.png')
         meta(property="og:url" content="http://devchampions.com/" + self.url)
         meta(property="og:type" content="website")
         meta(property="og:title" content=self.title + " - Training and Certification")
@@ -27,7 +27,7 @@ html
         meta(name="twitter:creator" content="@devchampions")
         meta(name="twitter:title" content=self.title + " - Training and Certification")
         meta(name="twitter:description" content=self.metaDescription)
-        meta(name="twitter:image" content=self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com//img/og/devchampions_og.png')
+        meta(name="twitter:image" content=self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com/img/og/devchampions_og.png')
 
         link(rel="shortcut icon" href="/favicon.ico")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
@@ -53,7 +53,7 @@ html
           |   "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
           |   "eventStatus": "https://schema.org/EventScheduled",
           |   "name": "#{self.title}",
-          |   "image": "#{self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com//img/og/devchampions_og.png'}",
+          |   "image": "#{self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com/img/og/devchampions_og.png'}",
           |   "description": "#{self.metaDescription}",
           |   "startDate": "#{self.from_iso}T09:00",
           |   "endDate": "#{self.to_iso}T20:00",
@@ -76,7 +76,7 @@ html
           |   "location": [
           |     {
           |       "@type": "VirtualLocation",
-          |       "url": "https://operaonline.stream5.com/"
+          |       "url": "#{self.url}"
           |     }
           |   ]
           | }   
