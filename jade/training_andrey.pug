@@ -55,8 +55,10 @@ html
           |   "name": "#{self.title}",
           |   "image": "#{self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com/img/og/devchampions_og.png'}",
           |   "description": "#{self.metaDescription}",
-          |   "startDate": "#{self.from_iso}T09:00",
-          |   "endDate": "#{self.to_iso}T20:00",
+          if self.from_iso
+            |   "startDate": "#{self.from_iso}T09:00",
+          if self.to_iso
+            |   "endDate": "#{self.to_iso}T20:00",
           |   "performer": {
           |     "@type": "Person",
           |     "name": "#{self.trainer.name}",
