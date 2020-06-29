@@ -70,16 +70,17 @@ html
           |         "validFrom": "2019-08-25T09:00",      
           |         "availability": "http://schema.org/InStock"
           |       }    
-          |   ],
-          |   "location": {
-          |     "@type": "Place",
-          |     "address": {
-          |       "@type": "PostalAddress",
-          |       "addressLocality": "#{self.city}",
-          |       "addressRegion": "#{self.country}"
-          |     },
-          |     "name": "#{self.location}"
-          |   }
+          |   ]
+          if self.location
+            |   ,"location": {
+            |     "@type": "Place",
+            |     "address": {
+            |       "@type": "PostalAddress",
+            |       "addressLocality": "#{self.city}",
+            |       "addressRegion": "#{self.country}"
+            |     },
+            |     "name": "#{self.location}"
+            |   }
           | }   
 
         script(src="/js/main.js")       
