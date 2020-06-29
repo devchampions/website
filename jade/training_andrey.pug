@@ -56,9 +56,9 @@ html
           |   "image": "#{self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com/img/og/devchampions_og.png'}",
           |   "description": "#{self.metaDescription}",
           if self.from_iso
-            |   "startDate": "#{self.from_iso}T09:00",
+            |   "startDate": "#{self.from_iso}T10:00Z",
           if self.to_iso
-            |   "endDate": "#{self.to_iso}T20:00",
+            |   "endDate": "#{self.to_iso}T20:00Z",
           |   "performer": {
           |     "@type": "Person",
           |     "name": "#{self.trainer.name}",
