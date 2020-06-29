@@ -50,6 +50,8 @@ html
           | {
           |   "@context": "http://schema.org",
           |   "@type": "EducationEvent",
+          |   "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          |   "eventStatus": "https://schema.org/EventScheduled",
           |   "name": "#{self.title}",
           |   "image": "#{self.ogImage ? 'https://devchampions.com/img/og/' + self.ogImage : 'https://devchampions.com//img/og/devchampions_og.png'}",
           |   "description": "#{self.metaDescription}",
@@ -70,17 +72,13 @@ html
           |         "validFrom": "2019-08-25T09:00",      
           |         "availability": "http://schema.org/InStock"
           |       }    
+          |   ],
+          |   "location": [
+          |     {
+          |       "@type": "VirtualLocation",
+          |       "url": "https://operaonline.stream5.com/"
+          |     }
           |   ]
-          if self.location
-            |   ,"location": {
-            |     "@type": "Place",
-            |     "address": {
-            |       "@type": "PostalAddress",
-            |       "addressLocality": "#{self.city}",
-            |       "addressRegion": "#{self.country}"
-            |     },
-            |     "name": "#{self.location}"
-            |   }
           | }   
 
         script(src="/js/main.js")       
