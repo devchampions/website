@@ -119,7 +119,7 @@ gulp.task('jade', async () => {
             .flatMap()
             // generating landing pages for different dates
             .map(function(training) {
-                if (training.landings) {
+                if (training.landing) {
                     return _.flatMap(training.landings.dates, function(it) {
                         var month = it.date.match(/([A-Za-z]+)/)[0].toLowerCase();
                         var dates = it.date.match(/([0-9]{2})/g);
