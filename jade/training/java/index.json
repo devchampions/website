@@ -3,7 +3,6 @@
 	"title": "Effective Coding Principles and Patterns in Java 14",
 	"subtitle": "Level-up your Java coding skills.",
 	"location": "Multiple locations",
-	"date": "Multiple dates",
 	"noAvatar": true,
     "ogImage": "effective-java-software-design.png",
 	"keywords": "clean code training, java best practices, java clean code, java training, java conference, java conference, clean code rules, writing clean code",
@@ -14,6 +13,7 @@
 	"certificateImage": "java-certificate.png",
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
+	"date": "9-10 Sep 2020",
 	"javaVersion": 14,
 	"book": "https://sizovs.typeform.com/to/b7BYVl",
 	"logos": [

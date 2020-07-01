@@ -158,9 +158,11 @@ gulp.task('jade', async () => {
         var days = allParts[0].split('-')
         var month = allParts[1]
         var year = allParts[2]
+        var from_iso = moment(days[0] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD');
+        var to_iso = moment(days[1] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD');
         return _.extend({}, json, {
-          from_iso: moment(days[0] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD'),
-          to_iso: moment(days[1] + month + year, 'DD MMMM YYYY').format('YYYY-MM-DD')
+          from_iso,
+          to_iso
         })
       })
       .map(function (json) {
