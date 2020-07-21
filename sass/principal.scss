@@ -186,10 +186,17 @@
     color: #ddd !important;
 }
 .footer{
-    background-attachment: fixed;
+    background-attachment: scroll;
     position: relative;
     line-height: 20px;
 }
+
+@media screen and (min-width: 768px){
+    footer {
+        background-attachment: fixed !important;
+    }
+}
+
 .footer nav > ul {
   list-style: none;
   margin: 0;
