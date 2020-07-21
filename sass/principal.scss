@@ -137,10 +137,17 @@
     background: rgba(0, 0, 0, .65) url('/img/eduards.jpg');
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin-top: 0;
     background-blend-mode: darken;
 }
+
+@media screen and (min-width: 768px){
+    .trainer {
+        background-attachment: fixed !important;
+    }
+}
+
 
 .trainer * {
     color: white;
@@ -185,17 +192,13 @@
 .txt-gray{
     color: #ddd !important;
 }
-.footer{
+
+.footer {
     background-attachment: scroll;
     position: relative;
     line-height: 20px;
 }
 
-@media screen and (min-width: 768px){
-    footer {
-        background-attachment: fixed !important;
-    }
-}
 
 .footer nav > ul {
   list-style: none;
