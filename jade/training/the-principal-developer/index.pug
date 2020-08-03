@@ -6,7 +6,7 @@ html(lang='en')
     title=self.title + " – Training and Certification"
     meta(name="description" content=self.metaDescription)
     meta(name="keywords" content=self.keywords)
-    meta(property="og:image" content='https://devchampions.com/img/' + self.image)
+    meta(property="og:image" content='https://devchampions.com/img/og/' + self.image)
     meta(property="og:url" content="http://devchampions.com/" + self.url)
     meta(property="og:type" content="website")
     meta(property="og:title" content=self.title + " – Training and Certification")
@@ -17,7 +17,7 @@ html(lang='en')
     meta(name="twitter:creator" content="@devchampions")
     meta(name="twitter:title" content=self.title + " – Training and Certification")
     meta(name="twitter:description" content=self.metaDescription)
-    meta(name="twitter:image" content='https://devchampions.com/img/' + self.image)
+    meta(name="twitter:image" content='https://devchampions.com/img/og/' + self.image)
     
     link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet')
     link(href='https://demos.creative-tim.com/paper-kit-2-pro/assets/css/paper-kit.min.css?v=2.2.1' rel='stylesheet')
@@ -209,7 +209,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/img/testimonials/katya.png' alt='Katya G')
+                      img.avatar.img-raised(src='/img/testimonials/katya.png' alt='Katya G')
                       span.text-success Katya G. Delivery Lead
                   .clearfix
                   p.card-description
@@ -225,7 +225,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/img/testimonials/lars.jpg' alt='Lars O')
+                      img.avatar.img-raised(src='/img/testimonials/lars.jpg' alt='Lars O')
                       span.text-success Lars O. Tech Lead
                   .clearfix
                   p.card-description
@@ -273,7 +273,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/img/testimonials/artursk.jpg' alt='Arturs K.')
+                      img.avatar.img-raised(src='/img/testimonials/artursk.jpg' alt='Arturs K.')
                       span.text-success Arturs K.
                   .clearfix
                   p.card-description
@@ -289,7 +289,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/img/testimonials/hakan.png' alt='Hakan R.')
+                      img.avatar.img-raised(src='/img/testimonials/hakan.png' alt='Hakan R.')
                       span.text-success Hakan R. Head of Engineering
                   .clearfix
                   p.card-description
@@ -321,7 +321,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/img/testimonials/keizik.png' alt='Aleksandr K.')
+                      img.avatar.img-raised(src='/img/testimonials/keizik.png' alt='Aleksandr K.')
                       span.text-success Aleksandr K. Senior Developer
                   .clearfix
                   p.card-description
@@ -337,7 +337,7 @@ html(lang='en')
                 .card-body
                   .author
                     a(href='#')
-                      img.avatar.img-raised(src='/img/remi.jpg' alt='Remigijus C.')
+                      img.avatar.img-raised(src='/img/testimonials/remi.jpg' alt='Remigijus C.')
                       span.text-success Remigijus C. Full-stack Developer
                   .clearfix
                   p.card-description
@@ -376,7 +376,7 @@ html(lang='en')
                                 |  Certificate
                               li
                                 i.fa.fa-check(aria-hidden='true')
-                                |  20% discount for 2+ people groups
+                                |  10% discount for 2+ people groups
                           .progress
                               .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
                           br
@@ -397,6 +397,9 @@ html(lang='en')
               | Consultant, Speaker, Trainer&nbsp;
               a(href='https://twitter.com/eduardsi')
                 i.fab.fa-twitter
+              |&nbsp;
+              a(href='https://www.youtube.com/watch?v=AEtCEt44vlE')
+                i.fab.fa-youtube
               |&nbsp;
               a(href='https://www.linkedin.com/in/eduardsi/')
                 i.fab.fa-linkedin
