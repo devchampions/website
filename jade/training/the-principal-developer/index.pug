@@ -381,7 +381,10 @@ html(lang='en')
                               .progress-bar.progress-bar-danger(role="progressbar" style="width: " + offer.bookedPercent + "%" aria-valuenow=offer.bookedPercent aria-valuemin="0" aria-valuemax="100")
                           br
                           br
-                          a.btn.btn-danger.btn-round.disabled(href=self.typeform) Sold out    
+                          if offer.bookedPercent === 100
+                            a.btn.btn-danger.btn-round.disabled(href=self.typeform) Sold out
+                          else
+                            a.btn.btn-danger.btn-round(href=self.typeform) Register
           .col-md-4
           .col-md-4
             h6.description(style="text-align:center") Ask me to organize a private training via eduards@principal.dev.
