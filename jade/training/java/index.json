@@ -1,6 +1,6 @@
 {
 	"customBgVideo": "/coding.mp4",
-	"title": "Effective Coding Principles and Patterns in Java 14",
+	"title": "Effective Coding Principles and Patterns in Java 15",
 	"subtitle": "Level-up your Java coding skills.",
 	"location": "Multiple locations",
 	"noAvatar": true,
@@ -14,7 +14,7 @@
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
 	"date": "9-10 Sep 2020",
-	"javaVersion": 14,
+	"javaVersion": 15,
 	"book": "https://sizovs.typeform.com/to/b7BYVl",
 	"logos": [
 		"java_logo.png",
