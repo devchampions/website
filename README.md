@@ -10,6 +10,3 @@ People choose us because we offer:
 - The best trainers
 - Theory and practice balance
 - Certification
-
-
-
