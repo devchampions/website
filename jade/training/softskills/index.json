@@ -1,0 +1,47 @@
+{
+	"title": "Effective Leadership and Soft Skills for Developers",
+    "subtitle": "Become a better communicator, a better leader, a better developer.",
+    "noAvatar": true,
+    "ogImage": "soski.png",    
+	"keywords": "soft skills, leadership for developers, leadership skills for developers, how to become a team lead, becoming a technical leader",
+	"metaDescription": "Practical workshop for developers aimed to improve soft skills and leadership skills.",
+	"description": "Do you want to professionally articulate your ideas to your team and management? Build great work relationship with your customer? Organize efficient teamwork? Understand how to motivate and inspire people? Become a pragmatic, well-respected technical lead, architect, engineering manager? During this intensive, practical and entertaining 2-day workshop you will build core leadership, communication and organizational skills (soft skills) that will make you truly valuable asset in any modern technology organisation.",
+	"audience": "Software developers and delivery teams who want to improve leadership, teamwork, and soft skills.",
+	"certification": "You earn a certificate of participation by attending the course. No exam required.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "9-10 Sep 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{
+			"name": "Riga, Latvia",
+			"info": "11-12 Apr 2020",
+			"price": 999,
+			"originalPrice": 1499,
+			"soldOut": true
+		},
+		{
+			"name": "London, UK",
+			"info": "28-29 Jun 2020",
+			"price": 999,
+			"originalPrice": 1499,
+			"soldOut": true			
+		},    
+		{
+			"name": "Berlin, Germany",
+			"info": "12-13 Sep 2020",			
+			"price": 999,
+			"originalPrice": 1499,
+			"soldOut": true			
+		}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}

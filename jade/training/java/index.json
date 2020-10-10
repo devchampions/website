@@ -27,14 +27,14 @@
 	"offers": [
 		{
 			"name": "Riga, Latvia",
-			"info": "16-17 Apr 2020",
+			"info": "16-17 Apr 2021",
 			"price": 999,
 			"originalPrice": 1499,
 			"soldOut": true
 		},
 		{
 			"name": "London, UK",
-			"info": "25-26 Jun 2020",
+			"info": "25-26 Jun 2021",
 			"price": 999,
 			"originalPrice": 1499,
 			"soldOut": true			
