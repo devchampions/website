@@ -1,0 +1,35 @@
+{
+	"title": "Effective Agile Software Development",
+    "subtitle": "Practical agility masterclass for faster software development.",
+    "noAvatar": true,
+    "ogImage": "agile.png",    
+	"keywords": "agile training, scrum training, agile training for developers, scrum training for engineers",
+	"metaDescription": "During this 2-day workshop, you will master essential Agile practices that will help you better understand, manage, and accelerate your product development process. At the end of the course, you’ll have a firm understanding of Agile values and principles, how Scrum, Lean, Kanban, Continuous Delivery, DevOps, eXtreme Programming, and Software Craftsmanship practices fit together, and how to apply and adapt them to your specific environment.",
+	"description": "During this 2-day workshop, you will master essential Agile practices that will help you better understand, manage, and accelerate your product development process. At the end of the course, you’ll have a firm understanding of Agile values and principles, how Scrum, Lean, Kanban, Continuous Delivery, DevOps, eXtreme Programming, and Software Craftsmanship practices fit together, and how to apply and adapt them to your specific environment.",
+	"audience": "Agile teams of any experience and maturity. Exposure to agile methodologies and Scrum is desirable.",
+	"certification": "Yes, you'll earn a certificate of accomplishment.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "9-10 Sep 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "Dusseldorf, Germany",
+			"info": "8-9 Oct 2020",
+			"price": 1299,
+			"originalPrice": 1499,
+			"soldOut": true
+		},    
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}
