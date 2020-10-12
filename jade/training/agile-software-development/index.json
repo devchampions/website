@@ -17,11 +17,11 @@
 	"offers": [
 		{},
 		{
-			"name": "Dusseldorf, Germany",
-			"info": "8-9 Oct 2020",
-			"price": 1299,
-			"originalPrice": 1499,
-			"soldOut": true
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
 		},    
 		{}
 	],
