@@ -1,0 +1,35 @@
+{
+	"title": "Writing Clean Code in Java 15",
+    "subtitle": "Practical Clean Code training for Java developers",
+    "noAvatar": true,
+    "ogImage": "clean_code.png",    
+	"keywords": "java, clean code, good code",
+	"metaDescription": "This practical training will teach you how to write clean and readable code in Java 15. ",
+	"description": "This practical training will teach you how to write clean and readable code in Java 15. ",
+	"audience": "Java developers with experience in enterprise software development.",
+	"certification": "Yes, you'll earn a certificate of accomplishment.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "9-10 Sep 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
+		},    
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}
