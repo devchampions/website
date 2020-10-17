@@ -1,0 +1,35 @@
+{
+	"title": "Test-Driving Enterprise Applications in Java 15",
+    "subtitle": "Practical TDD training for Java developers",
+    "noAvatar": true,
+    "ogImage": "java_tdd.png",    
+	"keywords": "java, unit testing, tdd, test-driven development",
+	"metaDescription": "In this practical 2-day workshop you will learn how to test and design real-world Java applications using Test-Driven Development (TDD)",
+	"description": "In this practical 2-day workshop you will learn how to test and design real-world Java applications using Test-Driven Development (TDD).",
+	"audience": "Java developers who are familiar with basic unit and integration testing, but are not yet comforable with Test-Driven Development.",
+	"certification": "Yes, you'll earn a certificate of accomplishment.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "7-8 Oct 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
+		},    
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}
