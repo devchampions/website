@@ -1,0 +1,35 @@
+{
+	"title": "Clean Architecture in Java 15",
+    "subtitle": "Practical Clean Architecture and Java Architecture training for developers",
+    "noAvatar": true,
+    "ogImage": "clean_architecture.png",    
+	"keywords": "java, clean architecture, java enterprise architecture",
+	"metaDescription": "In this practical 2-day workshop, you will learn how to architect and evolve clean, modular, and maintainable enterprise applications with Java 15, Spring, Hibernate and jOOQ. You’ll learn about clean architecture, enterprise architecture patterns, practices for keeping code quality under control, testing strategies and much more.",
+	"description": "In this practical 2-day workshop, you will learn how to architect and evolve clean, modular, and maintainable enterprise applications with Java 15, Spring, Hibernate and jOOQ. You’ll learn about clean architecture, enterprise architecture patterns, practices for keeping code quality under control, testing strategies and much more. ",
+	"audience": "Java developers, team leaders, and architecst, with experience in enterprise software development.",
+	"certification": "Yes, you'll earn a certificate of accomplishment.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "7-8 Sep 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
+		},    
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}
