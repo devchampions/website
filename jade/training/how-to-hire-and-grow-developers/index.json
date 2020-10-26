@@ -1,0 +1,35 @@
+{
+	"title": "How to Hire and Grow Developers",
+    "subtitle": "Hiring masterclass for fast-growing companies.",
+    "noAvatar": true,
+    "ogImage": "hiring_masterclass.png",    
+	"keywords": "hiring, recuriting, how to hire developers, how to recruit developers, where to find developers",
+	"metaDescription": "In this 2-day intensive, practical, and high-energy training course, you will learn how to find, attract, interview, motivate, and retain software developers in your company.",
+	"description": "In this 2-day intensive, practical, and high-energy training course, you will learn how to find, attract, interview, motivate, and retain software developers in your company.",
+	"audience": "Developers, recruiters, and hiring managers that want to stand out and win over in the crazy hiring race.",
+	"certification": "Yes, you'll earn a certificate of accomplishment.",
+	"language": "The course is taught in English.",
+	"location": "Multiple locations",
+    "badge": "",
+    "date": "7-8 Oct 2021",
+	"book": "https://devchampions.typeform.com/to/kXOXAK",
+	"tags": [ ],
+	"offers": [
+		{},
+		{
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
+		},    
+		{}
+	],
+	"trainer": {
+		"twitter": "eduardsi",
+        "name": "Eduards Sizovs",
+        "email": "eduards@sizovs.net",
+		"title": "Head Trainer, Founder @ DevTernity, DevTube",
+		"pic": "eduardsi"
+	}
+}
