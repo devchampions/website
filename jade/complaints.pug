@@ -1,0 +1,36 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1")
+
+        title= "DevChampions - Complaints Procedure"
+        meta(name="description" content="DevChampions offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation and Scrum certification.")
+        meta(name="keywords" content="dev training, training for developers, scrum certification")
+
+        //- favicon
+        link(rel="shortcut icon" href="/favicon.ico")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+        link(rel="stylesheet" href="/css/style.css")
+        script(src="/js/main.js")
+    body
+        include facebook.pug
+        header#header
+            .container
+                .menu
+                    a(href="/") ← To training course list
+        .cancel#cancel
+            .container
+                section#description
+                    header
+                        h1 Complaints procedure
+                    article
+                        p Our initial conversation attempts to discover how we can best understand how we can serve your interests and needs and we want to ensure that you fully enjoy and value the courses. We will also inform you of the complaints procedure available to you if you should want to make a complaint. If you have any complaints about any aspects of the event or its administration, this should in the first instance be directed to us, at info@devchampions.com and we will of course do our best to resolve any complaint. Your complaint will be acknowledged by email within one week. If your complaint requires longer consideration to offer a fuller explanation to you, we will keep you informed for any reason for delay and a clear indication of the date when we expect to reach a conclusion. 
+                        p If you are not satisfied that your complaint has been resolved to your satisfaction we ask you to contact an independent company - Nativa SIA (registration number LV40003886864). They are an independent company who will consider your complaint and whose judgement and verdict will be binding upon our company, without infringing your rights to seek any other form of redress in any way that you wish to pursue. We would enact the binding judgement of the independent person promptly, including taking measures to change any procedures processes or behaviors that gave rise to the complaint. 
+                        p Any complaint is treated with the utmost discretion and is confidential.
+                        p Any complaint will be recorded in a client file and kept for five years. 
+                        p For these events offered to our corporate clients, the complaints procedure is the same and is an addition to contractual agreements between the clients and the company. The corporate client company may have their own enrolment process, however each participant will have access to the named course director from Nativa SIA for a pre-course conversation.
+        include footer.pug
+        include ga.pug
+        include tawk.pug
+        include twitter.pug

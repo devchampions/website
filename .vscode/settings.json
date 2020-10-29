@@ -35,6 +35,7 @@
     "kubelet",
     "kubeproxy",
     "kubernetes",
+    "majeure",
     "noops",
     "playsinline",
     "reloadable",
