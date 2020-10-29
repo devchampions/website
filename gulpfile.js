@@ -196,6 +196,11 @@ gulp.task('jade', async () => {
     .pipe(gulp.dest(publicDir))
     .pipe(connect.reload());
 
+   gulp.src('./jade/complaints.pug')
+    .pipe(gpug())
+    .pipe(gulp.dest(publicDir))
+    .pipe(connect.reload());
+
   const { events } = require("./devternityEvents")
   const externalTrainings = await events()
 
