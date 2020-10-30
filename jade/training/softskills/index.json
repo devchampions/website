@@ -9,33 +9,21 @@
 	"audience": "Software developers and delivery teams who want to improve leadership, teamwork, and soft skills.",
 	"certification": "You earn a certificate of participation by attending the course. No exam required.",
 	"language": "The course is taught in English.",
-	"location": "Multiple locations",
+	"location": "in your office or online",
     "badge": "",
-    "date": "9-10 Sep 2021",
+    "date": "Private training only",
 	"book": "https://devchampions.typeform.com/to/kXOXAK",
 	"tags": [ ],
 	"offers": [
+		{},
 		{
-			"name": "Riga, Latvia",
-			"info": "11-12 Apr 2020",
-			"price": 999,
-			"originalPrice": 1499,
-			"soldOut": true
-		},
-		{
-			"name": "London, UK",
-			"info": "28-29 Jun 2020",
-			"price": 999,
-			"originalPrice": 1499,
-			"soldOut": true			
+			"name": "Private training for your team(s)",
+			"info": "in your office or remotely",
+			"price": 7500,
+			"originalPrice": 10000,
+			"onPrem": true
 		},    
-		{
-			"name": "Berlin, Germany",
-			"info": "12-13 Sep 2020",			
-			"price": 999,
-			"originalPrice": 1499,
-			"soldOut": true			
-		}
+		{}
 	],
 	"trainer": {
 		"twitter": "eduardsi",
