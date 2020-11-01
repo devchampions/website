@@ -180,13 +180,6 @@ gulp.task('jade', async () => {
         })
 
       })
-      .sortBy(function (json) {
-        var date = json.date;
-        if (json.locations) {
-          date = json.locations[0].date;
-        }
-        return moment(date, 'DD MMMM YYYY').unix()
-      })
       .uniqBy('url')
       .value();
   }();
@@ -204,9 +197,17 @@ gulp.task('jade', async () => {
   const { events } = require("./devternityEvents")
   const externalTrainings = await events()
 
-  var trainingsVisibleOnFrontPage = _.filter(_.concat(trainings, externalTrainings), function (training) {
-    return !training.landing && !training.noExposure;
-  });
+  var trainingsVisibleOnFrontPage = 
+    _.chain(trainings)
+    .concat(externalTrainings)
+    .filter(function (training) {
+      return !training.landing && !training.noExposure;
+    })
+    .sortBy(function (json) { 
+      return json.title.toUpperCase() 
+    })
+    .value()
+
   var allTrainings = _.filter(trainings, function (training) {
     return !training.noExposure;
   });
