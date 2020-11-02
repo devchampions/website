@@ -1,6 +1,6 @@
 {
-	"title": "Test-Driving Enterprise Applications in Java 15",
-    "subtitle": "Practical TDD training for Java developers.",
+	"title": "Effective TDD in Java 15",
+    "subtitle": "Practical Test-Driven Development (TDD) masterclass for Java developers.",
     "noAvatar": true,
     "ogImage": "java_tdd.png",    
 	"keywords": "java, unit testing, tdd, test-driven development",
