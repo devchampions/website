@@ -10,8 +10,9 @@
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "date": "24-26 Novemmber 2020",
-  "startTime": "9:00 EET",
+  "date": "24-26 November 2020",
+  "location": "online",
+  "startingTime": "10:00 EET",
   "landings": {
     "dates": [
       {
