@@ -120,9 +120,11 @@ html
                         i.fa.fa-star(aria-hidden="true")
                 if self.date
                     h2 
-                        | #{self.date}, #{self.location}
+                        | #{self.date}
+                        if self.location
+                            | , #{self.location}
                         if self.startingTime
-                            | #{self.startingTime}
+                            | , #{self.startingTime}
                     h2
                         a.action2(href="#offers") Book now
                 else
