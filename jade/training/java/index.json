@@ -1,6 +1,6 @@
 {
 	"customBgVideo": "/coding.mp4",
-	"title": "Effective Coding Principles and Patterns in Java 15",
+	"title": "Effective Coding Principles and Patterns in Java 16",
 	"subtitle": "Level-up your Java coding skills.",
 	"location": "in your office or online",
 	"noAvatar": true,
@@ -14,7 +14,7 @@
 	"language": "The course runs in a diverse international group and is taught in English.",
 	"badge": "",
 	"date": "Private training only",
-	"javaVersion": 15,
+	"javaVersion": 16,
 	"book": "https://sizovs.typeform.com/to/b7BYVl",
 	"logos": [
 		"java_logo.png",
