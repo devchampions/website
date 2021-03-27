@@ -8,25 +8,25 @@
   "typeform": "https://sizovs.typeform.com/to/Wg8xbW",
   "offers": [
     {
-      "city": "Riga",
-      "country": "Latvia",
-      "info": "23-24 Apr 2020",
+      "city": "Zoom",
+      "country": "Online",
+      "info": "25-26 Mar 2021",
       "price": 999,
       "bookedPercent": 100
     },    
     {
-      "city": "London",
-      "country": "UK",
-      "info": "7-8 May 2020",
+      "city": "Zoom",
+      "country": "Online",
+      "info": "27-28 May 2021",
       "price": 999,
       "bookedPercent": 100
     },
     {
       "city": "Zoom",
       "country": "Online",
-      "info": "25-26 Mar 2021",
+      "info": "28-29 Oct 2021",
       "price": 999,
-      "bookedPercent": 80
+      "bookedPercent": 70
     }
   ],
 	"trainer": {
