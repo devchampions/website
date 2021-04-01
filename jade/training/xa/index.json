@@ -10,13 +10,13 @@
   "certification": "You earn eXtreme Automation certificate by attending the course.",
   "language": "The course is taught in English.",
   "exampleCertificate": "http://certs.devchampions.com/NDEMLJTDBF/",
-  "date": "10-12 March 2021",
+  "date": "12-14 May 2021",
   "location": "online",
   "startingTime": "10:00 EET",
   "landings": {
     "dates": [
       {
-        "date": "10-12 March 2021",
+        "date": "12-14 May 2021",
         "main": true
       }      
     ],
@@ -165,14 +165,14 @@
     {
       "name": "Superhero",
       "info": "Single person",
-      "price": 599,
-      "originalPrice": 699
+      "price": 699,
+      "originalPrice": 799
     },
     {
       "name": "Teammates",
       "info": "3+ people from the same company. The best deal 🚀",
-      "price": 499,
-      "originalPrice": 599
+      "price": 599,
+      "originalPrice": 699
     },
     {
       "name": "On-premises",
