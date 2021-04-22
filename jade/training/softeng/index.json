@@ -1,0 +1,27 @@
+{
+  "title": "Modern Software Engineering",
+  "subtitle": "Modern Software Engineering",
+  "customBgVideo": "/ops.mp4",
+  "audience": "project managers and team leads",
+  "twitter": "codingandrey",
+  "badge": "",
+  "book": "https://extremeautomation.typeform.com/to/ii372t",
+  "offers": [
+    {},
+    {
+      "name": "On-premises",
+      "onPrem": true,
+      "info": "Exclusively for your company",
+      "price": 9900,
+      "originalPrice": 11000
+    },
+    {}
+  ],
+  "trainer": {
+    "twitter": "codingandrey",
+    "avatar": "/img/trainers/andrey.png",
+    "name": "Andrey Adamovich",
+    "title": "Extreme Automator",
+    "pic": "andrey"
+  }
+}
