@@ -1,0 +1,120 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-alexeykrivitsky {
+  background-image: url(/img/trainers.png);
+  background-position: -300px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-andrey {
+  background-image: url(/img/trainers.png);
+  background-position: 0px 0px;
+  width: 897px;
+  height: 897px;
+}
+.icon-andreyadamovich {
+  background-image: url(/img/trainers.png);
+  background-position: -897px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-andreygrave {
+  background-image: url(/img/trainers.png);
+  background-position: -897px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-arturkarbone {
+  background-image: url(/img/trainers.png);
+  background-position: -897px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-eduardsi {
+  background-image: url(/img/trainers.png);
+  background-position: -897px -600px;
+  width: 150px;
+  height: 150px;
+}
+.icon-evelina {
+  background-image: url(/img/trainers.png);
+  background-position: 0px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-kevlin {
+  background-image: url(/img/trainers.png);
+  background-position: -150px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-marcin {
+  background-image: url(/img/trainers.png);
+  background-position: -897px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pavl {
+  background-image: url(/img/trainers.png);
+  background-position: -450px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-philipp {
+  background-image: url(/img/trainers.png);
+  background-position: -600px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pilo {
+  background-image: url(/img/trainers.png);
+  background-position: -750px -897px;
+  width: 150px;
+  height: 150px;
+}
+.icon-pstack {
+  background-image: url(/img/trainers.png);
+  background-position: -1047px 0px;
+  width: 150px;
+  height: 150px;
+}
+.icon-sandro {
+  background-image: url(/img/trainers.png);
+  background-position: -1047px -150px;
+  width: 150px;
+  height: 150px;
+}
+.icon-seth {
+  background-image: url(/img/trainers.png);
+  background-position: -1047px -300px;
+  width: 150px;
+  height: 150px;
+}
+.icon-simonbrown {
+  background-image: url(/img/trainers.png);
+  background-position: -1047px -450px;
+  width: 150px;
+  height: 150px;
+}
+.icon-uwe {
+  background-image: url(/img/trainers.png);
+  background-position: -1047px -600px;
+  width: 150px;
+  height: 150px;
+}
