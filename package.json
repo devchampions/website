@@ -28,7 +28,7 @@
     "gulp-jade": "^1.1.0",
     "gulp-jsoncombine": "^1.0.3",
     "gulp-local-screenshots": "^2.2.0",
-    "gulp-pug": "^3.3.0",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^2.1.1",
     "gulp-sequence": "^0.4.4",
     "gulp-uglify": "^1.5.1",
